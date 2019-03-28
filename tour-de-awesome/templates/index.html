@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tour de Awesome!</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+  <link rel="stylesheet" href="../static/css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<a class="navbar-brand" href="">TdA Home</a>
+</nav>
+<!-- THIS IS THE CONTENT PART -->
+<body>
+  <div class="container-full-bg">
+    <div class="jumbotron jumbotron-fluid jumbotron-img">
+      <div class="container">
+        <div class="hero text-center">
+          <h1 style="font-family: 'Kaushan Script';">Tour de Awesome!</h1>
+          <p>Visualizing the 2018 Tour de France</p>
+        </div>
+        <div class="small d-flex justify-content-center">
+
+            <!-- <a class="text-warning" class="btn-primary" href="http://127.0.0.1:5000/scrape" >Scrape New Data</a> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar1">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Bump Chart</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Bar Chart</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Choropleth</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<div class="container-full-bg">
+  <div class="row">
+    <div class="col-md-6 col-sm-12">
+      <div class="card">
+        <div class="card-body">
+          <h4 class='card-title justify-content-center'>Tour de France Bump Chart</h4>
+          <img class="card-img-top img-fluid" src='' alt=''/>
+
+          <p class="card-text">Text Placeholder</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-sm-12">
+      <div class="card">
+        <div class="card-body">
+          <h4 class='card-title justify-content-center'>Top Nations</h4>
+          <img class="card-img-top img-fluid" src='' alt=''/>
+
+          <p class="card-text">Text Placeholder</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-body">
+      <h4 class="justify-content-center">Leaflet Choropleth</h4>
+      <div id="map"></div>
+    <script type="text/javascript" src="../static/js/config.js"></script>
+    <script type="text/javascript" src="../static/js/logic.js"></script>
+    </div>
+  </div>
+  </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <ul class="navbar-nav mr-auto">
+    <li class="navbar-nav nav-item active">Project GitHub Page
+    </li>
+    <li class="navbar-nav nav-item active"><a href="#top" class="nav-link">Back to top</a>
+    </li>
+  <ul>
+  </nav>
+
+</body>
+
+</html>
