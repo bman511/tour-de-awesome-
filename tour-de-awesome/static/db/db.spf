@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>letour_db</string>
+			<key>host</key>
+			<string>127.0.0.1</string>
+			<key>name</key>
+			<string>root@127.0.0.1</string>
+			<key>password</key>
+			<string>sorryquery13</string>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPTCPIPConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGJSZYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJX
+			TlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAF
+			gAdUdHlwZVRyb3dzXxAdU2VsZWN0aW9uRGV0YWlsVHlwZU5TSW5k
+			ZXhTZXTSFwsYGVxOU1JhbmdlQ291bnQQAIAG0hscHR5aJGNsYXNz
+			bmFtZVgkY2xhc3Nlc1pOU0luZGV4U2V0oh8gWk5TSW5kZXhTZXRY
+			TlNPYmplY3TSGxwiI1xOU0RpY3Rpb25hcnmiIiRYTlNPYmplY3Rf
+			EA9OU0tleWVkQXJjaGl2ZXLRJyhUZGF0YYABAAgAEQAaACMALQAy
+			ADcAQABGAE0AVQBgAGcAagBsAG4AcQBzAHUAdwB8AIEAoQCmALMA
+			tQC3ALwAxwDQANsA3gDpAPIA9wEEAQcBEAEiASUBKgAAAAAAAAIB
+			AAAAAAAAACkAAAAAAAAAAAAAAAAAAAEs
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{0, 0}, {694, 448}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>select * from race_results;
+select SUM(race_results.rider_time) as `Time`, race_starters.rider_name from race_results, race_starters WHERE race_results.rider_id = race_starters.rider_id GROUP BY race_starters.rider_name ORDER BY `Points`;</string>
+			<key>view</key>
+			<string>SP_VIEW_CUSTOMQUERY</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>214</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>select SUM(race_results.rider_time) as `Time`, race_starters.rider_name from race_results, race_starters WHERE race_results.rider_id = race_starters.rider_id AND  SUM(race_results.rider_time) &gt; 3000000, GROUP BY race_starters.rider_name ORDER BY `Points`</string>
+		<string>select SUM(race_results.rider_time) as `Time`, race_starters.rider_name from race_results, race_starters WHERE race_results.rider_id = race_starters.rider_id AND  SUM(race_results.rider_time) &gt; 3000000 GROUP BY race_starters.rider_name ORDER BY `Points`</string>
+		<string>select SUM(race_results.rider_time) as `Time`, race_starters.rider_name from race_results, race_starters WHERE race_results.rider_id = race_starters.rider_id AND `Time` &gt; 3000000 GROUP BY race_starters.rider_name ORDER BY `Points`</string>
+		<string>select SUM(race_results.rider_time) as `Points`, race_starters.rider_name from race_results, race_starters WHERE race_results.rider_id = race_starters.rider_id GROUP BY race_starters.rider_name ORDER BY `Points`</string>
+		<string>select * from race_results</string>
+		<string>select SUM(race_results.ranking) as `Points`, race_starters.rider_name from race_results, race_starters WHERE race_results.rider_id = race_starters.rider_id GROUP BY race_starters.rider_name ORDER BY `Points`</string>
+		<string>select SUM(race_results.ranking), race_starters.rider_name from race_results, race_starters WHERE race_results.rider_id = race_starters.rider_id GROUP BY race_starters.rider_name</string>
+		<string>select * from race
+select * from race_results</string>
+		<string>select * from race</string>
+		<string>SELECT stage_id, count(rider_id) AS riders FROM race_results GROUP BY stage_id</string>
+		<string>SELECT stage_id, race_result_type_id, count(rider_id) AS riders FROM race_results GROUP BY stage_id</string>
+		<string>SELECT stage_id, race_result_type_id, count(rider_id) AS riders FROM race_results WHERE race_result_type_id = 2 GROUP BY stage_id</string>
+		<string>SELECT stage_id, race_result_type_id, count(rider_id) AS riders FROM race_results WHERE race_result_type_id = 1 GROUP BY stage_id</string>
+		<string>select DISTINCT rider_country, count(rider_id) from race_starters group by rider_country</string>
+		<string>select DISTINCT rider_country from race_starters</string>
+		<string>select * from race_starters</string>
+		<string>select count(rider_country) from race_starters</string>
+		<string>select count(rider_country) from race_starters group by rider_country</string>
+		<string>select distinct count(rider_country) from race_starters</string>
+		<string>select distinct rider_country from race_starters</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.7.24</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
