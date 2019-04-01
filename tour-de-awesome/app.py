@@ -68,11 +68,11 @@ def country():
     df3["overall_speed"] = 3351/df3["rider_time"].astype(float) * 3600
 
     data_output = {}
-    data_output["rider_id"] = df3["rider_id"].tolist()
+    data_output["rider_id"] = df3["rider_id"].astype(int).tolist()
     data_output["rider_name"] = df3["rider_name"].tolist()
     data_output["country"] = df3["rider_country"].tolist()
-    data_output["latitude"] = df3["latitude"].tolist()
-    data_output["longitude"] = df3["longitude"].tolist()
+    data_output["latitude"] = df3["latitude"].astype(float).tolist()
+    data_output["longitude"] = df3["longitude"].astype(float).tolist()
     data_output["final_ranking"] = df3["ranking"].tolist()
     data_output["overall_speed"] = df3["overall_speed"].tolist()
 
