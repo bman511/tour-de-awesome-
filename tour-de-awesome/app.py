@@ -41,6 +41,11 @@ def welcome():
     return render_template("index.html")
     console.log("Index")
 
+@app.route("/map")
+def mapper():
+    return render_template("map.html")
+    console.log("Map")
+
 @app.route("/race")
 def race():
 #     """Return a list of all passenger names"""
@@ -65,18 +70,17 @@ def country():
     # Merge the two
     df3 = df1.merge(df2, how="left", on="rider_id")
     df3.sort_values(by=["ranking"])
-    df3["overall_speed"] = 3351/df3["rider_time"].astype(float) * 3600
+    df3["overall_speed"] = (3351/df3["rider_time"].astype(float) * 3600).fillna(0)
 
-    data_output = {}
-    data_output["rider_id"] = df3["rider_id"].astype(int).tolist()
-    data_output["rider_name"] = df3["rider_name"].tolist()
-    data_output["country"] = df3["rider_country"].tolist()
-    data_output["latitude"] = df3["latitude"].astype(float).tolist()
-    data_output["longitude"] = df3["longitude"].astype(float).tolist()
-    data_output["final_ranking"] = df3["ranking"].tolist()
-    data_output["overall_speed"] = df3["overall_speed"].tolist()
-
-    return jsonify(data_output)
+    data = {}
+    data["rider_name"] = df3["rider_name"].tolist()
+    data["rider_id"] = df3["rider_id"].tolist()
+    data["final_ranking"] = df3["ranking"].astype(str).fillna("DNF").tolist()
+    data["overall_speed"] = df3["overall_speed"].tolist()
+    data["country"] = df3["rider_country"].tolist()
+    data["latitude"] = df3["latitude"].astype(float).tolist()
+    data["longitude"] = df3["longitude"].astype(float).tolist()
+    return jsonify(data)
 
 @app.route("/speeds")
 def stage_data():
