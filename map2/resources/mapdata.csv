@@ -1,0 +1,3352 @@
+stage_id,ranking,rider_time,rider_name,rider_country,rider_team,rider_age
+1,1,15812,Fernando Gaviria,Colombia,Quick-Step Floors,23
+1,2,15812,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+1,3,15812,Marcel Kittel,Germany,Team Katusha-Alpecin,30
+1,4,15812,Alexander Kristoff,Norway,UAE Team Emirates,31
+1,5,15812,Christophe Laporte,France,Cofidis,25
+1,6,15812,Dylan Groenewegen,Netherlands,LottoNL-Jumbo,25
+1,7,15812,Michael Matthews,Australia,Team Sunweb,27
+1,8,15812,John Degenkolb,Germany,Trek-Segafredo,29
+1,9,15812,Jakob Fuglsang,Denmark,Astana,33
+1,10,15812,Rafal Majka,Poland,Bora-Hansgrohe,28
+1,11,15812,Vincenzo Nibali,Italy,Bahrain-Merida,33
+1,12,15812,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+1,13,15812,Thomas Boudat,France,Direct Énergie,24
+1,14,15812,Geraint Thomas,Great Britain,Team Sky,32
+1,15,15812,Bob Jungels,Luxembourg,Quick-Step Floors,25
+1,16,15812,Michael Valgren,Denmark,Astana,26
+1,17,15812,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+1,18,15812,Philippe Gilbert,Belgium,Quick-Step Floors,36
+1,19,15812,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+1,20,15812,Sonny Colbrelli,Italy,Bahrain-Merida,28
+1,21,15812,Jasper Stuyven,Belgium,Trek-Segafredo,26
+1,22,15812,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+1,23,15812,Julian Alaphilippe,France,Quick-Step Floors,26
+1,24,15812,Greg Van Avermaet,Belgium,BMC Racing Team,33
+1,25,15812,Dmitriy Gruzdev,Kazakhstan,Astana,32
+1,26,15812,André Greipel,Germany,Lotto-Soudal,35
+1,27,15812,Tom Dumoulin,Netherlands,Team Sunweb,27
+1,28,15812,Warren Barguil,France,Fortuneo-Samsic,26
+1,29,15812,Tiesj Benoot,Belgium,Lotto-Soudal,24
+1,30,15812,Kristijan Koren,Slovenia,Bahrain-Merida,31
+1,31,15812,Luis León Sánchez,Spain,Astana,34
+1,32,15812,Mikel Landa,Spain,Movistar Team,28
+1,33,15812,Yves Lampaert,Belgium,Quick-Step Floors,27
+1,34,15812,Romain Bardet,France,AG2R La Mondiale,27
+1,35,15812,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+1,36,15812,Mark Cavendish,Great Britain,Team Dimension Data,33
+1,37,15812,Oliver Naesen,Belgium,AG2R La Mondiale,27
+1,38,15812,Alejandro Valverde,Spain,Movistar Team,38
+1,39,15812,Rick Zabel,Germany,Team Katusha-Alpecin,24
+1,40,15812,Bauke Mollema,Netherlands,Trek-Segafredo,31
+1,41,15812,Rudy Molard,France,Groupama-FDJ,28
+1,42,15812,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+1,43,15812,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+1,44,15812,Rigoberto Urán,Colombia,EF Education First-Drapac p/b Cannondale,31
+1,45,15812,Daniel Oss,Italy,Bora-Hansgrohe,31
+1,46,15812,Lilian Calmejane,France,Direct Énergie,25
+1,47,15812,Julien Simon,France,Cofidis,32
+1,48,15812,Anthony Turgis,France,Cofidis,24
+1,49,15812,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+1,50,15812,Gorka Izagirre,Spain,Bahrain-Merida,30
+1,51,15812,Nils Politt,Germany,Team Katusha-Alpecin,24
+1,52,15812,Daniel Martin,Ireland,UAE Team Emirates,31
+1,53,15812,Laurent Pichon,France,Fortuneo-Samsic,31
+1,54,15812,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+1,55,15812,Tejay Van Garderen,United States,BMC Racing Team,29
+1,56,15812,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+1,57,15812,Sylvain Chavanel,France,Direct Énergie,39
+1,58,15812,Romain Hardy,France,Fortuneo-Samsic,29
+1,59,15812,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+1,60,15812,Søren Kragh Andersen,Denmark,Team Sunweb,23
+1,61,15812,Marcel Sieberg,Germany,Lotto-Soudal,36
+1,62,15812,Jens Keukeleire,Belgium,Lotto-Soudal,29
+1,63,15812,Edward Theuns,Belgium,Team Sunweb,27
+1,64,15834,Heinrich Haussler,Australia,Bahrain-Merida,34
+1,65,15836,Axel Domont,France,AG2R La Mondiale,27
+1,66,15836,Toms Skujins,Latvia,Trek-Segafredo,27
+1,67,15844,Oliviero Troia,Italy,UAE Team Emirates,23
+1,68,15845,Niki Terpstra,Netherlands,Quick-Step Floors,34
+1,69,15846,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+1,70,15846,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+1,71,15852,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+1,72,15854,Omar Fraile,Spain,Astana,27
+1,73,15854,Julien Vermote,Belgium,Team Dimension Data,28
+1,74,15854,Magnus Cort Nielsen,Denmark,Astana,25
+1,75,15854,Florian Vachon,France,Fortuneo-Samsic,33
+1,76,15854,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+1,77,15854,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+1,78,15854,Amaël Moinard,France,Fortuneo-Samsic,36
+1,79,15854,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+1,80,15854,Michael Gogl,Austria,Trek-Segafredo,24
+1,81,15854,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+1,82,15854,Marco Marcato,Italy,UAE Team Emirates,34
+1,83,15863,Richie Porte,Australia,BMC Racing Team,33
+1,84,15863,Adam Yates,Great Britain,Mitchelton-Scott,25
+1,85,15863,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+1,86,15863,Arthur Vichot,France,Groupama-FDJ,29
+1,87,15863,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+1,88,15863,Ion Izagirre,Spain,Bahrain-Merida,29
+1,89,15863,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+1,90,15863,Koen De Kort,Netherlands,Trek-Segafredo,35
+1,91,15863,Chris Froome,Great Britain,Team Sky,33
+1,92,15863,Julien Bernard,France,Trek-Segafredo,26
+1,93,15863,Laurens Ten Dam,Netherlands,Team Sunweb,37
+1,94,15863,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+1,95,15863,Rein Taaramäe,Estonia,Direct Énergie,31
+1,96,15863,Robert Kiserlovski,Croatia,Team Katusha-Alpecin,31
+1,97,15863,Tanel Kangert,Estonia,Astana,31
+1,98,15863,Darwin Atapuma,Colombia,UAE Team Emirates,30
+1,99,15863,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+1,100,15863,Maxime Bouet,France,Fortuneo-Samsic,31
+1,101,15863,Nicolas Edet,France,Cofidis,30
+1,102,15863,Daryl Impey,South Africa,Mitchelton-Scott,31
+1,103,15863,Guillaume Martin,France,Wanty-Groupe Gobert,25
+1,104,15874,Roberto Ferrari,Italy,UAE Team Emirates,35
+1,105,15876,Serge Pauwels,Belgium,Team Dimension Data,34
+1,106,15876,Mark Renshaw,Australia,Team Dimension Data,35
+1,107,15876,Mathias Frank,Switzerland,AG2R La Mondiale,31
+1,108,15884,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+1,109,15884,Romain Sicard,France,Direct Énergie,30
+1,110,15886,Mikel Nieve,Spain,Mitchelton-Scott,34
+1,111,15887,Andrey Amador,Costa Rica,Movistar Team,31
+1,112,15887,Nairo Quintana,Colombia,Movistar Team,28
+1,113,15887,Egan Bernal,Colombia,Team Sky,21
+1,114,15889,Daniele Bennati,Italy,Movistar Team,37
+1,115,15890,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+1,116,15890,Nikias Arndt,Germany,Team Sunweb,26
+1,117,15890,Paul Martens,Germany,LottoNL-Jumbo,34
+1,118,15890,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+1,119,15890,Jérôme Cousin,France,Direct Énergie,29
+1,120,15894,Simon Geschke,Germany,Team Sunweb,32
+1,121,15894,Dimitri Claeys,Belgium,Cofidis,31
+1,122,15899,Michael Schär,Switzerland,BMC Racing Team,31
+1,123,15899,Élie Gesbert,France,Fortuneo-Samsic,23
+1,124,15902,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+1,125,15902,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+1,126,15902,Chad Haga,United States,Team Sunweb,29
+1,127,15910,Gianni Moscon,Italy,Team Sky,24
+1,128,15924,Imanol Erviti,Spain,Movistar Team,34
+1,129,15932,Tony Martin,Germany,Team Katusha-Alpecin,33
+1,130,15943,Pierre Latour,France,AG2R La Mondiale,24
+1,131,15948,Thomas De Gendt,Belgium,Lotto-Soudal,31
+1,132,15948,Alexis Vuillermoz,France,AG2R La Mondiale,30
+1,133,15951,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+1,134,15951,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+1,135,15956,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+1,136,15956,Fabien Grellier,France,Direct Énergie,23
+1,137,15956,Tim Declercq,Belgium,Quick-Step Floors,29
+1,138,15956,Tsgabu Grmay,Ethiopia,Trek-Segafredo,26
+1,139,15956,David Gaudu,France,Groupama-FDJ,21
+1,140,15956,Marc Soler,Spain,Movistar Team,24
+1,141,15956,Jesús Herrada,Spain,Cofidis,27
+1,142,15956,Damien Gaudin,France,Direct Énergie,31
+1,143,15956,Stefan Küng,Switzerland,BMC Racing Team,24
+1,144,15956,Franco Pellizotti,Italy,Bahrain-Merida,40
+1,145,15956,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+1,146,15956,Anthony Perez,France,Cofidis,27
+1,147,15956,Rory Sutherland,Australia,UAE Team Emirates,36
+1,148,15956,Michal Kwiatkowski,Poland,Team Sky,28
+1,149,15956,Daniel Navarro,Spain,Cofidis,34
+1,150,15956,Luke Rowe,Great Britain,Team Sky,28
+1,151,15974,Patrick Bevin,New Zealand,BMC Racing Team,27
+1,152,15976,Wout Poels,Netherlands,Team Sky,30
+1,153,15976,Ian Boswell,United States,Team Katusha-Alpecin,27
+1,154,15976,José Joaquín Rojas,Spain,Movistar Team,33
+1,155,15980,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+1,156,15992,Luke Durbridge,Australia,Mitchelton-Scott,27
+1,157,15994,Yoann Offredo,France,Wanty-Groupe Gobert,31
+1,158,15994,Jack Bauer,New Zealand,Mitchelton-Scott,33
+1,159,15994,Damiano Caruso,Italy,BMC Racing Team,30
+1,160,15994,Tony Gallopin,France,AG2R La Mondiale,30
+1,161,15994,Jelle Vanendert,Belgium,Lotto-Soudal,33
+1,162,15994,Jasper De Buyst,Belgium,Lotto-Soudal,24
+1,163,15994,Kevin Ledanois,France,Fortuneo-Samsic,24
+1,164,16004,Tomasz Marczynski,Poland,Lotto-Soudal,34
+1,165,16056,Simon Gerrans,Australia,BMC Racing Team,38
+1,166,16056,Mathew Hayman,Australia,Mitchelton-Scott,40
+1,167,16056,Michael Hepburn,Australia,Mitchelton-Scott,26
+1,168,16056,Damien Howson,Australia,Mitchelton-Scott,25
+1,169,16056,Jay Thomson,South Africa,Team Dimension Data,32
+1,170,16056,Jesper Hansen,Denmark,Astana,27
+1,171,16056,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+1,172,16195,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+1,173,16195,Arnaud Démare,France,Groupama-FDJ,26
+1,174,16195,Olivier Le Gac,France,Groupama-FDJ,24
+1,175,16280,Jonathan Castroviejo,Spain,Team Sky,31
+1,176,16282,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+2,1,14797,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+2,2,14797,Sonny Colbrelli,Italy,Bahrain-Merida,28
+2,3,14797,Arnaud Démare,France,Groupama-FDJ,26
+2,4,14797,André Greipel,Germany,Lotto-Soudal,35
+2,5,14797,Alexander Kristoff,Norway,UAE Team Emirates,31
+2,6,14797,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+2,7,14797,Alejandro Valverde,Spain,Movistar Team,38
+2,8,14797,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+2,9,14797,John Degenkolb,Germany,Trek-Segafredo,29
+2,10,14797,Philippe Gilbert,Belgium,Quick-Step Floors,36
+2,11,14797,Julian Alaphilippe,France,Quick-Step Floors,26
+2,12,14797,Jasper Stuyven,Belgium,Trek-Segafredo,26
+2,13,14797,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+2,14,14797,Bob Jungels,Luxembourg,Quick-Step Floors,25
+2,15,14797,Greg Van Avermaet,Belgium,BMC Racing Team,33
+2,16,14797,Tom Dumoulin,Netherlands,Team Sunweb,27
+2,17,14797,Pierre Latour,France,AG2R La Mondiale,24
+2,18,14797,Richie Porte,Australia,BMC Racing Team,33
+2,19,14797,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+2,20,14797,Koen De Kort,Netherlands,Trek-Segafredo,35
+2,21,14797,Michal Kwiatkowski,Poland,Team Sky,28
+2,22,14797,Adam Yates,Great Britain,Mitchelton-Scott,25
+2,23,14797,Geraint Thomas,Great Britain,Team Sky,32
+2,24,14797,Guillaume Martin,France,Wanty-Groupe Gobert,25
+2,25,14797,Jakob Fuglsang,Denmark,Astana,33
+2,26,14797,Romain Bardet,France,AG2R La Mondiale,27
+2,27,14797,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+2,28,14797,Fernando Gaviria,Colombia,Quick-Step Floors,23
+2,29,14797,Damiano Caruso,Italy,BMC Racing Team,30
+2,30,14797,Stefan Küng,Switzerland,BMC Racing Team,24
+2,31,14797,Chris Froome,Great Britain,Team Sky,33
+2,32,14797,Dylan Groenewegen,Netherlands,LottoNL-Jumbo,25
+2,33,14797,Egan Bernal,Colombia,Team Sky,21
+2,34,14797,Laurent Pichon,France,Fortuneo-Samsic,31
+2,35,14797,Mark Cavendish,Great Britain,Team Dimension Data,33
+2,36,14797,Nairo Quintana,Colombia,Movistar Team,28
+2,37,14797,Warren Barguil,France,Fortuneo-Samsic,26
+2,38,14797,Bauke Mollema,Netherlands,Trek-Segafredo,31
+2,39,14797,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+2,40,14797,Vincenzo Nibali,Italy,Bahrain-Merida,33
+2,41,14797,Rigoberto Urán,Colombia,EF Education First-Drapac p/b Cannondale,31
+2,42,14797,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+2,43,14797,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+2,44,14797,Søren Kragh Andersen,Denmark,Team Sunweb,23
+2,45,14797,Lilian Calmejane,France,Direct Énergie,25
+2,46,14797,Robert Kiserlovski,Croatia,Team Katusha-Alpecin,31
+2,47,14797,Arthur Vichot,France,Groupama-FDJ,29
+2,48,14797,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+2,49,14797,Mathew Hayman,Australia,Mitchelton-Scott,40
+2,50,14797,Rudy Molard,France,Groupama-FDJ,28
+2,51,14797,Daniel Martin,Ireland,UAE Team Emirates,31
+2,52,14797,Tejay Van Garderen,United States,BMC Racing Team,29
+2,53,14797,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+2,54,14797,Rafal Majka,Poland,Bora-Hansgrohe,28
+2,55,14797,Kristijan Koren,Slovenia,Bahrain-Merida,31
+2,56,14797,Mikel Landa,Spain,Movistar Team,28
+2,57,14797,Alexis Vuillermoz,France,AG2R La Mondiale,30
+2,58,14797,Edward Theuns,Belgium,Team Sunweb,27
+2,59,14797,Jens Keukeleire,Belgium,Lotto-Soudal,29
+2,60,14797,Gorka Izagirre,Spain,Bahrain-Merida,30
+2,61,14797,Laurens Ten Dam,Netherlands,Team Sunweb,37
+2,62,14797,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+2,63,14797,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+2,64,14797,Tiesj Benoot,Belgium,Lotto-Soudal,24
+2,65,14797,Tanel Kangert,Estonia,Astana,31
+2,66,14797,José Joaquín Rojas,Spain,Movistar Team,33
+2,67,14797,Romain Hardy,France,Fortuneo-Samsic,29
+2,68,14797,Sylvain Chavanel,France,Direct Énergie,39
+2,69,14797,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+2,70,14797,Anthony Turgis,France,Cofidis,24
+2,71,14797,Daniel Oss,Italy,Bora-Hansgrohe,31
+2,72,14797,Oliver Naesen,Belgium,AG2R La Mondiale,27
+2,73,14797,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+2,74,14797,Nikias Arndt,Germany,Team Sunweb,26
+2,75,14797,Mark Renshaw,Australia,Team Dimension Data,35
+2,76,14797,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+2,77,14797,Axel Domont,France,AG2R La Mondiale,27
+2,78,14797,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+2,79,14797,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+2,80,14797,Rick Zabel,Germany,Team Katusha-Alpecin,24
+2,81,14797,Élie Gesbert,France,Fortuneo-Samsic,23
+2,82,14797,Thomas Boudat,France,Direct Énergie,24
+2,83,14797,Maxime Bouet,France,Fortuneo-Samsic,31
+2,84,14797,Tomasz Marczynski,Poland,Lotto-Soudal,34
+2,85,14797,Simon Gerrans,Australia,BMC Racing Team,38
+2,86,14797,Julien Vermote,Belgium,Team Dimension Data,28
+2,87,14797,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+2,88,14797,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+2,89,14797,Serge Pauwels,Belgium,Team Dimension Data,34
+2,90,14797,Rein Taaramäe,Estonia,Direct Énergie,31
+2,91,14797,Mathias Frank,Switzerland,AG2R La Mondiale,31
+2,92,14797,Mikel Nieve,Spain,Mitchelton-Scott,34
+2,93,14797,Jack Bauer,New Zealand,Mitchelton-Scott,33
+2,94,14797,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+2,95,14797,Damien Gaudin,France,Direct Énergie,31
+2,96,14797,Marco Marcato,Italy,UAE Team Emirates,34
+2,97,14797,Tony Gallopin,France,AG2R La Mondiale,30
+2,98,14797,Simon Geschke,Germany,Team Sunweb,32
+2,99,14797,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+2,100,14797,Darwin Atapuma,Colombia,UAE Team Emirates,30
+2,101,14797,Romain Sicard,France,Direct Énergie,30
+2,102,14797,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+2,103,14797,Imanol Erviti,Spain,Movistar Team,34
+2,104,14797,Paul Martens,Germany,LottoNL-Jumbo,34
+2,105,14797,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+2,106,14797,Chad Haga,United States,Team Sunweb,29
+2,107,14797,Amaël Moinard,France,Fortuneo-Samsic,36
+2,108,14797,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+2,109,14797,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+2,110,14797,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+2,111,14797,Roberto Ferrari,Italy,UAE Team Emirates,35
+2,112,14797,Julien Bernard,France,Trek-Segafredo,26
+2,113,14797,Marcel Sieberg,Germany,Lotto-Soudal,36
+2,114,14797,Michael Gogl,Austria,Trek-Segafredo,24
+2,115,14797,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+2,116,14797,Magnus Cort Nielsen,Denmark,Astana,25
+2,117,14797,Michael Valgren,Denmark,Astana,26
+2,118,14896,Yves Lampaert,Belgium,Quick-Step Floors,27
+2,119,14896,Fabien Grellier,France,Direct Énergie,23
+2,120,14797,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+2,121,14896,Florian Vachon,France,Fortuneo-Samsic,33
+2,122,14797,Ion Izagirre,Spain,Bahrain-Merida,29
+2,123,14904,Jérôme Cousin,France,Direct Énergie,29
+2,124,14904,Dmitriy Gruzdev,Kazakhstan,Astana,32
+2,125,14797,Jasper De Buyst,Belgium,Lotto-Soudal,24
+2,126,14942,Daniele Bennati,Italy,Movistar Team,37
+2,127,14942,Marc Soler,Spain,Movistar Team,24
+2,128,14942,Nicolas Edet,France,Cofidis,30
+2,129,14942,Andrey Amador,Costa Rica,Movistar Team,31
+2,130,14942,Yoann Offredo,France,Wanty-Groupe Gobert,31
+2,131,14942,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+2,132,14942,Olivier Le Gac,France,Groupama-FDJ,24
+2,133,14942,Jay Thomson,South Africa,Team Dimension Data,32
+2,134,14942,Patrick Bevin,New Zealand,BMC Racing Team,27
+2,135,14942,David Gaudu,France,Groupama-FDJ,21
+2,136,14942,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+2,137,14942,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+2,138,14942,Michael Schär,Switzerland,BMC Racing Team,31
+2,139,14942,Jelle Vanendert,Belgium,Lotto-Soudal,33
+2,140,14942,Kevin Ledanois,France,Fortuneo-Samsic,24
+2,141,14942,Jesper Hansen,Denmark,Astana,27
+2,142,14942,Franco Pellizotti,Italy,Bahrain-Merida,40
+2,143,14942,Daniel Navarro,Spain,Cofidis,34
+2,144,14942,Rory Sutherland,Australia,UAE Team Emirates,36
+2,145,14942,Omar Fraile,Spain,Astana,27
+2,146,14942,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+2,147,14942,Luke Rowe,Great Britain,Team Sky,28
+2,148,14797,Michael Matthews,Australia,Team Sunweb,27
+2,149,14942,Jesús Herrada,Spain,Cofidis,27
+2,150,14942,Gianni Moscon,Italy,Team Sky,24
+2,151,14942,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+2,152,14950,Dimitri Claeys,Belgium,Cofidis,31
+2,153,14980,Niki Terpstra,Netherlands,Quick-Step Floors,34
+2,154,14994,Tim Declercq,Belgium,Quick-Step Floors,29
+2,155,14994,Thomas De Gendt,Belgium,Lotto-Soudal,31
+2,156,14994,Oliviero Troia,Italy,UAE Team Emirates,23
+2,157,14994,Wout Poels,Netherlands,Team Sky,30
+2,158,14997,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+2,159,14797,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+2,160,15021,Damien Howson,Australia,Mitchelton-Scott,25
+2,161,15039,Nils Politt,Germany,Team Katusha-Alpecin,24
+2,162,15039,Marcel Kittel,Germany,Team Katusha-Alpecin,30
+2,163,15039,Tony Martin,Germany,Team Katusha-Alpecin,33
+2,164,15039,Ian Boswell,United States,Team Katusha-Alpecin,27
+2,165,15047,Michael Hepburn,Australia,Mitchelton-Scott,26
+2,166,15050,Toms Skujins,Latvia,Trek-Segafredo,27
+2,167,14797,Heinrich Haussler,Australia,Bahrain-Merida,34
+2,168,14797,Julien Simon,France,Cofidis,32
+2,169,14797,Christophe Laporte,France,Cofidis,25
+2,170,15068,Anthony Perez,France,Cofidis,27
+2,171,14797,Daryl Impey,South Africa,Mitchelton-Scott,31
+2,172,15115,Jonathan Castroviejo,Spain,Team Sky,31
+2,173,15175,Luke Durbridge,Australia,Mitchelton-Scott,27
+2,174,15282,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+3,1,2326,Patrick Bevin,New Zealand,BMC Racing Team,27
+3,1,2326,Greg Van Avermaet,Belgium,BMC Racing Team,33
+3,1,2326,Damiano Caruso,Italy,BMC Racing Team,30
+3,1,2326,Richie Porte,Australia,BMC Racing Team,33
+3,1,2326,Tejay Van Garderen,United States,BMC Racing Team,29
+3,1,2326,Stefan Küng,Switzerland,BMC Racing Team,24
+3,1,2326,Simon Gerrans,Australia,BMC Racing Team,38
+3,1,2326,Michael Schär,Switzerland,BMC Racing Team,31
+3,2,2330,Geraint Thomas,Great Britain,Team Sky,32
+3,2,2330,Chris Froome,Great Britain,Team Sky,33
+3,2,2330,Michal Kwiatkowski,Poland,Team Sky,28
+3,2,2330,Gianni Moscon,Italy,Team Sky,24
+3,2,2330,Egan Bernal,Colombia,Team Sky,21
+3,2,2330,Jonathan Castroviejo,Spain,Team Sky,31
+3,2,2330,Wout Poels,Netherlands,Team Sky,30
+3,2,2330,Luke Rowe,Great Britain,Team Sky,28
+3,3,2333,Yves Lampaert,Belgium,Quick-Step Floors,27
+3,3,2333,Julian Alaphilippe,France,Quick-Step Floors,26
+3,3,2333,Bob Jungels,Luxembourg,Quick-Step Floors,25
+3,3,2333,Philippe Gilbert,Belgium,Quick-Step Floors,36
+3,3,2333,Niki Terpstra,Netherlands,Quick-Step Floors,34
+3,3,2333,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+3,3,2333,Fernando Gaviria,Colombia,Quick-Step Floors,23
+3,3,2333,Tim Declercq,Belgium,Quick-Step Floors,29
+3,4,2335,Adam Yates,Great Britain,Mitchelton-Scott,25
+3,4,2335,Michael Hepburn,Australia,Mitchelton-Scott,26
+3,4,2335,Daryl Impey,South Africa,Mitchelton-Scott,31
+3,4,2335,Jack Bauer,New Zealand,Mitchelton-Scott,33
+3,4,2335,Mikel Nieve,Spain,Mitchelton-Scott,34
+3,4,2335,Damien Howson,Australia,Mitchelton-Scott,25
+3,4,2335,Luke Durbridge,Australia,Mitchelton-Scott,27
+3,4,2335,Mathew Hayman,Australia,Mitchelton-Scott,40
+3,5,2337,Michael Matthews,Australia,Team Sunweb,27
+3,5,2337,Chad Haga,United States,Team Sunweb,29
+3,5,2337,Simon Geschke,Germany,Team Sunweb,32
+3,5,2337,Søren Kragh Andersen,Denmark,Team Sunweb,23
+3,5,2337,Tom Dumoulin,Netherlands,Team Sunweb,27
+3,5,2337,Nikias Arndt,Germany,Team Sunweb,26
+3,5,2337,Edward Theuns,Belgium,Team Sunweb,27
+3,5,2337,Laurens Ten Dam,Netherlands,Team Sunweb,37
+3,6,2361,Rigoberto Urán,Colombia,EF Education First-Drapac p/b Cannondale,31
+3,6,2361,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+3,6,2361,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+3,6,2361,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+3,6,2361,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+3,6,2361,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+3,6,2361,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+3,6,2361,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+3,7,2376,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+3,7,2376,Daniel Oss,Italy,Bora-Hansgrohe,31
+3,7,2376,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+3,7,2376,Rafal Majka,Poland,Bora-Hansgrohe,28
+3,7,2376,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+3,7,2376,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+3,7,2376,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+3,7,2376,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+3,8,2377,Jakob Fuglsang,Denmark,Astana,33
+3,8,2377,Magnus Cort Nielsen,Denmark,Astana,25
+3,8,2377,Tanel Kangert,Estonia,Astana,31
+3,8,2377,Omar Fraile,Spain,Astana,27
+3,8,2377,Michael Valgren,Denmark,Astana,26
+3,8,2377,Dmitriy Gruzdev,Kazakhstan,Astana,32
+3,8,2377,Jesper Hansen,Denmark,Astana,27
+3,9,2378,Tony Martin,Germany,Team Katusha-Alpecin,33
+3,9,2378,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+3,9,2378,Nils Politt,Germany,Team Katusha-Alpecin,24
+3,9,2378,Ian Boswell,United States,Team Katusha-Alpecin,27
+3,9,2378,Robert Kiserlovski,Croatia,Team Katusha-Alpecin,31
+3,9,2378,Marcel Kittel,Germany,Team Katusha-Alpecin,30
+3,9,2378,Rick Zabel,Germany,Team Katusha-Alpecin,24
+3,9,2378,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+3,10,2379,Andrey Amador,Costa Rica,Movistar Team,31
+3,10,2379,Mikel Landa,Spain,Movistar Team,28
+3,10,2379,Alejandro Valverde,Spain,Movistar Team,38
+3,10,2379,Nairo Quintana,Colombia,Movistar Team,28
+3,10,2379,Marc Soler,Spain,Movistar Team,24
+3,10,2379,José Joaquín Rojas,Spain,Movistar Team,33
+3,10,2379,Imanol Erviti,Spain,Movistar Team,34
+3,10,2379,Daniele Bennati,Italy,Movistar Team,37
+3,11,2392,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+3,11,2392,Gorka Izagirre,Spain,Bahrain-Merida,30
+3,11,2392,Ion Izagirre,Spain,Bahrain-Merida,29
+3,11,2392,Vincenzo Nibali,Italy,Bahrain-Merida,33
+3,11,2392,Franco Pellizotti,Italy,Bahrain-Merida,40
+3,11,2392,Sonny Colbrelli,Italy,Bahrain-Merida,28
+3,11,2392,Kristijan Koren,Slovenia,Bahrain-Merida,31
+3,11,2392,Heinrich Haussler,Australia,Bahrain-Merida,34
+3,12,2401,Pierre Latour,France,AG2R La Mondiale,24
+3,12,2401,Alexis Vuillermoz,France,AG2R La Mondiale,30
+3,12,2401,Romain Bardet,France,AG2R La Mondiale,27
+3,12,2401,Mathias Frank,Switzerland,AG2R La Mondiale,31
+3,12,2401,Oliver Naesen,Belgium,AG2R La Mondiale,27
+3,12,2401,Tony Gallopin,France,AG2R La Mondiale,30
+3,12,2401,Axel Domont,France,AG2R La Mondiale,27
+3,12,2401,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+3,13,2401,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+3,13,2401,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+3,13,2401,Paul Martens,Germany,LottoNL-Jumbo,34
+3,13,2401,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+3,13,2401,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+3,13,2401,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+3,13,2401,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+3,13,2401,Dylan Groenewegen,Netherlands,LottoNL-Jumbo,25
+3,14,2402,John Degenkolb,Germany,Trek-Segafredo,29
+3,14,2402,Jasper Stuyven,Belgium,Trek-Segafredo,26
+3,14,2402,Bauke Mollema,Netherlands,Trek-Segafredo,31
+3,14,2402,Toms Skujins,Latvia,Trek-Segafredo,27
+3,14,2402,Koen De Kort,Netherlands,Trek-Segafredo,35
+3,14,2402,Julien Bernard,France,Trek-Segafredo,26
+3,14,2402,Michael Gogl,Austria,Trek-Segafredo,24
+3,15,2424,Alexander Kristoff,Norway,UAE Team Emirates,31
+3,15,2424,Marco Marcato,Italy,UAE Team Emirates,34
+3,15,2424,Daniel Martin,Ireland,UAE Team Emirates,31
+3,15,2424,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+3,15,2424,Darwin Atapuma,Colombia,UAE Team Emirates,30
+3,15,2424,Rory Sutherland,Australia,UAE Team Emirates,36
+3,15,2424,Oliviero Troia,Italy,UAE Team Emirates,23
+3,15,2424,Roberto Ferrari,Italy,UAE Team Emirates,35
+3,16,2428,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+3,16,2428,Rudy Molard,France,Groupama-FDJ,28
+3,16,2428,Arnaud Démare,France,Groupama-FDJ,26
+3,16,2428,Arthur Vichot,France,Groupama-FDJ,29
+3,16,2428,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+3,16,2428,David Gaudu,France,Groupama-FDJ,21
+3,16,2428,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+3,16,2428,Olivier Le Gac,France,Groupama-FDJ,24
+3,17,2432,Laurent Pichon,France,Fortuneo-Samsic,31
+3,17,2432,Warren Barguil,France,Fortuneo-Samsic,26
+3,17,2432,Maxime Bouet,France,Fortuneo-Samsic,31
+3,17,2432,Élie Gesbert,France,Fortuneo-Samsic,23
+3,17,2432,Romain Hardy,France,Fortuneo-Samsic,29
+3,17,2432,Florian Vachon,France,Fortuneo-Samsic,33
+3,17,2432,Amaël Moinard,France,Fortuneo-Samsic,36
+3,17,2432,Kevin Ledanois,France,Fortuneo-Samsic,24
+3,18,2437,Thomas Boudat,France,Direct Énergie,24
+3,18,2437,Damien Gaudin,France,Direct Énergie,31
+3,18,2437,Sylvain Chavanel,France,Direct Énergie,39
+3,18,2437,Lilian Calmejane,France,Direct Énergie,25
+3,18,2437,Romain Sicard,France,Direct Énergie,30
+3,18,2437,Jérôme Cousin,France,Direct Énergie,29
+3,18,2437,Rein Taaramäe,Estonia,Direct Énergie,31
+3,18,2437,Fabien Grellier,France,Direct Énergie,23
+3,19,2438,Tomasz Marczynski,Poland,Lotto-Soudal,34
+3,19,2438,Jasper De Buyst,Belgium,Lotto-Soudal,24
+3,19,2438,Thomas De Gendt,Belgium,Lotto-Soudal,31
+3,19,2438,Tiesj Benoot,Belgium,Lotto-Soudal,24
+3,19,2438,Jelle Vanendert,Belgium,Lotto-Soudal,33
+3,19,2438,Jens Keukeleire,Belgium,Lotto-Soudal,29
+3,19,2438,Marcel Sieberg,Germany,Lotto-Soudal,36
+3,19,2438,André Greipel,Germany,Lotto-Soudal,35
+3,20,2438,Mark Cavendish,Great Britain,Team Dimension Data,33
+3,20,2438,Julien Vermote,Belgium,Team Dimension Data,28
+3,20,2438,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+3,20,2438,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+3,20,2438,Serge Pauwels,Belgium,Team Dimension Data,34
+3,20,2438,Mark Renshaw,Australia,Team Dimension Data,35
+3,20,2438,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+3,20,2438,Jay Thomson,South Africa,Team Dimension Data,32
+3,21,2470,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+3,21,2470,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+3,21,2470,Guillaume Martin,France,Wanty-Groupe Gobert,25
+3,21,2470,Yoann Offredo,France,Wanty-Groupe Gobert,31
+3,21,2470,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+3,21,2470,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+3,21,2470,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+3,21,2470,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+3,22,2529,Daniel Navarro,Spain,Cofidis,34
+3,22,2529,Nicolas Edet,France,Cofidis,30
+3,22,2529,Anthony Perez,France,Cofidis,27
+3,22,2529,Julien Simon,France,Cofidis,32
+3,22,2529,Jesús Herrada,Spain,Cofidis,27
+3,22,2529,Anthony Turgis,France,Cofidis,24
+3,22,2529,Christophe Laporte,France,Cofidis,25
+3,22,2529,Dimitri Claeys,Belgium,Cofidis,31
+4,1,15901,Fernando Gaviria,Colombia,Quick-Step Floors,23
+4,2,15901,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+4,3,15901,André Greipel,Germany,Lotto-Soudal,35
+4,4,15901,Dylan Groenewegen,Netherlands,LottoNL-Jumbo,25
+4,5,15901,Marcel Kittel,Germany,Team Katusha-Alpecin,30
+4,6,15901,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+4,7,15901,Alexander Kristoff,Norway,UAE Team Emirates,31
+4,8,15901,John Degenkolb,Germany,Trek-Segafredo,29
+4,9,15901,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+4,10,15901,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+4,11,15901,Arnaud Démare,France,Groupama-FDJ,26
+4,12,15901,Lilian Calmejane,France,Direct Énergie,25
+4,13,15901,Thomas Boudat,France,Direct Énergie,24
+4,14,15901,Warren Barguil,France,Fortuneo-Samsic,26
+4,15,15901,Julian Alaphilippe,France,Quick-Step Floors,26
+4,16,15901,Greg Van Avermaet,Belgium,BMC Racing Team,33
+4,17,15901,Rick Zabel,Germany,Team Katusha-Alpecin,24
+4,18,15901,Philippe Gilbert,Belgium,Quick-Step Floors,36
+4,19,15901,Laurent Pichon,France,Fortuneo-Samsic,31
+4,20,15901,Egan Bernal,Colombia,Team Sky,21
+4,21,15901,Mark Cavendish,Great Britain,Team Dimension Data,33
+4,22,15901,Omar Fraile,Spain,Astana,27
+4,23,15901,Tom Dumoulin,Netherlands,Team Sunweb,27
+4,24,15901,Alejandro Valverde,Spain,Movistar Team,38
+4,25,15901,Bob Jungels,Luxembourg,Quick-Step Floors,25
+4,26,15901,Élie Gesbert,France,Fortuneo-Samsic,23
+4,27,15901,Vincenzo Nibali,Italy,Bahrain-Merida,33
+4,28,15901,Michal Kwiatkowski,Poland,Team Sky,28
+4,29,15901,Pierre Latour,France,AG2R La Mondiale,24
+4,30,15901,Geraint Thomas,Great Britain,Team Sky,32
+4,31,15901,Michael Hepburn,Australia,Mitchelton-Scott,26
+4,32,15901,Adam Yates,Great Britain,Mitchelton-Scott,25
+4,33,15901,Kristijan Koren,Slovenia,Bahrain-Merida,31
+4,34,15901,Michael Matthews,Australia,Team Sunweb,27
+4,35,15901,Yoann Offredo,France,Wanty-Groupe Gobert,31
+4,36,15901,Jack Bauer,New Zealand,Mitchelton-Scott,33
+4,37,15901,Søren Kragh Andersen,Denmark,Team Sunweb,23
+4,38,15901,Jasper Stuyven,Belgium,Trek-Segafredo,26
+4,39,15901,Magnus Cort Nielsen,Denmark,Astana,25
+4,40,15901,Heinrich Haussler,Australia,Bahrain-Merida,34
+4,41,15901,Chris Froome,Great Britain,Team Sky,33
+4,42,15901,Nairo Quintana,Colombia,Movistar Team,28
+4,43,15901,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+4,44,15901,Florian Vachon,France,Fortuneo-Samsic,33
+4,45,15901,Richie Porte,Australia,BMC Racing Team,33
+4,46,15901,Arthur Vichot,France,Groupama-FDJ,29
+4,47,15901,Damiano Caruso,Italy,BMC Racing Team,30
+4,48,15901,Chad Haga,United States,Team Sunweb,29
+4,49,15901,Tejay Van Garderen,United States,BMC Racing Team,29
+4,50,15901,Rafal Majka,Poland,Bora-Hansgrohe,28
+4,51,15901,Sylvain Chavanel,France,Direct Énergie,39
+4,52,15901,Jakob Fuglsang,Denmark,Astana,33
+4,53,15901,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+4,54,15901,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+4,55,15901,Mathew Hayman,Australia,Mitchelton-Scott,40
+4,56,15901,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+4,57,15901,Mathias Frank,Switzerland,AG2R La Mondiale,31
+4,58,15901,Romain Bardet,France,AG2R La Mondiale,27
+4,59,15901,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+4,60,15901,David Gaudu,France,Groupama-FDJ,21
+4,61,15901,Bauke Mollema,Netherlands,Trek-Segafredo,31
+4,62,15901,Alexis Vuillermoz,France,AG2R La Mondiale,30
+4,63,15901,Yves Lampaert,Belgium,Quick-Step Floors,27
+4,64,15901,Imanol Erviti,Spain,Movistar Team,34
+4,65,15901,Serge Pauwels,Belgium,Team Dimension Data,34
+4,66,15901,Simon Gerrans,Australia,BMC Racing Team,38
+4,67,15901,Michael Schär,Switzerland,BMC Racing Team,31
+4,68,15901,Mikel Landa,Spain,Movistar Team,28
+4,69,15901,Daniel Oss,Italy,Bora-Hansgrohe,31
+4,70,15901,Daniele Bennati,Italy,Movistar Team,37
+4,71,15901,José Joaquín Rojas,Spain,Movistar Team,33
+4,72,15901,Rein Taaramäe,Estonia,Direct Énergie,31
+4,73,15901,Paul Martens,Germany,LottoNL-Jumbo,34
+4,74,15901,Daniel Martin,Ireland,UAE Team Emirates,31
+4,75,15901,Simon Geschke,Germany,Team Sunweb,32
+4,76,15901,Gianni Moscon,Italy,Team Sky,24
+4,77,15901,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+4,78,15901,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+4,79,15901,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+4,80,15901,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+4,81,15901,Rigoberto Urán,Colombia,EF Education First-Drapac p/b Cannondale,31
+4,82,15901,Stefan Küng,Switzerland,BMC Racing Team,24
+4,83,15901,Maxime Bouet,France,Fortuneo-Samsic,31
+4,84,15901,Ion Izagirre,Spain,Bahrain-Merida,29
+4,85,15901,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+4,86,15901,Koen De Kort,Netherlands,Trek-Segafredo,35
+4,87,15901,Tony Martin,Germany,Team Katusha-Alpecin,33
+4,88,15901,Patrick Bevin,New Zealand,BMC Racing Team,27
+4,89,15901,Romain Hardy,France,Fortuneo-Samsic,29
+4,90,15901,Julien Simon,France,Cofidis,32
+4,91,15901,Franco Pellizotti,Italy,Bahrain-Merida,40
+4,92,15901,Rudy Molard,France,Groupama-FDJ,28
+4,93,15901,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+4,94,15901,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+4,95,15901,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+4,96,15901,Darwin Atapuma,Colombia,UAE Team Emirates,30
+4,97,15901,Luke Rowe,Great Britain,Team Sky,28
+4,98,15901,Mikel Nieve,Spain,Mitchelton-Scott,34
+4,99,15901,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+4,100,15901,Amaël Moinard,France,Fortuneo-Samsic,36
+4,101,15901,Tony Gallopin,France,AG2R La Mondiale,30
+4,102,15901,Daniel Navarro,Spain,Cofidis,34
+4,103,15901,Jonathan Castroviejo,Spain,Team Sky,31
+4,104,15901,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+4,105,15901,Sonny Colbrelli,Italy,Bahrain-Merida,28
+4,106,15901,Nils Politt,Germany,Team Katusha-Alpecin,24
+4,107,15923,Mark Renshaw,Australia,Team Dimension Data,35
+4,108,15931,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+4,109,15931,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+4,110,15933,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+4,111,15935,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+4,112,15935,Jay Thomson,South Africa,Team Dimension Data,32
+4,113,15935,Marco Marcato,Italy,UAE Team Emirates,34
+4,114,15939,Dmitriy Gruzdev,Kazakhstan,Astana,32
+4,115,15948,Olivier Le Gac,France,Groupama-FDJ,24
+4,116,15951,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+4,117,15955,Julien Vermote,Belgium,Team Dimension Data,28
+4,118,15955,Jens Keukeleire,Belgium,Lotto-Soudal,29
+4,119,15955,Marcel Sieberg,Germany,Lotto-Soudal,36
+4,120,15955,Jasper De Buyst,Belgium,Lotto-Soudal,24
+4,121,15960,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+4,122,15965,Julien Bernard,France,Trek-Segafredo,26
+4,123,15967,Dimitri Claeys,Belgium,Cofidis,31
+4,124,15972,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+4,125,15980,Roberto Ferrari,Italy,UAE Team Emirates,35
+4,126,15985,Guillaume Martin,France,Wanty-Groupe Gobert,25
+4,127,15988,Oliviero Troia,Italy,UAE Team Emirates,23
+4,128,15994,Jérôme Cousin,France,Direct Énergie,29
+4,129,15995,Anthony Perez,France,Cofidis,27
+4,130,16037,Niki Terpstra,Netherlands,Quick-Step Floors,34
+4,131,16049,Robert Kiserlovski,Croatia,Team Katusha-Alpecin,31
+4,132,16065,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+4,133,16065,Thomas De Gendt,Belgium,Lotto-Soudal,31
+4,134,16065,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+4,135,16065,Marc Soler,Spain,Movistar Team,24
+4,136,16065,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+4,137,16065,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+4,138,16065,Tanel Kangert,Estonia,Astana,31
+4,139,16068,Oliver Naesen,Belgium,AG2R La Mondiale,27
+4,140,16068,Toms Skujins,Latvia,Trek-Segafredo,27
+4,141,16068,Michael Gogl,Austria,Trek-Segafredo,24
+4,142,16086,Nicolas Edet,France,Cofidis,30
+4,143,16086,Kevin Ledanois,France,Fortuneo-Samsic,24
+4,144,16103,Anthony Turgis,France,Cofidis,24
+4,145,16103,Damien Gaudin,France,Direct Énergie,31
+4,146,16103,Wout Poels,Netherlands,Team Sky,30
+4,147,16103,Luke Durbridge,Australia,Mitchelton-Scott,27
+4,148,16103,Christophe Laporte,France,Cofidis,25
+4,149,16103,Ian Boswell,United States,Team Katusha-Alpecin,27
+4,150,16103,Romain Sicard,France,Direct Énergie,30
+4,151,16103,Jesús Herrada,Spain,Cofidis,27
+4,152,16103,Gorka Izagirre,Spain,Bahrain-Merida,30
+4,153,16103,Edward Theuns,Belgium,Team Sunweb,27
+4,154,16129,Jelle Vanendert,Belgium,Lotto-Soudal,33
+4,155,16129,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+4,156,16129,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+4,157,16129,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+4,158,16129,Damien Howson,Australia,Mitchelton-Scott,25
+4,159,16129,Nikias Arndt,Germany,Team Sunweb,26
+4,160,16129,Tim Declercq,Belgium,Quick-Step Floors,29
+4,161,16129,Daryl Impey,South Africa,Mitchelton-Scott,31
+4,162,16129,Laurens Ten Dam,Netherlands,Team Sunweb,37
+4,163,16129,Fabien Grellier,France,Direct Énergie,23
+4,164,16129,Rory Sutherland,Australia,UAE Team Emirates,36
+4,165,16129,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+4,166,16129,Michael Valgren,Denmark,Astana,26
+4,167,16129,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+4,168,16129,Jesper Hansen,Denmark,Astana,27
+4,169,16254,Tomasz Marczynski,Poland,Lotto-Soudal,34
+4,170,16254,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+4,171,16256,Andrey Amador,Costa Rica,Movistar Team,31
+4,172,16283,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+4,173,16513,Tiesj Benoot,Belgium,Lotto-Soudal,24
+5,1,17286,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+5,2,17286,Sonny Colbrelli,Italy,Bahrain-Merida,28
+5,3,17286,Philippe Gilbert,Belgium,Quick-Step Floors,36
+5,4,17286,Alejandro Valverde,Spain,Movistar Team,38
+5,5,17286,Julian Alaphilippe,France,Quick-Step Floors,26
+5,6,17286,Daniel Martin,Ireland,UAE Team Emirates,31
+5,7,17286,Greg Van Avermaet,Belgium,BMC Racing Team,33
+5,8,17286,Søren Kragh Andersen,Denmark,Team Sunweb,23
+5,9,17286,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+5,10,17286,Vincenzo Nibali,Italy,Bahrain-Merida,33
+5,11,17286,Julien Simon,France,Cofidis,32
+5,12,17286,Geraint Thomas,Great Britain,Team Sky,32
+5,13,17286,Pierre Latour,France,AG2R La Mondiale,24
+5,14,17286,Chris Froome,Great Britain,Team Sky,33
+5,15,17286,Jelle Vanendert,Belgium,Lotto-Soudal,33
+5,16,17286,Egan Bernal,Colombia,Team Sky,21
+5,17,17286,Nairo Quintana,Colombia,Movistar Team,28
+5,18,17286,Richie Porte,Australia,BMC Racing Team,33
+5,19,17286,Jakob Fuglsang,Denmark,Astana,33
+5,20,17286,Rafal Majka,Poland,Bora-Hansgrohe,28
+5,21,17286,Mikel Landa,Spain,Movistar Team,28
+5,22,17286,Romain Bardet,France,AG2R La Mondiale,27
+5,23,17286,Alexis Vuillermoz,France,AG2R La Mondiale,30
+5,24,17286,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+5,25,17286,Bauke Mollema,Netherlands,Trek-Segafredo,31
+5,26,17286,Rigoberto Urán,Colombia,EF Education First-Drapac p/b Cannondale,31
+5,27,17286,Tom Dumoulin,Netherlands,Team Sunweb,27
+5,28,17286,Jasper Stuyven,Belgium,Trek-Segafredo,26
+5,29,17286,Adam Yates,Great Britain,Mitchelton-Scott,25
+5,30,17286,Warren Barguil,France,Fortuneo-Samsic,26
+5,31,17286,Tejay Van Garderen,United States,BMC Racing Team,29
+5,32,17286,Guillaume Martin,France,Wanty-Groupe Gobert,25
+5,33,17286,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+5,34,17286,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+5,35,17286,Daryl Impey,South Africa,Mitchelton-Scott,31
+5,36,17286,David Gaudu,France,Groupama-FDJ,21
+5,37,17286,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+5,38,17286,Bob Jungels,Luxembourg,Quick-Step Floors,25
+5,39,17300,Arthur Vichot,France,Groupama-FDJ,29
+5,40,17300,Ion Izagirre,Spain,Bahrain-Merida,29
+5,41,17303,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+5,42,17303,Magnus Cort Nielsen,Denmark,Astana,25
+5,43,17303,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+5,44,17303,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+5,45,17303,Rudy Molard,France,Groupama-FDJ,28
+5,46,17303,Serge Pauwels,Belgium,Team Dimension Data,34
+5,47,17303,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+5,48,17303,Maxime Bouet,France,Fortuneo-Samsic,31
+5,49,17309,Mikel Nieve,Spain,Mitchelton-Scott,34
+5,50,17311,Romain Hardy,France,Fortuneo-Samsic,29
+5,51,17311,Mathias Frank,Switzerland,AG2R La Mondiale,31
+5,52,17311,Damiano Caruso,Italy,BMC Racing Team,30
+5,53,17314,Simon Geschke,Germany,Team Sunweb,32
+5,54,17314,Jens Keukeleire,Belgium,Lotto-Soudal,29
+5,55,17325,Omar Fraile,Spain,Astana,27
+5,56,17335,Tanel Kangert,Estonia,Astana,31
+5,57,17335,Yoann Offredo,France,Wanty-Groupe Gobert,31
+5,58,17339,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+5,59,17339,Michael Gogl,Austria,Trek-Segafredo,24
+5,60,17339,Amaël Moinard,France,Fortuneo-Samsic,36
+5,61,17347,Damien Howson,Australia,Mitchelton-Scott,25
+5,62,17354,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+5,63,17361,Laurent Pichon,France,Fortuneo-Samsic,31
+5,64,17363,Marco Marcato,Italy,UAE Team Emirates,34
+5,65,17363,Thomas Boudat,France,Direct Énergie,24
+5,66,17363,Romain Sicard,France,Direct Énergie,30
+5,67,17363,Sylvain Chavanel,France,Direct Énergie,39
+5,68,17363,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+5,69,17363,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+5,70,17369,Julien Bernard,France,Trek-Segafredo,26
+5,71,17369,Darwin Atapuma,Colombia,UAE Team Emirates,30
+5,72,17371,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+5,73,17371,Thomas De Gendt,Belgium,Lotto-Soudal,31
+5,74,17371,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+5,75,17373,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+5,76,17373,José Joaquín Rojas,Spain,Movistar Team,33
+5,77,17373,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+5,78,17373,Jesús Herrada,Spain,Cofidis,27
+5,79,17373,Franco Pellizotti,Italy,Bahrain-Merida,40
+5,80,17373,Tomasz Marczynski,Poland,Lotto-Soudal,34
+5,81,17373,Andrey Amador,Costa Rica,Movistar Team,31
+5,82,17373,Alexander Kristoff,Norway,UAE Team Emirates,31
+5,83,17373,Marc Soler,Spain,Movistar Team,24
+5,84,17373,Rein Taaramäe,Estonia,Direct Énergie,31
+5,85,17373,Olivier Le Gac,France,Groupama-FDJ,24
+5,86,17373,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+5,87,17373,Lilian Calmejane,France,Direct Énergie,25
+5,88,17373,Laurens Ten Dam,Netherlands,Team Sunweb,37
+5,89,17373,Tony Martin,Germany,Team Katusha-Alpecin,33
+5,90,17392,Tony Gallopin,France,AG2R La Mondiale,30
+5,91,17392,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+5,92,17394,Paul Martens,Germany,LottoNL-Jumbo,34
+5,93,17404,Gorka Izagirre,Spain,Bahrain-Merida,30
+5,94,17416,Jack Bauer,New Zealand,Mitchelton-Scott,33
+5,95,17421,Gianni Moscon,Italy,Team Sky,24
+5,96,17421,Michal Kwiatkowski,Poland,Team Sky,28
+5,97,17421,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+5,98,17421,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+5,99,17421,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+5,100,17421,Daniel Oss,Italy,Bora-Hansgrohe,31
+5,101,17421,Jesper Hansen,Denmark,Astana,27
+5,102,17438,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+5,103,17438,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+5,104,17438,Luke Durbridge,Australia,Mitchelton-Scott,27
+5,105,17473,Koen De Kort,Netherlands,Trek-Segafredo,35
+5,106,17473,Nils Politt,Germany,Team Katusha-Alpecin,24
+5,107,17473,Kristijan Koren,Slovenia,Bahrain-Merida,31
+5,108,17479,Daniel Navarro,Spain,Cofidis,34
+5,109,17482,Niki Terpstra,Netherlands,Quick-Step Floors,34
+5,110,17495,Oliver Naesen,Belgium,AG2R La Mondiale,27
+5,111,17540,Stefan Küng,Switzerland,BMC Racing Team,24
+5,112,17540,Michael Hepburn,Australia,Mitchelton-Scott,26
+5,113,17540,Nikias Arndt,Germany,Team Sunweb,26
+5,114,17543,Chad Haga,United States,Team Sunweb,29
+5,115,17543,John Degenkolb,Germany,Trek-Segafredo,29
+5,116,17550,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+5,117,17550,Fernando Gaviria,Colombia,Quick-Step Floors,23
+5,118,17550,Tim Declercq,Belgium,Quick-Step Floors,29
+5,119,17550,Wout Poels,Netherlands,Team Sky,30
+5,120,17550,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+5,121,17550,Michael Valgren,Denmark,Astana,26
+5,122,17550,Fabien Grellier,France,Direct Énergie,23
+5,123,17550,Luke Rowe,Great Britain,Team Sky,28
+5,124,17550,Jérôme Cousin,France,Direct Énergie,29
+5,125,17610,Oliviero Troia,Italy,UAE Team Emirates,23
+5,126,17612,Yves Lampaert,Belgium,Quick-Step Floors,27
+5,127,17758,Edward Theuns,Belgium,Team Sunweb,27
+5,128,17758,Rory Sutherland,Australia,UAE Team Emirates,36
+5,129,17758,Nicolas Edet,France,Cofidis,30
+5,130,17758,Dimitri Claeys,Belgium,Cofidis,31
+5,131,17758,Imanol Erviti,Spain,Movistar Team,34
+5,132,17758,Ian Boswell,United States,Team Katusha-Alpecin,27
+5,133,17758,Jonathan Castroviejo,Spain,Team Sky,31
+5,134,17758,Dmitriy Gruzdev,Kazakhstan,Astana,32
+5,135,17758,Mathew Hayman,Australia,Mitchelton-Scott,40
+5,136,17758,Patrick Bevin,New Zealand,BMC Racing Team,27
+5,137,17758,Toms Skujins,Latvia,Trek-Segafredo,27
+5,138,17821,Florian Vachon,France,Fortuneo-Samsic,33
+5,139,17821,Kevin Ledanois,France,Fortuneo-Samsic,24
+5,140,18056,Heinrich Haussler,Australia,Bahrain-Merida,34
+5,141,18056,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+5,142,18056,Anthony Perez,France,Cofidis,27
+5,143,18056,Anthony Turgis,France,Cofidis,24
+5,144,18056,Michael Schär,Switzerland,BMC Racing Team,31
+5,145,18056,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+5,146,18056,Simon Gerrans,Australia,BMC Racing Team,38
+5,147,18056,Élie Gesbert,France,Fortuneo-Samsic,23
+5,148,18056,Christophe Laporte,France,Cofidis,25
+5,149,18056,Arnaud Démare,France,Groupama-FDJ,26
+5,150,18056,Damien Gaudin,France,Direct Énergie,31
+5,151,18056,Daniele Bennati,Italy,Movistar Team,37
+5,152,18056,Roberto Ferrari,Italy,UAE Team Emirates,35
+5,153,18323,Julien Vermote,Belgium,Team Dimension Data,28
+5,154,18323,André Greipel,Germany,Lotto-Soudal,35
+5,155,18323,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+5,156,18323,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+5,157,18323,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+5,158,18323,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+5,159,18323,Jasper De Buyst,Belgium,Lotto-Soudal,24
+5,160,18323,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+5,161,18542,Jay Thomson,South Africa,Team Dimension Data,32
+5,162,18542,Mark Renshaw,Australia,Team Dimension Data,35
+5,163,18542,Mark Cavendish,Great Britain,Team Dimension Data,33
+5,164,18542,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+5,165,18542,Dylan Groenewegen,Netherlands,LottoNL-Jumbo,25
+5,166,18542,Marcel Sieberg,Germany,Lotto-Soudal,36
+5,167,18542,Rick Zabel,Germany,Team Katusha-Alpecin,24
+5,168,18542,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+5,169,18542,Marcel Kittel,Germany,Team Katusha-Alpecin,30
+5,170,18542,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+6,1,15223,Daniel Martin,Ireland,UAE Team Emirates,31
+6,2,15224,Pierre Latour,France,AG2R La Mondiale,24
+6,3,15226,Alejandro Valverde,Spain,Movistar Team,38
+6,4,15226,Julian Alaphilippe,France,Quick-Step Floors,26
+6,5,15226,Rafal Majka,Poland,Bora-Hansgrohe,28
+6,6,15226,Adam Yates,Great Britain,Mitchelton-Scott,25
+6,7,15226,Bauke Mollema,Netherlands,Trek-Segafredo,31
+6,8,15226,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+6,9,15226,Geraint Thomas,Great Britain,Team Sky,32
+6,10,15226,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+6,11,15226,Richie Porte,Australia,BMC Racing Team,33
+6,12,15226,Greg Van Avermaet,Belgium,BMC Racing Team,33
+6,13,15226,Nairo Quintana,Colombia,Movistar Team,28
+6,14,15226,Vincenzo Nibali,Italy,Bahrain-Merida,33
+6,15,15226,Jakob Fuglsang,Denmark,Astana,33
+6,16,15226,Mikel Landa,Spain,Movistar Team,28
+6,17,15229,Tejay Van Garderen,United States,BMC Racing Team,29
+6,18,15231,Chris Froome,Great Britain,Team Sky,33
+6,19,15234,Rigoberto Urán,Colombia,EF Education First-Drapac p/b Cannondale,31
+6,20,15235,Warren Barguil,France,Fortuneo-Samsic,26
+6,21,15235,Bob Jungels,Luxembourg,Quick-Step Floors,25
+6,22,15235,Ion Izagirre,Spain,Bahrain-Merida,29
+6,23,15235,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+6,24,15235,Arthur Vichot,France,Groupama-FDJ,29
+6,25,15235,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+6,26,15235,Egan Bernal,Colombia,Team Sky,21
+6,27,15235,Jesús Herrada,Spain,Cofidis,27
+6,28,15235,Alexis Vuillermoz,France,AG2R La Mondiale,30
+6,29,15235,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+6,30,15235,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+6,31,15235,Philippe Gilbert,Belgium,Quick-Step Floors,36
+6,32,15239,Jelle Vanendert,Belgium,Lotto-Soudal,33
+6,33,15254,Romain Bardet,France,AG2R La Mondiale,27
+6,34,15254,Damiano Caruso,Italy,BMC Racing Team,30
+6,35,15254,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+6,36,15254,Guillaume Martin,France,Wanty-Groupe Gobert,25
+6,37,15264,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+6,38,15266,Serge Pauwels,Belgium,Team Dimension Data,34
+6,39,15266,David Gaudu,France,Groupama-FDJ,21
+6,40,15266,Maxime Bouet,France,Fortuneo-Samsic,31
+6,41,15268,Tanel Kangert,Estonia,Astana,31
+6,42,15268,Julien Simon,France,Cofidis,32
+6,43,15268,Rein Taaramäe,Estonia,Direct Énergie,31
+6,44,15268,Mikel Nieve,Spain,Mitchelton-Scott,34
+6,45,15276,Søren Kragh Andersen,Denmark,Team Sunweb,23
+6,46,15276,Tom Dumoulin,Netherlands,Team Sunweb,27
+6,47,15281,Sylvain Chavanel,France,Direct Énergie,39
+6,48,15281,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+6,49,15287,Élie Gesbert,France,Fortuneo-Samsic,23
+6,50,15288,Lilian Calmejane,France,Direct Énergie,25
+6,51,15299,Daryl Impey,South Africa,Mitchelton-Scott,31
+6,52,15299,Michael Gogl,Austria,Trek-Segafredo,24
+6,53,15306,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+6,54,15306,Omar Fraile,Spain,Astana,27
+6,55,15306,Julien Bernard,France,Trek-Segafredo,26
+6,56,15306,Anthony Perez,France,Cofidis,27
+6,57,15341,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+6,58,15343,Sonny Colbrelli,Italy,Bahrain-Merida,28
+6,59,15343,Gorka Izagirre,Spain,Bahrain-Merida,30
+6,60,15343,Marc Soler,Spain,Movistar Team,24
+6,61,15357,Magnus Cort Nielsen,Denmark,Astana,25
+6,62,15357,Jens Keukeleire,Belgium,Lotto-Soudal,29
+6,63,15360,José Joaquín Rojas,Spain,Movistar Team,33
+6,64,15360,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+6,65,15360,Romain Hardy,France,Fortuneo-Samsic,29
+6,66,15360,Amaël Moinard,France,Fortuneo-Samsic,36
+6,67,15360,Olivier Le Gac,France,Groupama-FDJ,24
+6,68,15360,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+6,69,15360,Wout Poels,Netherlands,Team Sky,30
+6,70,15360,Franco Pellizotti,Italy,Bahrain-Merida,40
+6,71,15360,Andrey Amador,Costa Rica,Movistar Team,31
+6,72,15360,Marco Marcato,Italy,UAE Team Emirates,34
+6,73,15360,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+6,74,15360,Stefan Küng,Switzerland,BMC Racing Team,24
+6,75,15360,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+6,76,15360,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+6,77,15360,Mathias Frank,Switzerland,AG2R La Mondiale,31
+6,78,15372,Jérôme Cousin,France,Direct Énergie,29
+6,79,15372,Oliver Naesen,Belgium,AG2R La Mondiale,27
+6,80,15410,Julien Vermote,Belgium,Team Dimension Data,28
+6,81,15410,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+6,82,15410,Nikias Arndt,Germany,Team Sunweb,26
+6,83,15410,Yoann Offredo,France,Wanty-Groupe Gobert,31
+6,84,15412,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+6,85,15412,Chad Haga,United States,Team Sunweb,29
+6,86,15430,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+6,87,15431,Thomas Boudat,France,Direct Énergie,24
+6,88,15431,Daniel Oss,Italy,Bora-Hansgrohe,31
+6,89,15441,Romain Sicard,France,Direct Énergie,30
+6,90,15447,Simon Geschke,Germany,Team Sunweb,32
+6,91,15447,Laurens Ten Dam,Netherlands,Team Sunweb,37
+6,92,15462,Florian Vachon,France,Fortuneo-Samsic,33
+6,93,15462,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+6,94,15476,Kevin Ledanois,France,Fortuneo-Samsic,24
+6,95,15497,Paul Martens,Germany,LottoNL-Jumbo,34
+6,96,15497,Toms Skujins,Latvia,Trek-Segafredo,27
+6,97,15497,Luke Durbridge,Australia,Mitchelton-Scott,27
+6,98,15522,Michal Kwiatkowski,Poland,Team Sky,28
+6,99,15522,Tomasz Marczynski,Poland,Lotto-Soudal,34
+6,100,15561,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+6,101,15564,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+6,102,15564,Edward Theuns,Belgium,Team Sunweb,27
+6,103,15568,Heinrich Haussler,Australia,Bahrain-Merida,34
+6,104,15568,Ian Boswell,United States,Team Katusha-Alpecin,27
+6,105,15568,Nils Politt,Germany,Team Katusha-Alpecin,24
+6,106,15569,Jack Bauer,New Zealand,Mitchelton-Scott,33
+6,107,15569,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+6,108,15569,Tony Martin,Germany,Team Katusha-Alpecin,33
+6,109,15578,Rudy Molard,France,Groupama-FDJ,28
+6,110,15594,Tony Gallopin,France,AG2R La Mondiale,30
+6,111,15601,Gianni Moscon,Italy,Team Sky,24
+6,112,15611,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+6,113,15626,Nicolas Edet,France,Cofidis,30
+6,114,15661,Niki Terpstra,Netherlands,Quick-Step Floors,34
+6,115,15673,Jonathan Castroviejo,Spain,Team Sky,31
+6,116,15688,Simon Gerrans,Australia,BMC Racing Team,38
+6,117,15728,Kristijan Koren,Slovenia,Bahrain-Merida,31
+6,118,15728,Imanol Erviti,Spain,Movistar Team,34
+6,119,15728,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+6,120,15728,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+6,121,15769,Fabien Grellier,France,Direct Énergie,23
+6,122,15798,Thomas De Gendt,Belgium,Lotto-Soudal,31
+6,123,15800,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+6,124,15800,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+6,125,15800,Dimitri Claeys,Belgium,Cofidis,31
+6,126,15802,Laurent Pichon,France,Fortuneo-Samsic,31
+6,127,15836,Koen De Kort,Netherlands,Trek-Segafredo,35
+6,128,15836,John Degenkolb,Germany,Trek-Segafredo,29
+6,129,15836,Mathew Hayman,Australia,Mitchelton-Scott,40
+6,130,15836,Jasper Stuyven,Belgium,Trek-Segafredo,26
+6,131,15874,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+6,132,15897,Luke Rowe,Great Britain,Team Sky,28
+6,133,15897,Jay Thomson,South Africa,Team Dimension Data,32
+6,134,15897,Darwin Atapuma,Colombia,UAE Team Emirates,30
+6,135,15897,Daniel Navarro,Spain,Cofidis,34
+6,136,15915,Damien Howson,Australia,Mitchelton-Scott,25
+6,137,15928,Anthony Turgis,France,Cofidis,24
+6,138,15928,Christophe Laporte,France,Cofidis,25
+6,139,15928,Daniele Bennati,Italy,Movistar Team,37
+6,140,15928,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+6,141,16093,Rory Sutherland,Australia,UAE Team Emirates,36
+6,142,16093,Michael Valgren,Denmark,Astana,26
+6,143,16093,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+6,144,16093,Jasper De Buyst,Belgium,Lotto-Soudal,24
+6,145,16093,Marcel Sieberg,Germany,Lotto-Soudal,36
+6,146,16093,Michael Hepburn,Australia,Mitchelton-Scott,26
+6,147,16093,Michael Schär,Switzerland,BMC Racing Team,31
+6,148,16093,Alexander Kristoff,Norway,UAE Team Emirates,31
+6,149,16093,Tim Declercq,Belgium,Quick-Step Floors,29
+6,150,16093,Yves Lampaert,Belgium,Quick-Step Floors,27
+6,151,16093,Mark Cavendish,Great Britain,Team Dimension Data,33
+6,152,16093,Marcel Kittel,Germany,Team Katusha-Alpecin,30
+6,153,16093,Rick Zabel,Germany,Team Katusha-Alpecin,24
+6,154,16093,Oliviero Troia,Italy,UAE Team Emirates,23
+6,155,16093,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+6,156,16093,Dylan Groenewegen,Netherlands,LottoNL-Jumbo,25
+6,157,16093,André Greipel,Germany,Lotto-Soudal,35
+6,158,16093,Mark Renshaw,Australia,Team Dimension Data,35
+6,159,16093,Patrick Bevin,New Zealand,BMC Racing Team,27
+6,160,16093,Dmitriy Gruzdev,Kazakhstan,Astana,32
+6,161,16093,Fernando Gaviria,Colombia,Quick-Step Floors,23
+6,162,16093,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+6,163,16093,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+6,164,16093,Jesper Hansen,Denmark,Astana,27
+6,165,16093,Arnaud Démare,France,Groupama-FDJ,26
+6,166,16093,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+6,167,16093,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+6,168,16093,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+6,169,16093,Roberto Ferrari,Italy,UAE Team Emirates,35
+6,170,16093,Damien Gaudin,France,Direct Énergie,31
+7,1,20622,Dylan Groenewegen,Netherlands,LottoNL-Jumbo,25
+7,2,20622,Fernando Gaviria,Colombia,Quick-Step Floors,23
+7,3,20622,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+7,4,20622,Arnaud Démare,France,Groupama-FDJ,26
+7,5,20622,Christophe Laporte,France,Cofidis,25
+7,6,20622,John Degenkolb,Germany,Trek-Segafredo,29
+7,7,20622,Daryl Impey,South Africa,Mitchelton-Scott,31
+7,8,20622,André Greipel,Germany,Lotto-Soudal,35
+7,9,20622,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+7,10,20622,Mark Cavendish,Great Britain,Team Dimension Data,33
+7,11,20622,Rick Zabel,Germany,Team Katusha-Alpecin,24
+7,12,20622,Sonny Colbrelli,Italy,Bahrain-Merida,28
+7,13,20622,Alexander Kristoff,Norway,UAE Team Emirates,31
+7,14,20622,Thomas Boudat,France,Direct Énergie,24
+7,15,20622,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+7,16,20622,Greg Van Avermaet,Belgium,BMC Racing Team,33
+7,17,20622,Vincenzo Nibali,Italy,Bahrain-Merida,33
+7,18,20622,Nikias Arndt,Germany,Team Sunweb,26
+7,19,20622,Alejandro Valverde,Spain,Movistar Team,38
+7,20,20622,Søren Kragh Andersen,Denmark,Team Sunweb,23
+7,21,20622,Rafal Majka,Poland,Bora-Hansgrohe,28
+7,22,20622,Dmitriy Gruzdev,Kazakhstan,Astana,32
+7,23,20622,Gorka Izagirre,Spain,Bahrain-Merida,30
+7,24,20622,Geraint Thomas,Great Britain,Team Sky,32
+7,25,20622,Chris Froome,Great Britain,Team Sky,33
+7,26,20622,Daniel Oss,Italy,Bora-Hansgrohe,31
+7,27,20622,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+7,28,20622,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+7,29,20622,Nairo Quintana,Colombia,Movistar Team,28
+7,30,20622,Michael Hepburn,Australia,Mitchelton-Scott,26
+7,31,20622,Tom Dumoulin,Netherlands,Team Sunweb,27
+7,32,20622,Bob Jungels,Luxembourg,Quick-Step Floors,25
+7,33,20622,Adam Yates,Great Britain,Mitchelton-Scott,25
+7,34,20622,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+7,35,20622,Tejay Van Garderen,United States,BMC Racing Team,29
+7,36,20622,Mathew Hayman,Australia,Mitchelton-Scott,40
+7,37,20622,Jakob Fuglsang,Denmark,Astana,33
+7,38,20622,Edward Theuns,Belgium,Team Sunweb,27
+7,39,20622,Pierre Latour,France,AG2R La Mondiale,24
+7,40,20622,Richie Porte,Australia,BMC Racing Team,33
+7,41,20622,Michael Schär,Switzerland,BMC Racing Team,31
+7,42,20622,Guillaume Martin,France,Wanty-Groupe Gobert,25
+7,43,20622,Daniele Bennati,Italy,Movistar Team,37
+7,44,20622,Jack Bauer,New Zealand,Mitchelton-Scott,33
+7,45,20622,Egan Bernal,Colombia,Team Sky,21
+7,46,20622,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+7,47,20622,Michael Valgren,Denmark,Astana,26
+7,48,20622,Philippe Gilbert,Belgium,Quick-Step Floors,36
+7,49,20622,Romain Bardet,France,AG2R La Mondiale,27
+7,50,20622,Ion Izagirre,Spain,Bahrain-Merida,29
+7,51,20622,Oliver Naesen,Belgium,AG2R La Mondiale,27
+7,52,20622,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+7,53,20622,Daniel Martin,Ireland,UAE Team Emirates,31
+7,54,20622,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+7,55,20622,Rigoberto Urán,Colombia,EF Education First-Drapac p/b Cannondale,31
+7,56,20622,José Joaquín Rojas,Spain,Movistar Team,33
+7,57,20622,Arthur Vichot,France,Groupama-FDJ,29
+7,58,20622,Florian Vachon,France,Fortuneo-Samsic,33
+7,59,20622,Julien Simon,France,Cofidis,32
+7,60,20622,Mikel Landa,Spain,Movistar Team,28
+7,61,20622,Maxime Bouet,France,Fortuneo-Samsic,31
+7,62,20622,Jasper Stuyven,Belgium,Trek-Segafredo,26
+7,63,20622,Bauke Mollema,Netherlands,Trek-Segafredo,31
+7,64,20622,Alexis Vuillermoz,France,AG2R La Mondiale,30
+7,65,20622,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+7,66,20622,Warren Barguil,France,Fortuneo-Samsic,26
+7,67,20622,Patrick Bevin,New Zealand,BMC Racing Team,27
+7,68,20622,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+7,69,20622,Kevin Ledanois,France,Fortuneo-Samsic,24
+7,70,20622,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+7,71,20622,David Gaudu,France,Groupama-FDJ,21
+7,72,20622,Rudy Molard,France,Groupama-FDJ,28
+7,73,20622,Serge Pauwels,Belgium,Team Dimension Data,34
+7,74,20622,Damiano Caruso,Italy,BMC Racing Team,30
+7,75,20622,Koen De Kort,Netherlands,Trek-Segafredo,35
+7,76,20622,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+7,77,20622,Tony Martin,Germany,Team Katusha-Alpecin,33
+7,78,20622,Tanel Kangert,Estonia,Astana,31
+7,79,20622,Sylvain Chavanel,France,Direct Énergie,39
+7,80,20622,Nils Politt,Germany,Team Katusha-Alpecin,24
+7,81,20622,Julian Alaphilippe,France,Quick-Step Floors,26
+7,82,20622,Imanol Erviti,Spain,Movistar Team,34
+7,83,20622,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+7,84,20622,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+7,85,20622,Rein Taaramäe,Estonia,Direct Énergie,31
+7,86,20622,Michael Gogl,Austria,Trek-Segafredo,24
+7,87,20622,Simon Gerrans,Australia,BMC Racing Team,38
+7,88,20622,Tony Gallopin,France,AG2R La Mondiale,30
+7,89,20622,Laurens Ten Dam,Netherlands,Team Sunweb,37
+7,90,20622,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+7,91,20622,Mikel Nieve,Spain,Mitchelton-Scott,34
+7,92,20622,Lilian Calmejane,France,Direct Énergie,25
+7,93,20622,Andrey Amador,Costa Rica,Movistar Team,31
+7,94,20622,Amaël Moinard,France,Fortuneo-Samsic,36
+7,95,20622,Mathias Frank,Switzerland,AG2R La Mondiale,31
+7,96,20622,Magnus Cort Nielsen,Denmark,Astana,25
+7,97,20622,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+7,98,20622,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+7,99,20622,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+7,100,20622,Marcel Sieberg,Germany,Lotto-Soudal,36
+7,101,20622,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+7,102,20622,Yves Lampaert,Belgium,Quick-Step Floors,27
+7,103,20622,Romain Sicard,France,Direct Énergie,30
+7,104,20622,Heinrich Haussler,Australia,Bahrain-Merida,34
+7,105,20622,Nicolas Edet,France,Cofidis,30
+7,106,20622,Darwin Atapuma,Colombia,UAE Team Emirates,30
+7,107,20622,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+7,108,20622,Romain Hardy,France,Fortuneo-Samsic,29
+7,109,20622,Jens Keukeleire,Belgium,Lotto-Soudal,29
+7,110,20622,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+7,111,20622,Jay Thomson,South Africa,Team Dimension Data,32
+7,112,20622,Luke Durbridge,Australia,Mitchelton-Scott,27
+7,113,20622,Marco Marcato,Italy,UAE Team Emirates,34
+7,114,20622,Oliviero Troia,Italy,UAE Team Emirates,23
+7,115,20622,Roberto Ferrari,Italy,UAE Team Emirates,35
+7,116,20622,Jasper De Buyst,Belgium,Lotto-Soudal,24
+7,117,20622,Jonathan Castroviejo,Spain,Team Sky,31
+7,118,20622,Marcel Kittel,Germany,Team Katusha-Alpecin,30
+7,119,20662,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+7,120,20664,Gianni Moscon,Italy,Team Sky,24
+7,121,20664,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+7,122,20671,Niki Terpstra,Netherlands,Quick-Step Floors,34
+7,123,20688,Anthony Turgis,France,Cofidis,24
+7,124,20693,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+7,125,20693,Yoann Offredo,France,Wanty-Groupe Gobert,31
+7,126,20693,Kristijan Koren,Slovenia,Bahrain-Merida,31
+7,127,20693,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+7,128,20693,Simon Geschke,Germany,Team Sunweb,32
+7,129,20707,Marc Soler,Spain,Movistar Team,24
+7,130,20709,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+7,131,20709,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+7,132,20709,Mark Renshaw,Australia,Team Dimension Data,35
+7,133,20718,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+7,134,20718,Stefan Küng,Switzerland,BMC Racing Team,24
+7,135,20722,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+7,136,20722,Fabien Grellier,France,Direct Énergie,23
+7,137,20726,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+7,138,20742,Toms Skujins,Latvia,Trek-Segafredo,27
+7,139,20742,Julien Bernard,France,Trek-Segafredo,26
+7,140,20761,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+7,141,20763,Thomas De Gendt,Belgium,Lotto-Soudal,31
+7,142,20763,Julien Vermote,Belgium,Team Dimension Data,28
+7,143,20763,Jesús Herrada,Spain,Cofidis,27
+7,144,20763,Anthony Perez,France,Cofidis,27
+7,145,20763,Laurent Pichon,France,Fortuneo-Samsic,31
+7,146,20763,Tim Declercq,Belgium,Quick-Step Floors,29
+7,147,20763,Daniel Navarro,Spain,Cofidis,34
+7,148,20763,Omar Fraile,Spain,Astana,27
+7,149,20763,Damien Gaudin,France,Direct Énergie,31
+7,150,20763,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+7,151,20763,Paul Martens,Germany,LottoNL-Jumbo,34
+7,152,20763,Élie Gesbert,France,Fortuneo-Samsic,23
+7,153,20763,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+7,154,20763,Rory Sutherland,Australia,UAE Team Emirates,36
+7,155,20763,Damien Howson,Australia,Mitchelton-Scott,25
+7,156,20763,Jesper Hansen,Denmark,Astana,27
+7,157,20763,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+7,158,20763,Dimitri Claeys,Belgium,Cofidis,31
+7,159,20763,Tomasz Marczynski,Poland,Lotto-Soudal,34
+7,160,20763,Franco Pellizotti,Italy,Bahrain-Merida,40
+7,161,20763,Michal Kwiatkowski,Poland,Team Sky,28
+7,162,20763,Luke Rowe,Great Britain,Team Sky,28
+7,163,20763,Ian Boswell,United States,Team Katusha-Alpecin,27
+7,164,20763,Jérôme Cousin,France,Direct Énergie,29
+7,165,20763,Wout Poels,Netherlands,Team Sky,30
+7,166,20763,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+7,167,20763,Jelle Vanendert,Belgium,Lotto-Soudal,33
+7,168,20763,Chad Haga,United States,Team Sunweb,29
+7,169,20763,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+7,170,20878,Olivier Le Gac,France,Groupama-FDJ,24
+8,1,15816,Dylan Groenewegen,Netherlands,LottoNL-Jumbo,25
+8,2,15816,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+8,3,15816,John Degenkolb,Germany,Trek-Segafredo,29
+8,4,15816,Alexander Kristoff,Norway,UAE Team Emirates,31
+8,5,15816,Arnaud Démare,France,Groupama-FDJ,26
+8,6,15816,Thomas Boudat,France,Direct Énergie,24
+8,7,15816,Nikias Arndt,Germany,Team Sunweb,26
+8,8,15816,Mark Cavendish,Great Britain,Team Dimension Data,33
+8,9,15816,Yves Lampaert,Belgium,Quick-Step Floors,27
+8,10,15816,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+8,11,15816,Daniel Oss,Italy,Bora-Hansgrohe,31
+8,12,15816,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+8,13,15816,Sonny Colbrelli,Italy,Bahrain-Merida,28
+8,14,15816,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+8,15,15816,Marcel Kittel,Germany,Team Katusha-Alpecin,30
+8,16,15816,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+8,17,15816,Geraint Thomas,Great Britain,Team Sky,32
+8,18,15816,Vincenzo Nibali,Italy,Bahrain-Merida,33
+8,19,15816,Chris Froome,Great Britain,Team Sky,33
+8,20,15816,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+8,21,15816,Alejandro Valverde,Spain,Movistar Team,38
+8,22,15816,Laurent Pichon,France,Fortuneo-Samsic,31
+8,23,15816,Gorka Izagirre,Spain,Bahrain-Merida,30
+8,24,15816,Søren Kragh Andersen,Denmark,Team Sunweb,23
+8,25,15816,Daniele Bennati,Italy,Movistar Team,37
+8,26,15816,Greg Van Avermaet,Belgium,BMC Racing Team,33
+8,27,15816,Damiano Caruso,Italy,BMC Racing Team,30
+8,28,15816,Nairo Quintana,Colombia,Movistar Team,28
+8,29,15816,Egan Bernal,Colombia,Team Sky,21
+8,30,15816,Edward Theuns,Belgium,Team Sunweb,27
+8,31,15816,Tom Dumoulin,Netherlands,Team Sunweb,27
+8,32,15816,Dmitriy Gruzdev,Kazakhstan,Astana,32
+8,33,15816,Mikel Landa,Spain,Movistar Team,28
+8,34,15816,Bob Jungels,Luxembourg,Quick-Step Floors,25
+8,35,15816,Rafal Majka,Poland,Bora-Hansgrohe,28
+8,36,15816,Oliver Naesen,Belgium,AG2R La Mondiale,27
+8,37,15816,Pierre Latour,France,AG2R La Mondiale,24
+8,38,15816,Richie Porte,Australia,BMC Racing Team,33
+8,39,15816,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+8,40,15816,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+8,41,15816,Michael Valgren,Denmark,Astana,26
+8,42,15816,Daryl Impey,South Africa,Mitchelton-Scott,31
+8,43,15816,Jasper Stuyven,Belgium,Trek-Segafredo,26
+8,44,15816,Heinrich Haussler,Australia,Bahrain-Merida,34
+8,45,15816,Koen De Kort,Netherlands,Trek-Segafredo,35
+8,46,15816,Warren Barguil,France,Fortuneo-Samsic,26
+8,47,15816,Florian Vachon,France,Fortuneo-Samsic,33
+8,48,15816,Bauke Mollema,Netherlands,Trek-Segafredo,31
+8,49,15816,Ion Izagirre,Spain,Bahrain-Merida,29
+8,50,15816,Adam Yates,Great Britain,Mitchelton-Scott,25
+8,51,15816,Jack Bauer,New Zealand,Mitchelton-Scott,33
+8,52,15816,Tejay Van Garderen,United States,BMC Racing Team,29
+8,53,15816,Jakob Fuglsang,Denmark,Astana,33
+8,54,15816,Romain Bardet,France,AG2R La Mondiale,27
+8,55,15816,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+8,56,15816,Alexis Vuillermoz,France,AG2R La Mondiale,30
+8,57,15816,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+8,58,15816,Rigoberto Urán,Colombia,EF Education First-Drapac p/b Cannondale,31
+8,59,15816,Niki Terpstra,Netherlands,Quick-Step Floors,34
+8,60,15816,Tony Gallopin,France,AG2R La Mondiale,30
+8,61,15816,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+8,62,15816,Nils Politt,Germany,Team Katusha-Alpecin,24
+8,63,15816,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+8,64,15816,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+8,65,15816,Guillaume Martin,France,Wanty-Groupe Gobert,25
+8,66,15816,Philippe Gilbert,Belgium,Quick-Step Floors,36
+8,67,15816,Mathias Frank,Switzerland,AG2R La Mondiale,31
+8,68,15816,Arthur Vichot,France,Groupama-FDJ,29
+8,69,15816,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+8,70,15816,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+8,71,15816,Sylvain Chavanel,France,Direct Énergie,39
+8,72,15816,Magnus Cort Nielsen,Denmark,Astana,25
+8,73,15816,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+8,74,15816,Mathew Hayman,Australia,Mitchelton-Scott,40
+8,75,15816,Rudy Molard,France,Groupama-FDJ,28
+8,76,15816,Patrick Bevin,New Zealand,BMC Racing Team,27
+8,77,15816,Kristijan Koren,Slovenia,Bahrain-Merida,31
+8,78,15816,Amaël Moinard,France,Fortuneo-Samsic,36
+8,79,15816,Julien Simon,France,Cofidis,32
+8,80,15816,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+8,81,15816,Tanel Kangert,Estonia,Astana,31
+8,82,15816,Rein Taaramäe,Estonia,Direct Énergie,31
+8,83,15816,Laurens Ten Dam,Netherlands,Team Sunweb,37
+8,84,15816,Imanol Erviti,Spain,Movistar Team,34
+8,85,15816,Kevin Ledanois,France,Fortuneo-Samsic,24
+8,86,15816,Mikel Nieve,Spain,Mitchelton-Scott,34
+8,87,15816,Lilian Calmejane,France,Direct Énergie,25
+8,88,15816,Andrey Amador,Costa Rica,Movistar Team,31
+8,89,15816,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+8,90,15816,Simon Gerrans,Australia,BMC Racing Team,38
+8,91,15816,Romain Sicard,France,Direct Énergie,30
+8,92,15816,André Greipel,Germany,Lotto-Soudal,35
+8,93,15816,Fernando Gaviria,Colombia,Quick-Step Floors,23
+8,94,15841,Yoann Offredo,France,Wanty-Groupe Gobert,31
+8,95,15842,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+8,96,15842,Serge Pauwels,Belgium,Team Dimension Data,34
+8,97,15846,Julien Bernard,France,Trek-Segafredo,26
+8,98,15846,Dimitri Claeys,Belgium,Cofidis,31
+8,99,15846,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+8,100,15846,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+8,101,15854,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+8,102,15856,Mark Renshaw,Australia,Team Dimension Data,35
+8,103,15858,Paul Martens,Germany,LottoNL-Jumbo,34
+8,104,15858,Marc Soler,Spain,Movistar Team,24
+8,105,15858,Marcel Sieberg,Germany,Lotto-Soudal,36
+8,106,15861,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+8,107,15865,Jasper De Buyst,Belgium,Lotto-Soudal,24
+8,108,15866,Stefan Küng,Switzerland,BMC Racing Team,24
+8,109,15866,Michael Hepburn,Australia,Mitchelton-Scott,26
+8,110,15866,Jesper Hansen,Denmark,Astana,27
+8,111,15875,Simon Geschke,Germany,Team Sunweb,32
+8,112,15879,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+8,113,15880,Thomas De Gendt,Belgium,Lotto-Soudal,31
+8,114,15880,Julien Vermote,Belgium,Team Dimension Data,28
+8,115,15880,Michael Schär,Switzerland,BMC Racing Team,31
+8,116,15880,Tomasz Marczynski,Poland,Lotto-Soudal,34
+8,117,15890,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+8,118,15892,Darwin Atapuma,Colombia,UAE Team Emirates,30
+8,119,15892,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+8,120,15892,Daniel Martin,Ireland,UAE Team Emirates,31
+8,121,15892,Rick Zabel,Germany,Team Katusha-Alpecin,24
+8,122,15892,Maxime Bouet,France,Fortuneo-Samsic,31
+8,123,15892,David Gaudu,France,Groupama-FDJ,21
+8,124,15892,Julian Alaphilippe,France,Quick-Step Floors,26
+8,125,15892,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+8,126,15898,Anthony Turgis,France,Cofidis,24
+8,127,15899,Chad Haga,United States,Team Sunweb,29
+8,128,15906,Luke Durbridge,Australia,Mitchelton-Scott,27
+8,129,15906,Olivier Le Gac,France,Groupama-FDJ,24
+8,130,15910,Jérôme Cousin,France,Direct Énergie,29
+8,131,15910,Jens Keukeleire,Belgium,Lotto-Soudal,29
+8,132,15927,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+8,133,15927,Tim Declercq,Belgium,Quick-Step Floors,29
+8,134,15927,Élie Gesbert,France,Fortuneo-Samsic,23
+8,135,15927,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+8,136,15936,Christophe Laporte,France,Cofidis,25
+8,137,15936,Luke Rowe,Great Britain,Team Sky,28
+8,138,15936,Michal Kwiatkowski,Poland,Team Sky,28
+8,139,15936,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+8,140,15952,Roberto Ferrari,Italy,UAE Team Emirates,35
+8,141,15964,Gianni Moscon,Italy,Team Sky,24
+8,142,16035,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+8,143,16035,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+8,144,16038,Nicolas Edet,France,Cofidis,30
+8,145,16038,Daniel Navarro,Spain,Cofidis,34
+8,146,16038,Jay Thomson,South Africa,Team Dimension Data,32
+8,147,16038,Jesús Herrada,Spain,Cofidis,27
+8,148,16038,Marco Marcato,Italy,UAE Team Emirates,34
+8,149,16038,Jonathan Castroviejo,Spain,Team Sky,31
+8,150,16038,José Joaquín Rojas,Spain,Movistar Team,33
+8,151,16038,Romain Hardy,France,Fortuneo-Samsic,29
+8,152,16038,Oliviero Troia,Italy,UAE Team Emirates,23
+8,153,16038,Fabien Grellier,France,Direct Énergie,23
+8,154,16038,Franco Pellizotti,Italy,Bahrain-Merida,40
+8,155,16038,Ian Boswell,United States,Team Katusha-Alpecin,27
+8,156,16114,Damien Howson,Australia,Mitchelton-Scott,25
+8,157,16114,Michael Gogl,Austria,Trek-Segafredo,24
+8,158,16114,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+8,159,16114,Toms Skujins,Latvia,Trek-Segafredo,27
+8,160,16114,Anthony Perez,France,Cofidis,27
+8,161,16114,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+8,162,16114,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+8,163,16118,Rory Sutherland,Australia,UAE Team Emirates,36
+8,164,16118,Jelle Vanendert,Belgium,Lotto-Soudal,33
+8,165,16118,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+8,166,16118,Omar Fraile,Spain,Astana,27
+8,167,16118,Wout Poels,Netherlands,Team Sky,30
+8,168,16118,Damien Gaudin,France,Direct Énergie,31
+8,169,16481,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+8,170,16481,Tony Martin,Germany,Team Katusha-Alpecin,33
+9,1,12266,John Degenkolb,Germany,Trek-Segafredo,29
+9,2,12266,Greg Van Avermaet,Belgium,BMC Racing Team,33
+9,3,12266,Yves Lampaert,Belgium,Quick-Step Floors,27
+9,4,12285,Philippe Gilbert,Belgium,Quick-Step Floors,36
+9,5,12285,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+9,6,12285,Jasper Stuyven,Belgium,Trek-Segafredo,26
+9,7,12285,Bob Jungels,Luxembourg,Quick-Step Floors,25
+9,8,12293,André Greipel,Germany,Lotto-Soudal,35
+9,9,12293,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+9,10,12293,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+9,11,12293,Alexander Kristoff,Norway,UAE Team Emirates,31
+9,12,12293,Nils Politt,Germany,Team Katusha-Alpecin,24
+9,13,12293,Fernando Gaviria,Colombia,Quick-Step Floors,23
+9,14,12293,Sylvain Chavanel,France,Direct Énergie,39
+9,15,12293,Warren Barguil,France,Fortuneo-Samsic,26
+9,16,12293,Geraint Thomas,Great Britain,Team Sky,32
+9,17,12293,Lilian Calmejane,France,Direct Énergie,25
+9,18,12293,Alejandro Valverde,Spain,Movistar Team,38
+9,19,12293,Tom Dumoulin,Netherlands,Team Sunweb,27
+9,20,12293,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+9,21,12293,Bauke Mollema,Netherlands,Trek-Segafredo,31
+9,22,12293,Chris Froome,Great Britain,Team Sky,33
+9,23,12293,Vincenzo Nibali,Italy,Bahrain-Merida,33
+9,24,12293,Nairo Quintana,Colombia,Movistar Team,28
+9,25,12293,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+9,26,12293,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+9,27,12293,Adam Yates,Great Britain,Mitchelton-Scott,25
+9,28,12293,Tanel Kangert,Estonia,Astana,31
+9,29,12293,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+9,30,12293,Rafal Majka,Poland,Bora-Hansgrohe,28
+9,31,12293,Jakob Fuglsang,Denmark,Astana,33
+9,32,12293,Daniel Martin,Ireland,UAE Team Emirates,31
+9,33,12293,Søren Kragh Andersen,Denmark,Team Sunweb,23
+9,34,12293,Mathew Hayman,Australia,Mitchelton-Scott,40
+9,35,12300,Mikel Landa,Spain,Movistar Team,28
+9,36,12300,Romain Bardet,France,AG2R La Mondiale,27
+9,37,12300,Tim Declercq,Belgium,Quick-Step Floors,29
+9,38,12302,Julien Vermote,Belgium,Team Dimension Data,28
+9,39,12304,Marcel Sieberg,Germany,Lotto-Soudal,36
+9,40,12304,Jelle Vanendert,Belgium,Lotto-Soudal,33
+9,41,12304,Serge Pauwels,Belgium,Team Dimension Data,34
+9,42,12304,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+9,43,12304,Daryl Impey,South Africa,Mitchelton-Scott,31
+9,44,12308,Arnaud Démare,France,Groupama-FDJ,26
+9,45,12308,Edward Theuns,Belgium,Team Sunweb,27
+9,46,12308,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+9,47,12308,Julien Bernard,France,Trek-Segafredo,26
+9,48,12313,Damien Gaudin,France,Direct Énergie,31
+9,49,12314,Oliver Naesen,Belgium,AG2R La Mondiale,27
+9,50,12321,Toms Skujins,Latvia,Trek-Segafredo,27
+9,51,12328,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+9,52,12338,Mark Cavendish,Great Britain,Team Dimension Data,33
+9,53,12338,Oliviero Troia,Italy,UAE Team Emirates,23
+9,54,12349,Imanol Erviti,Spain,Movistar Team,34
+9,55,12349,Andrey Amador,Costa Rica,Movistar Team,31
+9,56,12356,Simon Geschke,Germany,Team Sunweb,32
+9,57,12376,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+9,58,12381,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+9,59,12381,Rigoberto Urán,Colombia,EF Education First-Drapac p/b Cannondale,31
+9,60,12381,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+9,61,12381,Thomas Boudat,France,Direct Énergie,24
+9,62,12381,Tony Gallopin,France,AG2R La Mondiale,30
+9,63,12381,Chad Haga,United States,Team Sunweb,29
+9,64,12381,Franco Pellizotti,Italy,Bahrain-Merida,40
+9,65,12381,Maxime Bouet,France,Fortuneo-Samsic,31
+9,66,12381,Amaël Moinard,France,Fortuneo-Samsic,36
+9,67,12381,Nicolas Edet,France,Cofidis,30
+9,68,12381,Mikel Nieve,Spain,Mitchelton-Scott,34
+9,69,12381,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+9,70,12381,Stefan Küng,Switzerland,BMC Racing Team,24
+9,71,12381,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+9,72,12398,Luke Durbridge,Australia,Mitchelton-Scott,27
+9,73,12412,Roberto Ferrari,Italy,UAE Team Emirates,35
+9,74,12469,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+9,75,12521,Omar Fraile,Spain,Astana,27
+9,76,12521,Dmitriy Gruzdev,Kazakhstan,Astana,32
+9,77,12521,Michael Hepburn,Australia,Mitchelton-Scott,26
+9,78,12577,Damiano Caruso,Italy,BMC Racing Team,30
+9,79,12577,Heinrich Haussler,Australia,Bahrain-Merida,34
+9,80,12608,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+9,81,12613,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+9,82,12613,Pierre Latour,France,AG2R La Mondiale,24
+9,83,12613,Michael Schär,Switzerland,BMC Racing Team,31
+9,84,12613,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+9,85,12613,Tejay Van Garderen,United States,BMC Racing Team,29
+9,86,12613,Guillaume Martin,France,Wanty-Groupe Gobert,25
+9,87,12613,Koen De Kort,Netherlands,Trek-Segafredo,35
+9,88,12613,Michael Gogl,Austria,Trek-Segafredo,24
+9,89,12613,Ion Izagirre,Spain,Bahrain-Merida,29
+9,90,12618,Rory Sutherland,Australia,UAE Team Emirates,36
+9,91,12623,Christophe Laporte,France,Cofidis,25
+9,92,12627,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+9,93,12627,Thomas De Gendt,Belgium,Lotto-Soudal,31
+9,94,12627,Rick Zabel,Germany,Team Katusha-Alpecin,24
+9,95,12629,Magnus Cort Nielsen,Denmark,Astana,25
+9,96,12643,Michael Valgren,Denmark,Astana,26
+9,97,12743,Kristijan Koren,Slovenia,Bahrain-Merida,31
+9,98,12837,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+9,99,12884,Jérôme Cousin,France,Direct Énergie,29
+9,100,12892,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+9,101,12892,Florian Vachon,France,Fortuneo-Samsic,33
+9,102,12892,Daniele Bennati,Italy,Movistar Team,37
+9,103,12929,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+9,104,13010,Olivier Le Gac,France,Groupama-FDJ,24
+9,105,13010,Luke Rowe,Great Britain,Team Sky,28
+9,106,13010,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+9,107,13010,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+9,108,13010,Julian Alaphilippe,France,Quick-Step Floors,26
+9,109,13010,Marc Soler,Spain,Movistar Team,24
+9,110,13230,Laurens Ten Dam,Netherlands,Team Sunweb,37
+9,111,13230,Niki Terpstra,Netherlands,Quick-Step Floors,34
+9,112,13230,David Gaudu,France,Groupama-FDJ,21
+9,113,13230,Yoann Offredo,France,Wanty-Groupe Gobert,31
+9,114,13230,Rudy Molard,France,Groupama-FDJ,28
+9,115,13230,Romain Sicard,France,Direct Énergie,30
+9,116,13230,Jack Bauer,New Zealand,Mitchelton-Scott,33
+9,117,13230,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+9,118,13230,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+9,119,13230,Nikias Arndt,Germany,Team Sunweb,26
+9,120,13230,Jasper De Buyst,Belgium,Lotto-Soudal,24
+9,121,13230,Jonathan Castroviejo,Spain,Team Sky,31
+9,122,13230,Tomasz Marczynski,Poland,Lotto-Soudal,34
+9,123,13235,Daniel Oss,Italy,Bora-Hansgrohe,31
+9,124,13235,Marcel Kittel,Germany,Team Katusha-Alpecin,30
+9,125,13235,Gorka Izagirre,Spain,Bahrain-Merida,30
+9,126,13235,Patrick Bevin,New Zealand,BMC Racing Team,27
+9,127,13235,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+9,128,13235,Sonny Colbrelli,Italy,Bahrain-Merida,28
+9,129,13235,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+9,130,13235,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+9,131,13235,Julien Simon,France,Cofidis,32
+9,132,13235,Laurent Pichon,France,Fortuneo-Samsic,31
+9,133,13235,Romain Hardy,France,Fortuneo-Samsic,29
+9,134,13235,Wout Poels,Netherlands,Team Sky,30
+9,135,13235,Daniel Navarro,Spain,Cofidis,34
+9,136,13235,Egan Bernal,Colombia,Team Sky,21
+9,137,13235,Marco Marcato,Italy,UAE Team Emirates,34
+9,138,13235,Élie Gesbert,France,Fortuneo-Samsic,23
+9,139,13235,Jay Thomson,South Africa,Team Dimension Data,32
+9,140,13235,Mathias Frank,Switzerland,AG2R La Mondiale,31
+9,141,13235,Michal Kwiatkowski,Poland,Team Sky,28
+9,142,13235,Jens Keukeleire,Belgium,Lotto-Soudal,29
+9,143,13235,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+9,144,13235,Fabien Grellier,France,Direct Énergie,23
+9,145,13235,Simon Gerrans,Australia,BMC Racing Team,38
+9,146,13235,Mark Renshaw,Australia,Team Dimension Data,35
+9,147,13235,Kevin Ledanois,France,Fortuneo-Samsic,24
+9,148,13235,Jesper Hansen,Denmark,Astana,27
+9,149,13235,Ian Boswell,United States,Team Katusha-Alpecin,27
+9,150,13235,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+9,151,13235,Darwin Atapuma,Colombia,UAE Team Emirates,30
+9,152,13235,Jesús Herrada,Spain,Cofidis,27
+9,153,13235,Anthony Perez,France,Cofidis,27
+9,154,13235,Arthur Vichot,France,Groupama-FDJ,29
+9,155,13235,Rein Taaramäe,Estonia,Direct Énergie,31
+9,156,13235,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+9,157,13235,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+9,158,13235,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+9,159,13235,Dylan Groenewegen,Netherlands,LottoNL-Jumbo,25
+9,160,13235,Paul Martens,Germany,LottoNL-Jumbo,34
+9,161,13235,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+9,162,13235,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+9,163,13249,Gianni Moscon,Italy,Team Sky,24
+9,164,13254,Alexis Vuillermoz,France,AG2R La Mondiale,30
+9,165,13457,Damien Howson,Australia,Mitchelton-Scott,25
+9,166,13457,Anthony Turgis,France,Cofidis,24
+9,167,13457,Dimitri Claeys,Belgium,Cofidis,31
+10,1,15927,Julian Alaphilippe,France,Quick-Step Floors,26
+10,2,16021,Ion Izagirre,Spain,Bahrain-Merida,29
+10,3,16027,Rein Taaramäe,Estonia,Direct Énergie,31
+10,4,16031,Greg Van Avermaet,Belgium,BMC Racing Team,33
+10,5,16031,Serge Pauwels,Belgium,Team Dimension Data,34
+10,6,16071,Lilian Calmejane,France,Direct Énergie,25
+10,7,16130,Daniel Martin,Ireland,UAE Team Emirates,31
+10,8,16130,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+10,9,16130,David Gaudu,France,Groupama-FDJ,21
+10,10,16130,Geraint Thomas,Great Britain,Team Sky,32
+10,11,16130,Romain Bardet,France,AG2R La Mondiale,27
+10,12,16130,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+10,13,16130,Adam Yates,Great Britain,Mitchelton-Scott,25
+10,14,16130,Jakob Fuglsang,Denmark,Astana,33
+10,15,16130,Chris Froome,Great Britain,Team Sky,33
+10,16,16130,Tom Dumoulin,Netherlands,Team Sunweb,27
+10,17,16130,Alejandro Valverde,Spain,Movistar Team,38
+10,18,16130,Nairo Quintana,Colombia,Movistar Team,28
+10,19,16130,Vincenzo Nibali,Italy,Bahrain-Merida,33
+10,20,16130,Mikel Landa,Spain,Movistar Team,28
+10,21,16130,Rudy Molard,France,Groupama-FDJ,28
+10,22,16130,Pierre Latour,France,AG2R La Mondiale,24
+10,23,16135,Guillaume Martin,France,Wanty-Groupe Gobert,25
+10,24,16145,Egan Bernal,Colombia,Team Sky,21
+10,25,16162,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+10,26,16181,Bob Jungels,Luxembourg,Quick-Step Floors,25
+10,27,16181,Damiano Caruso,Italy,BMC Racing Team,30
+10,28,16181,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+10,29,16181,Mikel Nieve,Spain,Mitchelton-Scott,34
+10,30,16181,Bauke Mollema,Netherlands,Trek-Segafredo,31
+10,31,16181,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+10,32,16181,Rafal Majka,Poland,Bora-Hansgrohe,28
+10,33,16193,Wout Poels,Netherlands,Team Sky,30
+10,34,16286,Rigoberto Urán,Colombia,EF Education First-Drapac p/b Cannondale,31
+10,35,16421,Tanel Kangert,Estonia,Astana,31
+10,36,16421,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+10,37,16514,Arthur Vichot,France,Groupama-FDJ,29
+10,38,16579,Laurens Ten Dam,Netherlands,Team Sunweb,37
+10,39,16579,Jesús Herrada,Spain,Cofidis,27
+10,40,16579,Julien Bernard,France,Trek-Segafredo,26
+10,41,16579,Ian Boswell,United States,Team Katusha-Alpecin,27
+10,42,16579,Mathias Frank,Switzerland,AG2R La Mondiale,31
+10,43,16579,Jesper Hansen,Denmark,Astana,27
+10,44,16579,Tejay Van Garderen,United States,BMC Racing Team,29
+10,45,16579,Gorka Izagirre,Spain,Bahrain-Merida,30
+10,46,16584,Warren Barguil,France,Fortuneo-Samsic,26
+10,47,16612,Damien Howson,Australia,Mitchelton-Scott,25
+10,48,16612,Michal Kwiatkowski,Poland,Team Sky,28
+10,49,16658,Maxime Bouet,France,Fortuneo-Samsic,31
+10,50,16658,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+10,51,16658,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+10,52,16658,Amaël Moinard,France,Fortuneo-Samsic,36
+10,53,16821,Élie Gesbert,France,Fortuneo-Samsic,23
+10,54,16829,Søren Kragh Andersen,Denmark,Team Sunweb,23
+10,55,16830,Simon Geschke,Germany,Team Sunweb,32
+10,56,16989,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+10,57,16994,Darwin Atapuma,Colombia,UAE Team Emirates,30
+10,58,17032,Tony Gallopin,France,AG2R La Mondiale,30
+10,59,17059,Nikias Arndt,Germany,Team Sunweb,26
+10,60,17059,Stefan Küng,Switzerland,BMC Racing Team,24
+10,61,17059,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+10,62,17059,Jasper Stuyven,Belgium,Trek-Segafredo,26
+10,63,17059,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+10,64,17059,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+10,65,17059,Chad Haga,United States,Team Sunweb,29
+10,66,17059,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+10,67,17059,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+10,68,17059,Franco Pellizotti,Italy,Bahrain-Merida,40
+10,69,17059,Sylvain Chavanel,France,Direct Énergie,39
+10,70,17059,Koen De Kort,Netherlands,Trek-Segafredo,35
+10,71,17059,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+10,72,17059,Daryl Impey,South Africa,Mitchelton-Scott,31
+10,73,17059,Michael Valgren,Denmark,Astana,26
+10,74,17059,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+10,75,17059,Andrey Amador,Costa Rica,Movistar Team,31
+10,76,17059,Omar Fraile,Spain,Astana,27
+10,77,17059,Jonathan Castroviejo,Spain,Team Sky,31
+10,78,17215,Nicolas Edet,France,Cofidis,30
+10,79,17215,Anthony Perez,France,Cofidis,27
+10,80,17215,Thomas De Gendt,Belgium,Lotto-Soudal,31
+10,81,17215,Toms Skujins,Latvia,Trek-Segafredo,27
+10,82,17215,Paul Martens,Germany,LottoNL-Jumbo,34
+10,83,17215,Patrick Bevin,New Zealand,BMC Racing Team,27
+10,84,17220,Michael Gogl,Austria,Trek-Segafredo,24
+10,85,17283,Michael Schär,Switzerland,BMC Racing Team,31
+10,86,17283,Yoann Offredo,France,Wanty-Groupe Gobert,31
+10,87,17283,Philippe Gilbert,Belgium,Quick-Step Floors,36
+10,88,17395,Marc Soler,Spain,Movistar Team,24
+10,89,17430,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+10,90,17430,Anthony Turgis,France,Cofidis,24
+10,91,17430,Edward Theuns,Belgium,Team Sunweb,27
+10,92,17430,Laurent Pichon,France,Fortuneo-Samsic,31
+10,93,17430,Kevin Ledanois,France,Fortuneo-Samsic,24
+10,94,17430,Dimitri Claeys,Belgium,Cofidis,31
+10,95,17430,Simon Gerrans,Australia,BMC Racing Team,38
+10,96,17430,Oliver Naesen,Belgium,AG2R La Mondiale,27
+10,97,17430,Tim Declercq,Belgium,Quick-Step Floors,29
+10,98,17430,Tomasz Marczynski,Poland,Lotto-Soudal,34
+10,99,17430,Yves Lampaert,Belgium,Quick-Step Floors,27
+10,100,17430,Jelle Vanendert,Belgium,Lotto-Soudal,33
+10,101,17430,Florian Vachon,France,Fortuneo-Samsic,33
+10,102,17430,Imanol Erviti,Spain,Movistar Team,34
+10,103,17430,Rory Sutherland,Australia,UAE Team Emirates,36
+10,104,17430,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+10,105,17430,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+10,106,17430,Daniel Navarro,Spain,Cofidis,34
+10,107,17430,Magnus Cort Nielsen,Denmark,Astana,25
+10,108,17430,Julien Simon,France,Cofidis,32
+10,109,17430,Romain Sicard,France,Direct Énergie,30
+10,110,17430,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+10,111,17430,Dmitriy Gruzdev,Kazakhstan,Astana,32
+10,112,17430,Sonny Colbrelli,Italy,Bahrain-Merida,28
+10,113,17450,Luke Durbridge,Australia,Mitchelton-Scott,27
+10,114,17450,Mathew Hayman,Australia,Mitchelton-Scott,40
+10,115,17516,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+10,116,17516,Daniel Oss,Italy,Bora-Hansgrohe,31
+10,117,17597,Marco Marcato,Italy,UAE Team Emirates,34
+10,118,17597,Nils Politt,Germany,Team Katusha-Alpecin,24
+10,119,17597,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+10,120,17597,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+10,121,17597,Alexander Kristoff,Norway,UAE Team Emirates,31
+10,122,17597,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+10,123,17597,John Degenkolb,Germany,Trek-Segafredo,29
+10,124,17597,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+10,125,17597,Marcel Sieberg,Germany,Lotto-Soudal,36
+10,126,17597,Jasper De Buyst,Belgium,Lotto-Soudal,24
+10,127,17597,Niki Terpstra,Netherlands,Quick-Step Floors,34
+10,128,17597,Oliviero Troia,Italy,UAE Team Emirates,23
+10,129,17597,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+10,130,17597,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+10,131,17597,Fernando Gaviria,Colombia,Quick-Step Floors,23
+10,132,17597,André Greipel,Germany,Lotto-Soudal,35
+10,133,17597,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+10,134,17597,Luke Rowe,Great Britain,Team Sky,28
+10,135,17597,Jay Thomson,South Africa,Team Dimension Data,32
+10,136,17597,Christophe Laporte,France,Cofidis,25
+10,137,17597,Fabien Grellier,France,Direct Énergie,23
+10,138,17597,Gianni Moscon,Italy,Team Sky,24
+10,139,17597,Thomas Boudat,France,Direct Énergie,24
+10,140,17597,Kristijan Koren,Slovenia,Bahrain-Merida,31
+10,141,17597,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+10,142,17597,Heinrich Haussler,Australia,Bahrain-Merida,34
+10,143,17597,Jérôme Cousin,France,Direct Énergie,29
+10,144,17597,Olivier Le Gac,France,Groupama-FDJ,24
+10,145,17597,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+10,146,17597,Arnaud Démare,France,Groupama-FDJ,26
+10,147,17597,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+10,148,17597,Damien Gaudin,France,Direct Énergie,31
+10,149,17597,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+10,150,17597,Daniele Bennati,Italy,Movistar Team,37
+10,151,17597,Romain Hardy,France,Fortuneo-Samsic,29
+10,152,17597,Roberto Ferrari,Italy,UAE Team Emirates,35
+10,153,17597,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+10,154,17723,Jack Bauer,New Zealand,Mitchelton-Scott,33
+10,155,17969,Julien Vermote,Belgium,Team Dimension Data,28
+10,156,17969,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+10,157,17969,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+10,158,17969,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+10,159,17969,Mark Cavendish,Great Britain,Team Dimension Data,33
+10,160,17969,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+10,161,17969,Rick Zabel,Germany,Team Katusha-Alpecin,24
+10,162,17969,Marcel Kittel,Germany,Team Katusha-Alpecin,30
+10,163,17969,Michael Hepburn,Australia,Mitchelton-Scott,26
+10,164,17969,Dylan Groenewegen,Netherlands,LottoNL-Jumbo,25
+10,165,17969,Mark Renshaw,Australia,Team Dimension Data,35
+11,1,12576,Geraint Thomas,Great Britain,Team Sky,32
+11,2,12596,Tom Dumoulin,Netherlands,Team Sunweb,27
+11,3,12596,Chris Froome,Great Britain,Team Sky,33
+11,4,12598,Damiano Caruso,Italy,BMC Racing Team,30
+11,5,12598,Mikel Nieve,Spain,Mitchelton-Scott,34
+11,6,12603,Daniel Martin,Ireland,UAE Team Emirates,31
+11,7,12633,Jesús Herrada,Spain,Cofidis,27
+11,8,12635,Romain Bardet,France,AG2R La Mondiale,27
+11,9,12635,Vincenzo Nibali,Italy,Bahrain-Merida,33
+11,10,12635,Nairo Quintana,Colombia,Movistar Team,28
+11,11,12635,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+11,12,12643,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+11,13,12683,Mikel Landa,Spain,Movistar Team,28
+11,14,12683,Egan Bernal,Colombia,Team Sky,21
+11,15,12694,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+11,16,12747,Daniel Navarro,Spain,Cofidis,34
+11,17,12755,Pierre Latour,France,AG2R La Mondiale,24
+11,18,12762,Gorka Izagirre,Spain,Bahrain-Merida,30
+11,19,12764,Guillaume Martin,France,Wanty-Groupe Gobert,25
+11,20,12764,Warren Barguil,France,Fortuneo-Samsic,26
+11,21,12786,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+11,22,12786,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+11,23,12786,Alejandro Valverde,Spain,Movistar Team,38
+11,24,12797,Darwin Atapuma,Colombia,UAE Team Emirates,30
+11,25,12809,Tanel Kangert,Estonia,Astana,31
+11,26,12809,Jakob Fuglsang,Denmark,Astana,33
+11,27,12858,Bob Jungels,Luxembourg,Quick-Step Floors,25
+11,28,12858,Adam Yates,Great Britain,Mitchelton-Scott,25
+11,29,13006,Serge Pauwels,Belgium,Team Dimension Data,34
+11,30,13115,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+11,31,13165,Michael Valgren,Denmark,Astana,26
+11,32,13216,Arthur Vichot,France,Groupama-FDJ,29
+11,33,13232,Jesper Hansen,Denmark,Astana,27
+11,34,13265,Thomas De Gendt,Belgium,Lotto-Soudal,31
+11,35,13265,Anthony Perez,France,Cofidis,27
+11,36,13265,Bauke Mollema,Netherlands,Trek-Segafredo,31
+11,37,13265,Rafal Majka,Poland,Bora-Hansgrohe,28
+11,38,13265,Rudy Molard,France,Groupama-FDJ,28
+11,39,13298,Ian Boswell,United States,Team Katusha-Alpecin,27
+11,40,13298,Michal Kwiatkowski,Poland,Team Sky,28
+11,41,13327,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+11,42,13437,Nicolas Edet,France,Cofidis,30
+11,43,13437,Wout Poels,Netherlands,Team Sky,30
+11,44,13437,Jonathan Castroviejo,Spain,Team Sky,31
+11,45,13479,Romain Sicard,France,Direct Énergie,30
+11,46,13505,Laurens Ten Dam,Netherlands,Team Sunweb,37
+11,47,13567,Franco Pellizotti,Italy,Bahrain-Merida,40
+11,48,13567,Nikias Arndt,Germany,Team Sunweb,26
+11,49,13567,Stefan Küng,Switzerland,BMC Racing Team,24
+11,50,13567,Simon Geschke,Germany,Team Sunweb,32
+11,51,13567,Amaël Moinard,France,Fortuneo-Samsic,36
+11,52,13567,Élie Gesbert,France,Fortuneo-Samsic,23
+11,53,13567,Tejay Van Garderen,United States,BMC Racing Team,29
+11,54,13567,Mathias Frank,Switzerland,AG2R La Mondiale,31
+11,55,13621,Julien Bernard,France,Trek-Segafredo,26
+11,56,13621,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+11,57,13647,Rein Taaramäe,Estonia,Direct Énergie,31
+11,58,13647,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+11,59,13647,Sylvain Chavanel,France,Direct Énergie,39
+11,60,13647,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+11,61,13698,Toms Skujins,Latvia,Trek-Segafredo,27
+11,62,13783,David Gaudu,France,Groupama-FDJ,21
+11,63,13783,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+11,64,13783,Lilian Calmejane,France,Direct Énergie,25
+11,65,13853,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+11,66,13853,Jelle Vanendert,Belgium,Lotto-Soudal,33
+11,67,13853,Rory Sutherland,Australia,UAE Team Emirates,36
+11,68,13898,Søren Kragh Andersen,Denmark,Team Sunweb,23
+11,69,13919,Michael Schär,Switzerland,BMC Racing Team,31
+11,70,13919,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+11,71,13919,Greg Van Avermaet,Belgium,BMC Racing Team,33
+11,72,13919,Oliver Naesen,Belgium,AG2R La Mondiale,27
+11,73,13919,Yoann Offredo,France,Wanty-Groupe Gobert,31
+11,74,13919,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+11,75,13919,Patrick Bevin,New Zealand,BMC Racing Team,27
+11,76,13919,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+11,77,13919,Paul Martens,Germany,LottoNL-Jumbo,34
+11,78,13919,Koen De Kort,Netherlands,Trek-Segafredo,35
+11,79,13919,Tomasz Marczynski,Poland,Lotto-Soudal,34
+11,80,14007,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+11,81,14054,Marc Soler,Spain,Movistar Team,24
+11,82,14054,Andrey Amador,Costa Rica,Movistar Team,31
+11,83,14067,Tim Declercq,Belgium,Quick-Step Floors,29
+11,84,14067,Julian Alaphilippe,France,Quick-Step Floors,26
+11,85,14067,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+11,86,14067,Maxime Bouet,France,Fortuneo-Samsic,31
+11,87,14067,Kevin Ledanois,France,Fortuneo-Samsic,24
+11,88,14067,Chad Haga,United States,Team Sunweb,29
+11,89,14067,Julien Simon,France,Cofidis,32
+11,90,14141,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+11,91,14143,Gianni Moscon,Italy,Team Sky,24
+11,92,14143,Daryl Impey,South Africa,Mitchelton-Scott,31
+11,93,14143,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+11,94,14143,Edward Theuns,Belgium,Team Sunweb,27
+11,95,14143,Dimitri Claeys,Belgium,Cofidis,31
+11,96,14143,Simon Gerrans,Australia,BMC Racing Team,38
+11,97,14143,Florian Vachon,France,Fortuneo-Samsic,33
+11,98,14143,Laurent Pichon,France,Fortuneo-Samsic,31
+11,99,14143,Omar Fraile,Spain,Astana,27
+11,100,14143,Imanol Erviti,Spain,Movistar Team,34
+11,101,14143,Ion Izagirre,Spain,Bahrain-Merida,29
+11,102,14143,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+11,103,14143,Damien Howson,Australia,Mitchelton-Scott,25
+11,104,14143,Jasper Stuyven,Belgium,Trek-Segafredo,26
+11,105,14143,Jack Bauer,New Zealand,Mitchelton-Scott,33
+11,106,14143,Anthony Turgis,France,Cofidis,24
+11,107,14143,Yves Lampaert,Belgium,Quick-Step Floors,27
+11,108,14143,Fernando Gaviria,Colombia,Quick-Step Floors,23
+11,109,14143,Luke Durbridge,Australia,Mitchelton-Scott,27
+11,110,14143,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+11,111,14143,Rigoberto Urán,Colombia,EF Education First-Drapac p/b Cannondale,31
+11,112,14143,Philippe Gilbert,Belgium,Quick-Step Floors,36
+11,113,14143,Magnus Cort Nielsen,Denmark,Astana,25
+11,114,14143,Mathew Hayman,Australia,Mitchelton-Scott,40
+11,115,14143,Dmitriy Gruzdev,Kazakhstan,Astana,32
+11,116,14143,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+11,117,14143,Christophe Laporte,France,Cofidis,25
+11,118,14143,Michael Gogl,Austria,Trek-Segafredo,24
+11,119,14143,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+11,120,14143,Jérôme Cousin,France,Direct Énergie,29
+11,121,14143,Daniel Oss,Italy,Bora-Hansgrohe,31
+11,122,14143,Daniele Bennati,Italy,Movistar Team,37
+11,123,14143,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+11,124,14180,Nils Politt,Germany,Team Katusha-Alpecin,24
+11,125,14221,Julien Vermote,Belgium,Team Dimension Data,28
+11,126,14221,Luke Rowe,Great Britain,Team Sky,28
+11,127,14221,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+11,128,14221,Sonny Colbrelli,Italy,Bahrain-Merida,28
+11,129,14221,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+11,130,14221,Marco Marcato,Italy,UAE Team Emirates,34
+11,131,14221,Jasper De Buyst,Belgium,Lotto-Soudal,24
+11,132,14221,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+11,133,14221,Oliviero Troia,Italy,UAE Team Emirates,23
+11,134,14221,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+11,135,14221,Jay Thomson,South Africa,Team Dimension Data,32
+11,136,14221,Romain Hardy,France,Fortuneo-Samsic,29
+11,137,14221,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+11,138,14221,Arnaud Démare,France,Groupama-FDJ,26
+11,139,14221,Kristijan Koren,Slovenia,Bahrain-Merida,31
+11,140,14221,John Degenkolb,Germany,Trek-Segafredo,29
+11,141,14221,Olivier Le Gac,France,Groupama-FDJ,24
+11,142,14221,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+11,143,14221,Heinrich Haussler,Australia,Bahrain-Merida,34
+11,144,14221,Alexander Kristoff,Norway,UAE Team Emirates,31
+11,145,14221,André Greipel,Germany,Lotto-Soudal,35
+11,146,14221,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+11,147,14221,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+11,148,14221,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+11,149,14221,Roberto Ferrari,Italy,UAE Team Emirates,35
+11,150,14241,Fabien Grellier,France,Direct Énergie,23
+11,151,14252,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+11,152,14254,Thomas Boudat,France,Direct Énergie,24
+11,153,14287,Damien Gaudin,France,Direct Énergie,31
+11,154,14321,Niki Terpstra,Netherlands,Quick-Step Floors,34
+11,155,14321,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+11,156,14334,Michael Hepburn,Australia,Mitchelton-Scott,26
+11,157,14338,Dylan Groenewegen,Netherlands,LottoNL-Jumbo,25
+11,158,14338,Tony Gallopin,France,AG2R La Mondiale,30
+11,159,14338,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+11,160,14338,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+11,161,14341,Marcel Sieberg,Germany,Lotto-Soudal,36
+11,162,14468,Rick Zabel,Germany,Team Katusha-Alpecin,24
+12,1,19117,Geraint Thomas,Great Britain,Team Sky,32
+12,2,19119,Tom Dumoulin,Netherlands,Team Sunweb,27
+12,3,19120,Romain Bardet,France,AG2R La Mondiale,27
+12,4,19121,Chris Froome,Great Britain,Team Sky,33
+12,5,19124,Mikel Landa,Spain,Movistar Team,28
+12,6,19130,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+12,7,19130,Vincenzo Nibali,Italy,Bahrain-Merida,33
+12,8,19159,Jakob Fuglsang,Denmark,Astana,33
+12,9,19164,Nairo Quintana,Colombia,Movistar Team,28
+12,10,19170,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+12,11,19218,Egan Bernal,Colombia,Team Sky,21
+12,12,19222,Daniel Martin,Ireland,UAE Team Emirates,31
+12,13,19306,Bob Jungels,Luxembourg,Quick-Step Floors,25
+12,14,19386,Alejandro Valverde,Spain,Movistar Team,38
+12,15,19386,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+12,16,19392,Pierre Latour,France,AG2R La Mondiale,24
+12,17,19394,Ion Izagirre,Spain,Bahrain-Merida,29
+12,18,19397,Guillaume Martin,France,Wanty-Groupe Gobert,25
+12,19,19458,Tanel Kangert,Estonia,Astana,31
+12,20,19529,David Gaudu,France,Groupama-FDJ,21
+12,21,19621,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+12,22,19655,Simon Geschke,Germany,Team Sunweb,32
+12,23,19690,Daniel Navarro,Spain,Cofidis,34
+12,24,19714,Mikel Nieve,Spain,Mitchelton-Scott,34
+12,25,19776,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+12,26,19776,Warren Barguil,France,Fortuneo-Samsic,26
+12,27,20026,Rafal Majka,Poland,Bora-Hansgrohe,28
+12,28,20056,Laurens Ten Dam,Netherlands,Team Sunweb,37
+12,29,20458,Oliver Naesen,Belgium,AG2R La Mondiale,27
+12,30,20458,Maxime Bouet,France,Fortuneo-Samsic,31
+12,31,20458,Arthur Vichot,France,Groupama-FDJ,29
+12,32,20458,Rudy Molard,France,Groupama-FDJ,28
+12,33,20458,Michael Schär,Switzerland,BMC Racing Team,31
+12,34,20458,Nicolas Edet,France,Cofidis,30
+12,35,20458,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+12,36,20458,Michael Valgren,Denmark,Astana,26
+12,37,20458,Tejay Van Garderen,United States,BMC Racing Team,29
+12,38,20458,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+12,39,20458,Bauke Mollema,Netherlands,Trek-Segafredo,31
+12,40,20458,Wout Poels,Netherlands,Team Sky,30
+12,41,20458,Mathias Frank,Switzerland,AG2R La Mondiale,31
+12,42,20536,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+12,43,20549,Franco Pellizotti,Italy,Bahrain-Merida,40
+12,44,20582,Greg Van Avermaet,Belgium,BMC Racing Team,33
+12,45,20582,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+12,46,20582,Gorka Izagirre,Spain,Bahrain-Merida,30
+12,47,20637,Rory Sutherland,Australia,UAE Team Emirates,36
+12,48,20672,Serge Pauwels,Belgium,Team Dimension Data,34
+12,49,20699,Jesper Hansen,Denmark,Astana,27
+12,50,20707,Jonathan Castroviejo,Spain,Team Sky,31
+12,51,20707,Julien Vermote,Belgium,Team Dimension Data,28
+12,52,20707,Stefan Küng,Switzerland,BMC Racing Team,24
+12,53,20716,Julien Bernard,France,Trek-Segafredo,26
+12,54,20716,Thomas De Gendt,Belgium,Lotto-Soudal,31
+12,55,20718,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+12,56,20718,Dimitri Claeys,Belgium,Cofidis,31
+12,57,20742,Philippe Gilbert,Belgium,Quick-Step Floors,36
+12,58,20742,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+12,59,20742,Damiano Caruso,Italy,BMC Racing Team,30
+12,60,20742,Paul Martens,Germany,LottoNL-Jumbo,34
+12,61,20746,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+12,62,20748,Tomasz Marczynski,Poland,Lotto-Soudal,34
+12,63,20789,Koen De Kort,Netherlands,Trek-Segafredo,35
+12,64,20789,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+12,65,20789,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+12,66,20789,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+12,67,20851,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+12,68,20851,Laurent Pichon,France,Fortuneo-Samsic,31
+12,69,20851,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+12,70,20851,Olivier Le Gac,France,Groupama-FDJ,24
+12,71,20851,Damien Howson,Australia,Mitchelton-Scott,25
+12,72,20851,Michal Kwiatkowski,Poland,Team Sky,28
+12,73,20851,Nikias Arndt,Germany,Team Sunweb,26
+12,74,20851,Luke Rowe,Great Britain,Team Sky,28
+12,75,20851,Adam Yates,Great Britain,Mitchelton-Scott,25
+12,76,20851,Patrick Bevin,New Zealand,BMC Racing Team,27
+12,77,20851,Gianni Moscon,Italy,Team Sky,24
+12,78,20851,Andrey Amador,Costa Rica,Movistar Team,31
+12,79,20851,Simon Gerrans,Australia,BMC Racing Team,38
+12,80,20851,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+12,81,20851,Imanol Erviti,Spain,Movistar Team,34
+12,82,20851,Jesús Herrada,Spain,Cofidis,27
+12,83,20851,Daryl Impey,South Africa,Mitchelton-Scott,31
+12,84,20851,Chad Haga,United States,Team Sunweb,29
+12,85,20851,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+12,86,20851,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+12,87,20851,Kevin Ledanois,France,Fortuneo-Samsic,24
+12,88,20851,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+12,89,20851,Marc Soler,Spain,Movistar Team,24
+12,90,20851,Toms Skujins,Latvia,Trek-Segafredo,27
+12,91,20851,Jérôme Cousin,France,Direct Énergie,29
+12,92,20851,Élie Gesbert,France,Fortuneo-Samsic,23
+12,93,20851,Romain Sicard,France,Direct Énergie,30
+12,94,20851,Amaël Moinard,France,Fortuneo-Samsic,36
+12,95,20851,Ian Boswell,United States,Team Katusha-Alpecin,27
+12,96,20851,Lilian Calmejane,France,Direct Énergie,25
+12,97,20851,Anthony Perez,France,Cofidis,27
+12,98,20851,Julien Simon,France,Cofidis,32
+12,99,20851,Yoann Offredo,France,Wanty-Groupe Gobert,31
+12,100,20868,Julian Alaphilippe,France,Quick-Step Floors,26
+12,101,20912,Søren Kragh Andersen,Denmark,Team Sunweb,23
+12,102,20996,Jasper Stuyven,Belgium,Trek-Segafredo,26
+12,103,20996,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+12,104,20996,Yves Lampaert,Belgium,Quick-Step Floors,27
+12,105,20996,Magnus Cort Nielsen,Denmark,Astana,25
+12,106,20996,Omar Fraile,Spain,Astana,27
+12,107,21006,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+12,108,21006,Daniel Oss,Italy,Bora-Hansgrohe,31
+12,109,21006,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+12,110,21006,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+12,111,21010,Daniele Bennati,Italy,Movistar Team,37
+12,112,21014,Jelle Vanendert,Belgium,Lotto-Soudal,33
+12,113,21014,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+12,114,21022,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+12,115,21022,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+12,116,21022,Kristijan Koren,Slovenia,Bahrain-Merida,31
+12,117,21022,Jay Thomson,South Africa,Team Dimension Data,32
+12,118,21022,Darwin Atapuma,Colombia,UAE Team Emirates,30
+12,119,21022,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+12,120,21022,Sylvain Chavanel,France,Direct Énergie,39
+12,121,21039,Tim Declercq,Belgium,Quick-Step Floors,29
+12,122,21056,Alexander Kristoff,Norway,UAE Team Emirates,31
+12,123,21064,Fabien Grellier,France,Direct Énergie,23
+12,124,21078,Michael Gogl,Austria,Trek-Segafredo,24
+12,125,21078,John Degenkolb,Germany,Trek-Segafredo,29
+12,126,21085,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+12,127,21091,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+12,128,21091,Anthony Turgis,France,Cofidis,24
+12,129,21099,Sonny Colbrelli,Italy,Bahrain-Merida,28
+12,130,21099,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+12,131,21099,Florian Vachon,France,Fortuneo-Samsic,33
+12,132,21099,Heinrich Haussler,Australia,Bahrain-Merida,34
+12,133,21099,Mathew Hayman,Australia,Mitchelton-Scott,40
+12,134,21099,Edward Theuns,Belgium,Team Sunweb,27
+12,135,21129,Thomas Boudat,France,Direct Énergie,24
+12,136,21153,Nils Politt,Germany,Team Katusha-Alpecin,24
+12,137,21167,Jasper De Buyst,Belgium,Lotto-Soudal,24
+12,138,21186,Niki Terpstra,Netherlands,Quick-Step Floors,34
+12,139,21201,Roberto Ferrari,Italy,UAE Team Emirates,35
+12,140,21215,Arnaud Démare,France,Groupama-FDJ,26
+12,141,21215,Damien Gaudin,France,Direct Énergie,31
+12,142,21222,Christophe Laporte,France,Cofidis,25
+12,143,21225,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+12,144,21252,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+12,145,21299,Oliviero Troia,Italy,UAE Team Emirates,23
+12,146,21301,Marco Marcato,Italy,UAE Team Emirates,34
+12,147,21329,Michael Hepburn,Australia,Mitchelton-Scott,26
+12,148,21347,Jack Bauer,New Zealand,Mitchelton-Scott,33
+12,149,21373,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+12,150,21390,Romain Hardy,France,Fortuneo-Samsic,29
+12,151,21400,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+12,152,21416,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+12,153,21484,Luke Durbridge,Australia,Mitchelton-Scott,27
+13,1,13555,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+13,2,13555,Alexander Kristoff,Norway,UAE Team Emirates,31
+13,3,13555,Arnaud Démare,France,Groupama-FDJ,26
+13,4,13555,John Degenkolb,Germany,Trek-Segafredo,29
+13,5,13555,Greg Van Avermaet,Belgium,BMC Racing Team,33
+13,6,13555,Yves Lampaert,Belgium,Quick-Step Floors,27
+13,7,13555,Magnus Cort Nielsen,Denmark,Astana,25
+13,8,13555,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+13,9,13555,Sonny Colbrelli,Italy,Bahrain-Merida,28
+13,10,13555,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+13,11,13555,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+13,12,13555,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+13,13,13555,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+13,14,13555,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+13,15,13555,Pierre Latour,France,AG2R La Mondiale,24
+13,16,13555,Nikias Arndt,Germany,Team Sunweb,26
+13,17,13555,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+13,18,13555,Jasper De Buyst,Belgium,Lotto-Soudal,24
+13,19,13555,Christophe Laporte,France,Cofidis,25
+13,20,13555,Michael Hepburn,Australia,Mitchelton-Scott,26
+13,21,13555,Thomas Boudat,France,Direct Énergie,24
+13,22,13555,Romain Bardet,France,AG2R La Mondiale,27
+13,23,13555,Kevin Ledanois,France,Fortuneo-Samsic,24
+13,24,13555,Mikel Landa,Spain,Movistar Team,28
+13,25,13555,Geraint Thomas,Great Britain,Team Sky,32
+13,26,13555,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+13,27,13555,Nairo Quintana,Colombia,Movistar Team,28
+13,28,13555,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+13,29,13555,Daniel Martin,Ireland,UAE Team Emirates,31
+13,30,13555,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+13,31,13555,Bob Jungels,Luxembourg,Quick-Step Floors,25
+13,32,13555,Lilian Calmejane,France,Direct Énergie,25
+13,33,13555,Jasper Stuyven,Belgium,Trek-Segafredo,26
+13,34,13555,Nils Politt,Germany,Team Katusha-Alpecin,24
+13,35,13555,Tanel Kangert,Estonia,Astana,31
+13,36,13555,Julien Vermote,Belgium,Team Dimension Data,28
+13,37,13555,Tom Dumoulin,Netherlands,Team Sunweb,27
+13,38,13555,Philippe Gilbert,Belgium,Quick-Step Floors,36
+13,39,13555,Chris Froome,Great Britain,Team Sky,33
+13,40,13555,Mikel Nieve,Spain,Mitchelton-Scott,34
+13,41,13555,Jack Bauer,New Zealand,Mitchelton-Scott,33
+13,42,13555,Sylvain Chavanel,France,Direct Énergie,39
+13,43,13555,Stefan Küng,Switzerland,BMC Racing Team,24
+13,44,13555,Michael Valgren,Denmark,Astana,26
+13,45,13555,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+13,46,13555,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+13,47,13555,Alejandro Valverde,Spain,Movistar Team,38
+13,48,13555,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+13,49,13555,Jakob Fuglsang,Denmark,Astana,33
+13,50,13555,Mathew Hayman,Australia,Mitchelton-Scott,40
+13,51,13555,Guillaume Martin,France,Wanty-Groupe Gobert,25
+13,52,13555,Warren Barguil,France,Fortuneo-Samsic,26
+13,53,13555,Arthur Vichot,France,Groupama-FDJ,29
+13,54,13555,Gorka Izagirre,Spain,Bahrain-Merida,30
+13,55,13555,Edward Theuns,Belgium,Team Sunweb,27
+13,56,13569,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+13,57,13579,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+13,58,13584,Julien Simon,France,Cofidis,32
+13,59,13584,Yoann Offredo,France,Wanty-Groupe Gobert,31
+13,60,13588,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+13,61,13588,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+13,62,13595,Daniele Bennati,Italy,Movistar Team,37
+13,63,13595,Maxime Bouet,France,Fortuneo-Samsic,31
+13,64,13595,Imanol Erviti,Spain,Movistar Team,34
+13,65,13598,Paul Martens,Germany,LottoNL-Jumbo,34
+13,66,13598,Heinrich Haussler,Australia,Bahrain-Merida,34
+13,67,13598,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+13,68,13602,Marco Marcato,Italy,UAE Team Emirates,34
+13,69,13602,Roberto Ferrari,Italy,UAE Team Emirates,35
+13,70,13602,Laurent Pichon,France,Fortuneo-Samsic,31
+13,71,13607,Koen De Kort,Netherlands,Trek-Segafredo,35
+13,72,13614,Simon Gerrans,Australia,BMC Racing Team,38
+13,73,13620,Kristijan Koren,Slovenia,Bahrain-Merida,31
+13,74,13622,Oliver Naesen,Belgium,AG2R La Mondiale,27
+13,75,13622,Ion Izagirre,Spain,Bahrain-Merida,29
+13,76,13622,Jesper Hansen,Denmark,Astana,27
+13,77,13622,Amaël Moinard,France,Fortuneo-Samsic,36
+13,78,13629,Jérôme Cousin,France,Direct Énergie,29
+13,79,13638,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+13,80,13638,Bauke Mollema,Netherlands,Trek-Segafredo,31
+13,81,13638,Adam Yates,Great Britain,Mitchelton-Scott,25
+13,82,13638,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+13,83,13638,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+13,84,13638,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+13,85,13638,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+13,86,13638,Rudy Molard,France,Groupama-FDJ,28
+13,87,13638,Simon Geschke,Germany,Team Sunweb,32
+13,88,13638,Laurens Ten Dam,Netherlands,Team Sunweb,37
+13,89,13638,Andrey Amador,Costa Rica,Movistar Team,31
+13,90,13638,Tejay Van Garderen,United States,BMC Racing Team,29
+13,91,13651,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+13,92,13651,Jay Thomson,South Africa,Team Dimension Data,32
+13,93,13651,Patrick Bevin,New Zealand,BMC Racing Team,27
+13,94,13651,Julien Bernard,France,Trek-Segafredo,26
+13,95,13651,Jesús Herrada,Spain,Cofidis,27
+13,96,13651,Tomasz Marczynski,Poland,Lotto-Soudal,34
+13,97,13651,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+13,98,13651,Florian Vachon,France,Fortuneo-Samsic,33
+13,99,13665,Romain Sicard,France,Direct Énergie,30
+13,100,13666,Fabien Grellier,France,Direct Énergie,23
+13,101,13671,Søren Kragh Andersen,Denmark,Team Sunweb,23
+13,102,13671,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+13,103,13671,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+13,104,13671,Daniel Oss,Italy,Bora-Hansgrohe,31
+13,105,13671,Jonathan Castroviejo,Spain,Team Sky,31
+13,106,13677,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+13,107,13677,David Gaudu,France,Groupama-FDJ,21
+13,108,13677,Nicolas Edet,France,Cofidis,30
+13,109,13677,Damiano Caruso,Italy,BMC Racing Team,30
+13,110,13677,Franco Pellizotti,Italy,Bahrain-Merida,40
+13,111,13677,Oliviero Troia,Italy,UAE Team Emirates,23
+13,112,13677,Olivier Le Gac,France,Groupama-FDJ,24
+13,113,13677,Chad Haga,United States,Team Sunweb,29
+13,114,13683,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+13,115,13683,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+13,116,13683,Mathias Frank,Switzerland,AG2R La Mondiale,31
+13,117,13683,Rafal Majka,Poland,Bora-Hansgrohe,28
+13,118,13683,Thomas De Gendt,Belgium,Lotto-Soudal,31
+13,119,13683,Jelle Vanendert,Belgium,Lotto-Soudal,33
+13,120,13683,Rory Sutherland,Australia,UAE Team Emirates,36
+13,121,13683,Anthony Turgis,France,Cofidis,24
+13,122,13683,Tim Declercq,Belgium,Quick-Step Floors,29
+13,123,13683,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+13,124,13683,Ian Boswell,United States,Team Katusha-Alpecin,27
+13,125,13683,Egan Bernal,Colombia,Team Sky,21
+13,126,13683,Omar Fraile,Spain,Astana,27
+13,127,13683,Michal Kwiatkowski,Poland,Team Sky,28
+13,128,13683,Daniel Navarro,Spain,Cofidis,34
+13,129,13683,Gianni Moscon,Italy,Team Sky,24
+13,130,13683,Luke Rowe,Great Britain,Team Sky,28
+13,131,13683,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+13,132,13683,Anthony Perez,France,Cofidis,27
+13,133,13683,Marc Soler,Spain,Movistar Team,24
+13,134,13683,Serge Pauwels,Belgium,Team Dimension Data,34
+13,135,13683,Damien Howson,Australia,Mitchelton-Scott,25
+13,136,13683,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+13,137,13683,Darwin Atapuma,Colombia,UAE Team Emirates,30
+13,138,13683,Luke Durbridge,Australia,Mitchelton-Scott,27
+13,139,13683,Daryl Impey,South Africa,Mitchelton-Scott,31
+13,140,13683,Wout Poels,Netherlands,Team Sky,30
+13,141,13683,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+13,142,13683,Élie Gesbert,France,Fortuneo-Samsic,23
+13,143,13683,Romain Hardy,France,Fortuneo-Samsic,29
+13,144,13683,Dimitri Claeys,Belgium,Cofidis,31
+13,145,13683,Niki Terpstra,Netherlands,Quick-Step Floors,34
+13,146,13683,Toms Skujins,Latvia,Trek-Segafredo,27
+13,147,13683,Damien Gaudin,France,Direct Énergie,31
+13,148,13683,Julian Alaphilippe,France,Quick-Step Floors,26
+13,149,13720,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+13,150,13720,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+13,151,13723,Michael Schär,Switzerland,BMC Racing Team,31
+13,152,13751,Michael Gogl,Austria,Trek-Segafredo,24
+14,1,16917,Omar Fraile,Spain,Astana,27
+14,2,16923,Julian Alaphilippe,France,Quick-Step Floors,26
+14,3,16923,Jasper Stuyven,Belgium,Trek-Segafredo,26
+14,4,16929,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+14,5,16934,Damiano Caruso,Italy,BMC Racing Team,30
+14,6,16936,Simon Geschke,Germany,Team Sunweb,32
+14,7,16936,Nicolas Edet,France,Cofidis,30
+14,8,16940,Lilian Calmejane,France,Direct Énergie,25
+14,9,16947,Daryl Impey,South Africa,Mitchelton-Scott,31
+14,10,16954,Thomas De Gendt,Belgium,Lotto-Soudal,31
+14,11,16968,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+14,12,16983,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+14,13,16995,Anthony Perez,France,Cofidis,27
+14,14,17003,Gorka Izagirre,Spain,Bahrain-Merida,30
+14,15,17023,Philippe Gilbert,Belgium,Quick-Step Floors,36
+14,16,17023,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+14,17,17044,Stefan Küng,Switzerland,BMC Racing Team,24
+14,18,17044,Andrey Amador,Costa Rica,Movistar Team,31
+14,19,17062,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+14,20,17062,Greg Van Avermaet,Belgium,BMC Racing Team,33
+14,21,17090,Sylvain Chavanel,France,Direct Énergie,39
+14,22,17120,Julien Vermote,Belgium,Team Dimension Data,28
+14,23,17120,Michael Hepburn,Australia,Mitchelton-Scott,26
+14,24,17134,Kristijan Koren,Slovenia,Bahrain-Merida,31
+14,25,17154,Anthony Turgis,France,Cofidis,24
+14,26,17312,Jérôme Cousin,France,Direct Énergie,29
+14,27,17312,Yves Lampaert,Belgium,Quick-Step Floors,27
+14,28,17348,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+14,29,17998,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+14,30,18006,Chris Froome,Great Britain,Team Sky,33
+14,31,18006,Tom Dumoulin,Netherlands,Team Sunweb,27
+14,32,18006,Geraint Thomas,Great Britain,Team Sky,32
+14,33,18016,Nairo Quintana,Colombia,Movistar Team,28
+14,34,18020,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+14,35,18020,Egan Bernal,Colombia,Team Sky,21
+14,36,18020,Romain Bardet,France,AG2R La Mondiale,27
+14,37,18030,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+14,38,18035,Alejandro Valverde,Spain,Movistar Team,38
+14,39,18035,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+14,40,18035,Jakob Fuglsang,Denmark,Astana,33
+14,41,18035,Mikel Landa,Spain,Movistar Team,28
+14,42,18050,Bob Jungels,Luxembourg,Quick-Step Floors,25
+14,43,18053,Pierre Latour,France,AG2R La Mondiale,24
+14,44,18060,Mikel Nieve,Spain,Mitchelton-Scott,34
+14,45,18061,Tanel Kangert,Estonia,Astana,31
+14,46,18082,Guillaume Martin,France,Wanty-Groupe Gobert,25
+14,47,18085,Damien Gaudin,France,Direct Énergie,31
+14,48,18092,Bauke Mollema,Netherlands,Trek-Segafredo,31
+14,49,18109,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+14,50,18109,Daniel Martin,Ireland,UAE Team Emirates,31
+14,51,18109,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+14,52,18109,Jesper Hansen,Denmark,Astana,27
+14,53,18116,Maxime Bouet,France,Fortuneo-Samsic,31
+14,54,18116,Warren Barguil,France,Fortuneo-Samsic,26
+14,55,18144,Serge Pauwels,Belgium,Team Dimension Data,34
+14,56,18144,Julien Bernard,France,Trek-Segafredo,26
+14,57,18144,Laurens Ten Dam,Netherlands,Team Sunweb,37
+14,58,18165,Christophe Laporte,France,Cofidis,25
+14,59,18173,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+14,60,18195,Nikias Arndt,Germany,Team Sunweb,26
+14,61,18195,Søren Kragh Andersen,Denmark,Team Sunweb,23
+14,62,18197,David Gaudu,France,Groupama-FDJ,21
+14,63,18197,Arthur Vichot,France,Groupama-FDJ,29
+14,64,18197,Mathias Frank,Switzerland,AG2R La Mondiale,31
+14,65,18209,Michal Kwiatkowski,Poland,Team Sky,28
+14,66,18214,Kevin Ledanois,France,Fortuneo-Samsic,24
+14,67,18222,Niki Terpstra,Netherlands,Quick-Step Floors,34
+14,68,18224,Adam Yates,Great Britain,Mitchelton-Scott,25
+14,69,18250,Simon Gerrans,Australia,BMC Racing Team,38
+14,70,18250,Tim Declercq,Belgium,Quick-Step Floors,29
+14,71,18250,Jelle Vanendert,Belgium,Lotto-Soudal,33
+14,72,18250,Michael Schär,Switzerland,BMC Racing Team,31
+14,73,18250,Yoann Offredo,France,Wanty-Groupe Gobert,31
+14,74,18250,Tejay Van Garderen,United States,BMC Racing Team,29
+14,75,18250,Franco Pellizotti,Italy,Bahrain-Merida,40
+14,76,18250,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+14,77,18250,Rudy Molard,France,Groupama-FDJ,28
+14,78,18250,Ian Boswell,United States,Team Katusha-Alpecin,27
+14,79,18283,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+14,80,18283,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+14,81,18283,Nils Politt,Germany,Team Katusha-Alpecin,24
+14,82,18294,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+14,83,18296,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+14,84,18300,Jasper De Buyst,Belgium,Lotto-Soudal,24
+14,85,18312,Daniel Oss,Italy,Bora-Hansgrohe,31
+14,86,18312,Edward Theuns,Belgium,Team Sunweb,27
+14,87,18312,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+14,88,18312,Rafal Majka,Poland,Bora-Hansgrohe,28
+14,89,18312,Fabien Grellier,France,Direct Énergie,23
+14,90,18312,Jesús Herrada,Spain,Cofidis,27
+14,91,18312,Sonny Colbrelli,Italy,Bahrain-Merida,28
+14,92,18312,Jay Thomson,South Africa,Team Dimension Data,32
+14,93,18312,Romain Sicard,France,Direct Énergie,30
+14,94,18312,Chad Haga,United States,Team Sunweb,29
+14,95,18312,Laurent Pichon,France,Fortuneo-Samsic,31
+14,96,18312,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+14,97,18312,Koen De Kort,Netherlands,Trek-Segafredo,35
+14,98,18312,Marc Soler,Spain,Movistar Team,24
+14,99,18312,Oliviero Troia,Italy,UAE Team Emirates,23
+14,100,18312,Daniel Navarro,Spain,Cofidis,34
+14,101,18312,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+14,102,18312,Rory Sutherland,Australia,UAE Team Emirates,36
+14,103,18312,Ion Izagirre,Spain,Bahrain-Merida,29
+14,104,18312,Tomasz Marczynski,Poland,Lotto-Soudal,34
+14,105,18312,Paul Martens,Germany,LottoNL-Jumbo,34
+14,106,18312,Magnus Cort Nielsen,Denmark,Astana,25
+14,107,18312,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+14,108,18312,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+14,109,18318,Oliver Naesen,Belgium,AG2R La Mondiale,27
+14,110,18318,Julien Simon,France,Cofidis,32
+14,111,18318,Florian Vachon,France,Fortuneo-Samsic,33
+14,112,18318,Michael Valgren,Denmark,Astana,26
+14,113,18318,Romain Hardy,France,Fortuneo-Samsic,29
+14,114,18318,Dimitri Claeys,Belgium,Cofidis,31
+14,115,18318,Wout Poels,Netherlands,Team Sky,30
+14,116,18318,Amaël Moinard,France,Fortuneo-Samsic,36
+14,117,18318,Toms Skujins,Latvia,Trek-Segafredo,27
+14,118,18318,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+14,119,18318,Jonathan Castroviejo,Spain,Team Sky,31
+14,120,18318,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+14,121,18318,Imanol Erviti,Spain,Movistar Team,34
+14,122,18318,Daniele Bennati,Italy,Movistar Team,37
+14,123,18318,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+14,124,18318,Michael Gogl,Austria,Trek-Segafredo,24
+14,125,18318,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+14,126,18368,John Degenkolb,Germany,Trek-Segafredo,29
+14,127,18368,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+14,128,18390,Damien Howson,Australia,Mitchelton-Scott,25
+14,129,18390,Luke Durbridge,Australia,Mitchelton-Scott,27
+14,130,18390,Gianni Moscon,Italy,Team Sky,24
+14,131,18390,Mathew Hayman,Australia,Mitchelton-Scott,40
+14,132,18390,Olivier Le Gac,France,Groupama-FDJ,24
+14,133,18390,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+14,134,18390,Élie Gesbert,France,Fortuneo-Samsic,23
+14,135,18390,Jack Bauer,New Zealand,Mitchelton-Scott,33
+14,136,18390,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+14,137,18427,Luke Rowe,Great Britain,Team Sky,28
+14,138,18427,Heinrich Haussler,Australia,Bahrain-Merida,34
+14,139,18427,Darwin Atapuma,Colombia,UAE Team Emirates,30
+14,140,18427,Marco Marcato,Italy,UAE Team Emirates,34
+14,141,18427,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+14,142,18435,Thomas Boudat,France,Direct Énergie,24
+14,143,18439,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+14,144,18443,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+14,145,18443,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+14,146,18464,Alexander Kristoff,Norway,UAE Team Emirates,31
+14,147,18471,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+14,148,18489,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+14,149,18496,Roberto Ferrari,Italy,UAE Team Emirates,35
+14,150,18501,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+14,151,18505,Arnaud Démare,France,Groupama-FDJ,26
+15,1,15952,Magnus Cort Nielsen,Denmark,Astana,25
+15,2,15952,Ion Izagirre,Spain,Bahrain-Merida,29
+15,3,15954,Bauke Mollema,Netherlands,Trek-Segafredo,31
+15,4,15981,Michael Valgren,Denmark,Astana,26
+15,5,15986,Toms Skujins,Latvia,Trek-Segafredo,27
+15,6,15986,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+15,7,15986,Lilian Calmejane,France,Direct Énergie,25
+15,8,15989,Rafal Majka,Poland,Bora-Hansgrohe,28
+15,9,16103,Nikias Arndt,Germany,Team Sunweb,26
+15,10,16103,Julien Bernard,France,Trek-Segafredo,26
+15,11,16103,Greg Van Avermaet,Belgium,BMC Racing Team,33
+15,12,16103,Niki Terpstra,Netherlands,Quick-Step Floors,34
+15,13,16103,Daniele Bennati,Italy,Movistar Team,37
+15,14,16103,Fabien Grellier,France,Direct Énergie,23
+15,15,16103,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+15,16,16103,Amaël Moinard,France,Fortuneo-Samsic,36
+15,17,16103,Daryl Impey,South Africa,Mitchelton-Scott,31
+15,18,16103,Romain Sicard,France,Direct Énergie,30
+15,19,16103,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+15,20,16103,Jesús Herrada,Spain,Cofidis,27
+15,21,16103,Damien Howson,Australia,Mitchelton-Scott,25
+15,22,16103,Serge Pauwels,Belgium,Team Dimension Data,34
+15,23,16103,Arthur Vichot,France,Groupama-FDJ,29
+15,24,16319,Marc Soler,Spain,Movistar Team,24
+15,25,16445,Florian Vachon,France,Fortuneo-Samsic,33
+15,26,16445,Imanol Erviti,Spain,Movistar Team,34
+15,27,16743,Michal Kwiatkowski,Poland,Team Sky,28
+15,28,16743,Chris Froome,Great Britain,Team Sky,33
+15,29,16743,Jonathan Castroviejo,Spain,Team Sky,31
+15,30,16743,Egan Bernal,Colombia,Team Sky,21
+15,31,16743,Rudy Molard,France,Groupama-FDJ,28
+15,32,16743,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+15,33,16743,Geraint Thomas,Great Britain,Team Sky,32
+15,34,16743,Simon Geschke,Germany,Team Sunweb,32
+15,35,16743,Tom Dumoulin,Netherlands,Team Sunweb,27
+15,36,16743,Tanel Kangert,Estonia,Astana,31
+15,37,16743,Søren Kragh Andersen,Denmark,Team Sunweb,23
+15,38,16743,Alejandro Valverde,Spain,Movistar Team,38
+15,39,16743,Nicolas Edet,France,Cofidis,30
+15,40,16743,Damiano Caruso,Italy,BMC Racing Team,30
+15,41,16743,Mikel Landa,Spain,Movistar Team,28
+15,42,16743,Romain Bardet,France,AG2R La Mondiale,27
+15,43,16743,Jakob Fuglsang,Denmark,Astana,33
+15,44,16743,Jesper Hansen,Denmark,Astana,27
+15,45,16743,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+15,46,16743,Pierre Latour,France,AG2R La Mondiale,24
+15,47,16743,Philippe Gilbert,Belgium,Quick-Step Floors,36
+15,48,16743,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+15,49,16743,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+15,50,16743,Guillaume Martin,France,Wanty-Groupe Gobert,25
+15,51,16743,Mathias Frank,Switzerland,AG2R La Mondiale,31
+15,52,16743,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+15,53,16743,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+15,54,16743,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+15,55,16743,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+15,56,16743,Oliver Naesen,Belgium,AG2R La Mondiale,27
+15,57,16743,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+15,58,16743,Nairo Quintana,Colombia,Movistar Team,28
+15,59,16743,Daniel Martin,Ireland,UAE Team Emirates,31
+15,60,16743,Omar Fraile,Spain,Astana,27
+15,61,16743,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+15,62,16743,Tejay Van Garderen,United States,BMC Racing Team,29
+15,63,16743,Bob Jungels,Luxembourg,Quick-Step Floors,25
+15,64,16743,Andrey Amador,Costa Rica,Movistar Team,31
+15,65,16743,Daniel Navarro,Spain,Cofidis,34
+15,66,16743,Wout Poels,Netherlands,Team Sky,30
+15,67,16743,Warren Barguil,France,Fortuneo-Samsic,26
+15,68,16743,David Gaudu,France,Groupama-FDJ,21
+15,69,16743,Franco Pellizotti,Italy,Bahrain-Merida,40
+15,70,16743,Gorka Izagirre,Spain,Bahrain-Merida,30
+15,71,16743,Adam Yates,Great Britain,Mitchelton-Scott,25
+15,72,16743,Sylvain Chavanel,France,Direct Énergie,39
+15,73,16743,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+15,74,16892,Mikel Nieve,Spain,Mitchelton-Scott,34
+15,75,16892,Laurens Ten Dam,Netherlands,Team Sunweb,37
+15,76,16892,Sonny Colbrelli,Italy,Bahrain-Merida,28
+15,77,16892,Maxime Bouet,France,Fortuneo-Samsic,31
+15,78,17027,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+15,79,17027,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+15,80,17027,Michael Schär,Switzerland,BMC Racing Team,31
+15,81,17027,Nils Politt,Germany,Team Katusha-Alpecin,24
+15,82,17027,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+15,83,17027,Chad Haga,United States,Team Sunweb,29
+15,84,17027,Paul Martens,Germany,LottoNL-Jumbo,34
+15,85,17027,Stefan Küng,Switzerland,BMC Racing Team,24
+15,86,17027,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+15,87,17027,Ian Boswell,United States,Team Katusha-Alpecin,27
+15,88,17027,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+15,89,17027,Luke Durbridge,Australia,Mitchelton-Scott,27
+15,90,17027,Koen De Kort,Netherlands,Trek-Segafredo,35
+15,91,17027,Tomasz Marczynski,Poland,Lotto-Soudal,34
+15,92,17027,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+15,93,17027,Darwin Atapuma,Colombia,UAE Team Emirates,30
+15,94,17027,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+15,95,17027,Rory Sutherland,Australia,UAE Team Emirates,36
+15,96,17027,Thomas Boudat,France,Direct Énergie,24
+15,97,17027,Jasper Stuyven,Belgium,Trek-Segafredo,26
+15,98,17027,Edward Theuns,Belgium,Team Sunweb,27
+15,99,17027,Kevin Ledanois,France,Fortuneo-Samsic,24
+15,100,17027,Romain Hardy,France,Fortuneo-Samsic,29
+15,101,17027,Élie Gesbert,France,Fortuneo-Samsic,23
+15,102,17027,Yoann Offredo,France,Wanty-Groupe Gobert,31
+15,103,17033,Anthony Perez,France,Cofidis,27
+15,104,17256,Thomas De Gendt,Belgium,Lotto-Soudal,31
+15,105,17256,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+15,106,17256,Simon Gerrans,Australia,BMC Racing Team,38
+15,107,17289,Julien Vermote,Belgium,Team Dimension Data,28
+15,108,17368,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+15,109,17368,Michael Gogl,Austria,Trek-Segafredo,24
+15,110,17368,Anthony Turgis,France,Cofidis,24
+15,111,17368,Oliviero Troia,Italy,UAE Team Emirates,23
+15,112,17368,Laurent Pichon,France,Fortuneo-Samsic,31
+15,113,17368,Dimitri Claeys,Belgium,Cofidis,31
+15,114,17368,Mathew Hayman,Australia,Mitchelton-Scott,40
+15,115,17368,Marco Marcato,Italy,UAE Team Emirates,34
+15,116,17368,Daniel Oss,Italy,Bora-Hansgrohe,31
+15,117,17368,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+15,118,17368,Jay Thomson,South Africa,Team Dimension Data,32
+15,119,17368,Michael Hepburn,Australia,Mitchelton-Scott,26
+15,120,17368,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+15,121,17368,Olivier Le Gac,France,Groupama-FDJ,24
+15,122,17368,Tim Declercq,Belgium,Quick-Step Floors,29
+15,123,17368,Jasper De Buyst,Belgium,Lotto-Soudal,24
+15,124,17368,Jelle Vanendert,Belgium,Lotto-Soudal,33
+15,125,17368,Yves Lampaert,Belgium,Quick-Step Floors,27
+15,126,17368,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+15,127,17368,Christophe Laporte,France,Cofidis,25
+15,128,17368,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+15,129,17368,Alexander Kristoff,Norway,UAE Team Emirates,31
+15,130,17368,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+15,131,17368,John Degenkolb,Germany,Trek-Segafredo,29
+15,132,17368,Roberto Ferrari,Italy,UAE Team Emirates,35
+15,133,17368,Arnaud Démare,France,Groupama-FDJ,26
+15,134,17368,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+15,135,17368,Kristijan Koren,Slovenia,Bahrain-Merida,31
+15,136,17368,Damien Gaudin,France,Direct Énergie,31
+15,137,17368,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+15,138,17368,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+15,139,17368,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+15,140,17368,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+15,141,17368,Julian Alaphilippe,France,Quick-Step Floors,26
+15,142,17368,Jack Bauer,New Zealand,Mitchelton-Scott,33
+15,143,17368,Julien Simon,France,Cofidis,32
+15,144,17368,Heinrich Haussler,Australia,Bahrain-Merida,34
+15,145,17368,Luke Rowe,Great Britain,Team Sky,28
+15,146,17368,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+15,147,17368,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+15,148,17368,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+15,149,17368,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+15,150,17368,Jérôme Cousin,France,Direct Énergie,29
+16,1,18802,Julian Alaphilippe,France,Quick-Step Floors,26
+16,2,18817,Gorka Izagirre,Spain,Bahrain-Merida,30
+16,3,18817,Adam Yates,Great Britain,Mitchelton-Scott,25
+16,4,18817,Bauke Mollema,Netherlands,Trek-Segafredo,31
+16,5,18820,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+16,6,18839,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+16,7,18858,Michael Valgren,Denmark,Astana,26
+16,8,18858,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+16,9,18872,Marc Soler,Spain,Movistar Team,24
+16,10,18880,Pierre Latour,France,AG2R La Mondiale,24
+16,11,18880,Damiano Caruso,Italy,BMC Racing Team,30
+16,12,18882,Guillaume Martin,France,Wanty-Groupe Gobert,25
+16,13,18931,Jelle Vanendert,Belgium,Lotto-Soudal,33
+16,14,18953,Rudy Molard,France,Groupama-FDJ,28
+16,15,18953,Andrey Amador,Costa Rica,Movistar Team,31
+16,16,19024,Ion Izagirre,Spain,Bahrain-Merida,29
+16,17,19125,Greg Van Avermaet,Belgium,BMC Racing Team,33
+16,18,19189,Julien Bernard,France,Trek-Segafredo,26
+16,19,19191,Warren Barguil,France,Fortuneo-Samsic,26
+16,20,19191,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+16,21,19334,Michal Kwiatkowski,Poland,Team Sky,28
+16,22,19334,Egan Bernal,Colombia,Team Sky,21
+16,23,19334,Chris Froome,Great Britain,Team Sky,33
+16,24,19334,Geraint Thomas,Great Britain,Team Sky,32
+16,25,19334,Tom Dumoulin,Netherlands,Team Sunweb,27
+16,26,19334,Søren Kragh Andersen,Denmark,Team Sunweb,23
+16,27,19334,Romain Bardet,France,AG2R La Mondiale,27
+16,28,19334,Mikel Landa,Spain,Movistar Team,28
+16,29,19334,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+16,30,19334,Nairo Quintana,Colombia,Movistar Team,28
+16,31,19334,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+16,32,19334,Jakob Fuglsang,Denmark,Astana,33
+16,33,19334,Daniel Martin,Ireland,UAE Team Emirates,31
+16,34,19334,Alejandro Valverde,Spain,Movistar Team,38
+16,35,19334,Bob Jungels,Luxembourg,Quick-Step Floors,25
+16,36,19343,Mathias Frank,Switzerland,AG2R La Mondiale,31
+16,37,19346,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+16,38,19346,Simon Geschke,Germany,Team Sunweb,32
+16,39,19346,Mikel Nieve,Spain,Mitchelton-Scott,34
+16,40,19346,Amaël Moinard,France,Fortuneo-Samsic,36
+16,41,19367,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+16,42,19398,Tanel Kangert,Estonia,Astana,31
+16,43,19415,Daniel Navarro,Spain,Cofidis,34
+16,44,19488,Tejay Van Garderen,United States,BMC Racing Team,29
+16,45,19510,Wout Poels,Netherlands,Team Sky,30
+16,46,19532,Thomas De Gendt,Belgium,Lotto-Soudal,31
+16,47,19532,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+16,48,19532,Jesús Herrada,Spain,Cofidis,27
+16,49,19609,Ian Boswell,United States,Team Katusha-Alpecin,27
+16,50,19633,Julien Vermote,Belgium,Team Dimension Data,28
+16,51,19633,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+16,52,19647,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+16,53,19647,Lilian Calmejane,France,Direct Énergie,25
+16,54,19647,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+16,55,19647,Nicolas Edet,France,Cofidis,30
+16,56,19647,Sylvain Chavanel,France,Direct Énergie,39
+16,57,19647,Laurens Ten Dam,Netherlands,Team Sunweb,37
+16,58,19647,Jesper Hansen,Denmark,Astana,27
+16,59,19647,Darwin Atapuma,Colombia,UAE Team Emirates,30
+16,60,19647,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+16,61,19797,Omar Fraile,Spain,Astana,27
+16,62,19839,Jonathan Castroviejo,Spain,Team Sky,31
+16,63,19839,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+16,64,19929,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+16,65,19947,Edward Theuns,Belgium,Team Sunweb,27
+16,66,19947,Romain Hardy,France,Fortuneo-Samsic,29
+16,67,19947,Koen De Kort,Netherlands,Trek-Segafredo,35
+16,68,19947,Jasper Stuyven,Belgium,Trek-Segafredo,26
+16,69,19947,Oliver Naesen,Belgium,AG2R La Mondiale,27
+16,70,19947,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+16,71,19947,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+16,72,19947,Franco Pellizotti,Italy,Bahrain-Merida,40
+16,73,19947,Maxime Bouet,France,Fortuneo-Samsic,31
+16,74,19947,Laurent Pichon,France,Fortuneo-Samsic,31
+16,75,19947,Rafal Majka,Poland,Bora-Hansgrohe,28
+16,76,19947,Simon Gerrans,Australia,BMC Racing Team,38
+16,77,19947,Michael Schär,Switzerland,BMC Racing Team,31
+16,78,19947,Chad Haga,United States,Team Sunweb,29
+16,79,19947,Paul Martens,Germany,LottoNL-Jumbo,34
+16,80,19947,Magnus Cort Nielsen,Denmark,Astana,25
+16,81,19947,Kevin Ledanois,France,Fortuneo-Samsic,24
+16,82,19947,Yves Lampaert,Belgium,Quick-Step Floors,27
+16,83,19947,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+16,84,19947,Rory Sutherland,Australia,UAE Team Emirates,36
+16,85,19947,Élie Gesbert,France,Fortuneo-Samsic,23
+16,86,20041,Nils Politt,Germany,Team Katusha-Alpecin,24
+16,87,20057,Daryl Impey,South Africa,Mitchelton-Scott,31
+16,88,20057,Mathew Hayman,Australia,Mitchelton-Scott,40
+16,89,20139,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+16,90,20139,Imanol Erviti,Spain,Movistar Team,34
+16,91,20139,Daniele Bennati,Italy,Movistar Team,37
+16,92,20211,Arthur Vichot,France,Groupama-FDJ,29
+16,93,20211,Thomas Boudat,France,Direct Énergie,24
+16,94,20211,David Gaudu,France,Groupama-FDJ,21
+16,95,20211,Stefan Küng,Switzerland,BMC Racing Team,24
+16,96,20214,Christophe Laporte,France,Cofidis,25
+16,97,20336,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+16,98,20649,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+16,99,20649,Michael Hepburn,Australia,Mitchelton-Scott,26
+16,100,20649,Nikias Arndt,Germany,Team Sunweb,26
+16,101,20649,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+16,102,20649,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+16,103,20649,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+16,104,20649,Niki Terpstra,Netherlands,Quick-Step Floors,34
+16,105,20649,Yoann Offredo,France,Wanty-Groupe Gobert,31
+16,106,20649,Jasper De Buyst,Belgium,Lotto-Soudal,24
+16,107,20649,Marco Marcato,Italy,UAE Team Emirates,34
+16,108,20649,Tomasz Marczynski,Poland,Lotto-Soudal,34
+16,109,20649,Anthony Turgis,France,Cofidis,24
+16,110,20649,Fabien Grellier,France,Direct Énergie,23
+16,111,20649,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+16,112,20649,Oliviero Troia,Italy,UAE Team Emirates,23
+16,113,20649,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+16,114,20649,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+16,115,20649,John Degenkolb,Germany,Trek-Segafredo,29
+16,116,20649,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+16,117,20649,Sonny Colbrelli,Italy,Bahrain-Merida,28
+16,118,20649,Florian Vachon,France,Fortuneo-Samsic,33
+16,119,20649,Toms Skujins,Latvia,Trek-Segafredo,27
+16,120,20649,Alexander Kristoff,Norway,UAE Team Emirates,31
+16,121,20649,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+16,122,20649,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+16,123,20649,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+16,124,20649,Kristijan Koren,Slovenia,Bahrain-Merida,31
+16,125,20649,Luke Durbridge,Australia,Mitchelton-Scott,27
+16,126,20649,Jack Bauer,New Zealand,Mitchelton-Scott,33
+16,127,20649,Daniel Oss,Italy,Bora-Hansgrohe,31
+16,128,20649,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+16,129,20649,Jay Thomson,South Africa,Team Dimension Data,32
+16,130,20649,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+16,131,20649,Olivier Le Gac,France,Groupama-FDJ,24
+16,132,20649,Romain Sicard,France,Direct Énergie,30
+16,133,20649,Dimitri Claeys,Belgium,Cofidis,31
+16,134,20649,Heinrich Haussler,Australia,Bahrain-Merida,34
+16,135,20649,Luke Rowe,Great Britain,Team Sky,28
+16,136,20649,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+16,137,20649,Jérôme Cousin,France,Direct Énergie,29
+16,138,20649,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+16,139,20649,Michael Gogl,Austria,Trek-Segafredo,24
+16,140,20649,Roberto Ferrari,Italy,UAE Team Emirates,35
+16,141,20649,Damien Gaudin,France,Direct Énergie,31
+16,142,20673,Philippe Gilbert,Belgium,Quick-Step Floors,36
+16,143,20675,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+16,144,20675,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+16,145,20688,Anthony Perez,France,Cofidis,27
+16,146,20688,Julien Simon,France,Cofidis,32
+16,147,21282,Arnaud Démare,France,Groupama-FDJ,26
+17,1,8487,Nairo Quintana,Colombia,Movistar Team,28
+17,2,8515,Daniel Martin,Ireland,UAE Team Emirates,31
+17,3,8534,Geraint Thomas,Great Britain,Team Sky,32
+17,4,8539,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+17,5,8539,Tom Dumoulin,Netherlands,Team Sunweb,27
+17,6,8552,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+17,7,8580,Egan Bernal,Colombia,Team Sky,21
+17,8,8582,Chris Froome,Great Britain,Team Sky,33
+17,9,8582,Mikel Landa,Spain,Movistar Team,28
+17,10,8608,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+17,11,8627,Rafal Majka,Poland,Bora-Hansgrohe,28
+17,12,8639,Alejandro Valverde,Spain,Movistar Team,38
+17,13,8642,Romain Bardet,France,AG2R La Mondiale,27
+17,14,8690,David Gaudu,France,Groupama-FDJ,21
+17,15,8727,Jakob Fuglsang,Denmark,Astana,33
+17,16,8742,Warren Barguil,France,Fortuneo-Samsic,26
+17,17,8797,Bob Jungels,Luxembourg,Quick-Step Floors,25
+17,18,8797,Jesper Hansen,Denmark,Astana,27
+17,19,8799,Wout Poels,Netherlands,Team Sky,30
+17,20,8825,Tanel Kangert,Estonia,Astana,31
+17,21,8847,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+17,22,8858,Franco Pellizotti,Italy,Bahrain-Merida,40
+17,23,8899,Pierre Latour,France,AG2R La Mondiale,24
+17,24,8979,Nicolas Edet,France,Cofidis,30
+17,25,9035,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+17,26,9035,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+17,27,9035,Tejay Van Garderen,United States,BMC Racing Team,29
+17,28,9086,Gorka Izagirre,Spain,Bahrain-Merida,30
+17,29,9137,Guillaume Martin,France,Wanty-Groupe Gobert,25
+17,30,9137,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+17,31,9137,Bauke Mollema,Netherlands,Trek-Segafredo,31
+17,32,9137,Arthur Vichot,France,Groupama-FDJ,29
+17,33,9177,Omar Fraile,Spain,Astana,27
+17,34,9186,Simon Geschke,Germany,Team Sunweb,32
+17,35,9229,Jesús Herrada,Spain,Cofidis,27
+17,36,9292,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+17,37,9292,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+17,38,9300,Jonathan Castroviejo,Spain,Team Sky,31
+17,39,9300,Ion Izagirre,Spain,Bahrain-Merida,29
+17,40,9300,Daniel Navarro,Spain,Cofidis,34
+17,41,9300,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+17,42,9300,Adam Yates,Great Britain,Mitchelton-Scott,25
+17,43,9300,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+17,44,9300,Darwin Atapuma,Colombia,UAE Team Emirates,30
+17,45,9300,Romain Sicard,France,Direct Énergie,30
+17,46,9323,Julien Bernard,France,Trek-Segafredo,26
+17,47,9332,Julian Alaphilippe,France,Quick-Step Floors,26
+17,48,9370,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+17,49,9378,Sylvain Chavanel,France,Direct Énergie,39
+17,50,9394,Nikias Arndt,Germany,Team Sunweb,26
+17,51,9411,Yoann Offredo,France,Wanty-Groupe Gobert,31
+17,52,9451,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+17,53,9453,Rudy Molard,France,Groupama-FDJ,28
+17,54,9460,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+17,55,9463,Lilian Calmejane,France,Direct Énergie,25
+17,56,9468,Anthony Perez,France,Cofidis,27
+17,57,9560,Mikel Nieve,Spain,Mitchelton-Scott,34
+17,58,9617,Laurens Ten Dam,Netherlands,Team Sunweb,37
+17,59,9657,Michal Kwiatkowski,Poland,Team Sky,28
+17,60,9657,Marc Soler,Spain,Movistar Team,24
+17,61,9657,Maxime Bouet,France,Fortuneo-Samsic,31
+17,62,9657,Kevin Ledanois,France,Fortuneo-Samsic,24
+17,63,9664,Oliver Naesen,Belgium,AG2R La Mondiale,27
+17,64,9664,Jasper Stuyven,Belgium,Trek-Segafredo,26
+17,65,9664,Stefan Küng,Switzerland,BMC Racing Team,24
+17,66,9664,Mathias Frank,Switzerland,AG2R La Mondiale,31
+17,67,9664,Julien Vermote,Belgium,Team Dimension Data,28
+17,68,9664,Michael Valgren,Denmark,Astana,26
+17,69,9664,Chad Haga,United States,Team Sunweb,29
+17,70,9664,Rory Sutherland,Australia,UAE Team Emirates,36
+17,71,9664,Greg Van Avermaet,Belgium,BMC Racing Team,33
+17,72,9664,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+17,73,9664,Damiano Caruso,Italy,BMC Racing Team,30
+17,74,9664,Michael Schär,Switzerland,BMC Racing Team,31
+17,75,9664,Paul Martens,Germany,LottoNL-Jumbo,34
+17,76,9664,Ian Boswell,United States,Team Katusha-Alpecin,27
+17,77,9664,Imanol Erviti,Spain,Movistar Team,34
+17,78,9669,Julien Simon,France,Cofidis,32
+17,79,9698,Jack Bauer,New Zealand,Mitchelton-Scott,33
+17,80,9724,Edward Theuns,Belgium,Team Sunweb,27
+17,81,9726,Yves Lampaert,Belgium,Quick-Step Floors,27
+17,82,9728,Jérôme Cousin,France,Direct Énergie,29
+17,83,9732,Anthony Turgis,France,Cofidis,24
+17,84,9742,Tomasz Marczynski,Poland,Lotto-Soudal,34
+17,85,9750,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+17,86,9791,Jay Thomson,South Africa,Team Dimension Data,32
+17,87,9791,Daryl Impey,South Africa,Mitchelton-Scott,31
+17,88,9810,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+17,89,9819,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+17,90,9827,Thomas Boudat,France,Direct Énergie,24
+17,91,9873,Florian Vachon,France,Fortuneo-Samsic,33
+17,92,9873,Laurent Pichon,France,Fortuneo-Samsic,31
+17,93,9875,Romain Hardy,France,Fortuneo-Samsic,29
+17,94,9875,Amaël Moinard,France,Fortuneo-Samsic,36
+17,95,9875,Élie Gesbert,France,Fortuneo-Samsic,23
+17,96,9889,Dimitri Claeys,Belgium,Cofidis,31
+17,97,9895,Simon Gerrans,Australia,BMC Racing Team,38
+17,98,9895,Luke Durbridge,Australia,Mitchelton-Scott,27
+17,99,9895,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+17,100,9895,Marco Marcato,Italy,UAE Team Emirates,34
+17,101,9895,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+17,102,9936,Olivier Le Gac,France,Groupama-FDJ,24
+17,103,9958,Nils Politt,Germany,Team Katusha-Alpecin,24
+17,104,9963,Magnus Cort Nielsen,Denmark,Astana,25
+17,105,9963,Søren Kragh Andersen,Denmark,Team Sunweb,23
+17,106,9966,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+17,107,9970,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+17,108,10009,Damien Gaudin,France,Direct Énergie,31
+17,109,10012,Toms Skujins,Latvia,Trek-Segafredo,27
+17,110,10012,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+17,111,10016,Luke Rowe,Great Britain,Team Sky,28
+17,112,10019,Sonny Colbrelli,Italy,Bahrain-Merida,28
+17,113,10035,Oliviero Troia,Italy,UAE Team Emirates,23
+17,114,10035,Daniel Oss,Italy,Bora-Hansgrohe,31
+17,115,10035,Jasper De Buyst,Belgium,Lotto-Soudal,24
+17,116,10035,Thomas De Gendt,Belgium,Lotto-Soudal,31
+17,117,10035,Koen De Kort,Netherlands,Trek-Segafredo,35
+17,118,10035,Fabien Grellier,France,Direct Énergie,23
+17,119,10035,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+17,120,10035,John Degenkolb,Germany,Trek-Segafredo,29
+17,121,10035,Mathew Hayman,Australia,Mitchelton-Scott,40
+17,122,10035,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+17,123,10035,Heinrich Haussler,Australia,Bahrain-Merida,34
+17,124,10035,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+17,125,10035,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+17,126,10035,Andrey Amador,Costa Rica,Movistar Team,31
+17,127,10035,Daniele Bennati,Italy,Movistar Team,37
+17,128,10035,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+17,129,10048,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+17,130,10061,Niki Terpstra,Netherlands,Quick-Step Floors,34
+17,131,10069,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+17,132,10069,Michael Gogl,Austria,Trek-Segafredo,24
+17,133,10069,Kristijan Koren,Slovenia,Bahrain-Merida,31
+17,134,10076,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+17,135,10076,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+17,136,10086,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+17,137,10125,Roberto Ferrari,Italy,UAE Team Emirates,35
+17,138,10130,Alexander Kristoff,Norway,UAE Team Emirates,31
+17,139,10143,Christophe Laporte,France,Cofidis,25
+17,140,10159,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+17,141,10168,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+17,142,10193,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+17,143,10197,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+17,144,10226,Jelle Vanendert,Belgium,Lotto-Soudal,33
+17,145,10243,Arnaud Démare,France,Groupama-FDJ,26
+17,146,10377,Michael Hepburn,Australia,Mitchelton-Scott,26
+18,1,13610,Arnaud Démare,France,Groupama-FDJ,26
+18,2,13610,Christophe Laporte,France,Cofidis,25
+18,3,13610,Alexander Kristoff,Norway,UAE Team Emirates,31
+18,4,13610,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+18,5,13610,Sonny Colbrelli,Italy,Bahrain-Merida,28
+18,6,13610,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+18,7,13610,John Degenkolb,Germany,Trek-Segafredo,29
+18,8,13610,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+18,9,13610,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+18,10,13610,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+18,11,13610,Yves Lampaert,Belgium,Quick-Step Floors,27
+18,12,13610,Jasper De Buyst,Belgium,Lotto-Soudal,24
+18,13,13610,Oliver Naesen,Belgium,AG2R La Mondiale,27
+18,14,13610,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+18,15,13610,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+18,16,13610,Michael Hepburn,Australia,Mitchelton-Scott,26
+18,17,13610,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+18,18,13610,Lilian Calmejane,France,Direct Énergie,25
+18,19,13610,Nils Politt,Germany,Team Katusha-Alpecin,24
+18,20,13610,Magnus Cort Nielsen,Denmark,Astana,25
+18,21,13610,Kevin Ledanois,France,Fortuneo-Samsic,24
+18,22,13610,Michael Schär,Switzerland,BMC Racing Team,31
+18,23,13610,Jérôme Cousin,France,Direct Énergie,29
+18,24,13610,Koen De Kort,Netherlands,Trek-Segafredo,35
+18,25,13610,Greg Van Avermaet,Belgium,BMC Racing Team,33
+18,26,13610,Stefan Küng,Switzerland,BMC Racing Team,24
+18,27,13610,Tom Dumoulin,Netherlands,Team Sunweb,27
+18,28,13610,Jasper Stuyven,Belgium,Trek-Segafredo,26
+18,29,13610,Sylvain Chavanel,France,Direct Énergie,39
+18,30,13610,Michal Kwiatkowski,Poland,Team Sky,28
+18,31,13610,Geraint Thomas,Great Britain,Team Sky,32
+18,32,13610,Daniele Bennati,Italy,Movistar Team,37
+18,33,13610,Chris Froome,Great Britain,Team Sky,33
+18,34,13610,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+18,35,13610,Jack Bauer,New Zealand,Mitchelton-Scott,33
+18,36,13610,Edward Theuns,Belgium,Team Sunweb,27
+18,37,13610,Mikel Landa,Spain,Movistar Team,28
+18,38,13610,Romain Bardet,France,AG2R La Mondiale,27
+18,39,13610,Rudy Molard,France,Groupama-FDJ,28
+18,40,13610,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+18,41,13610,Paul Martens,Germany,LottoNL-Jumbo,34
+18,42,13610,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+18,43,13610,Pierre Latour,France,AG2R La Mondiale,24
+18,44,13610,Alejandro Valverde,Spain,Movistar Team,38
+18,45,13610,Jakob Fuglsang,Denmark,Astana,33
+18,46,13610,Nairo Quintana,Colombia,Movistar Team,28
+18,47,13610,Daniel Martin,Ireland,UAE Team Emirates,31
+18,48,13610,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+18,49,13610,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+18,50,13610,Tejay Van Garderen,United States,BMC Racing Team,29
+18,51,13610,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+18,52,13610,Guillaume Martin,France,Wanty-Groupe Gobert,25
+18,53,13610,Tanel Kangert,Estonia,Astana,31
+18,54,13610,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+18,55,13610,Bob Jungels,Luxembourg,Quick-Step Floors,25
+18,56,13610,Warren Barguil,France,Fortuneo-Samsic,26
+18,57,13610,Arthur Vichot,France,Groupama-FDJ,29
+18,58,13610,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+18,59,13610,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+18,60,13610,Egan Bernal,Colombia,Team Sky,21
+18,61,13610,Bauke Mollema,Netherlands,Trek-Segafredo,31
+18,62,13610,Imanol Erviti,Spain,Movistar Team,34
+18,63,13610,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+18,64,13610,Nikias Arndt,Germany,Team Sunweb,26
+18,65,13610,Anthony Turgis,France,Cofidis,24
+18,66,13610,Søren Kragh Andersen,Denmark,Team Sunweb,23
+18,67,13610,Julien Bernard,France,Trek-Segafredo,26
+18,68,13610,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+18,69,13610,Laurens Ten Dam,Netherlands,Team Sunweb,37
+18,70,13610,Andrey Amador,Costa Rica,Movistar Team,31
+18,71,13610,Simon Geschke,Germany,Team Sunweb,32
+18,72,13610,Maxime Bouet,France,Fortuneo-Samsic,31
+18,73,13610,Laurent Pichon,France,Fortuneo-Samsic,31
+18,74,13610,Jay Thomson,South Africa,Team Dimension Data,32
+18,75,13610,Amaël Moinard,France,Fortuneo-Samsic,36
+18,76,13610,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+18,77,13610,Yoann Offredo,France,Wanty-Groupe Gobert,31
+18,78,13610,Mathias Frank,Switzerland,AG2R La Mondiale,31
+18,79,13610,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+18,80,13610,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+18,81,13610,Julien Vermote,Belgium,Team Dimension Data,28
+18,82,13610,Julien Simon,France,Cofidis,32
+18,83,13610,Heinrich Haussler,Australia,Bahrain-Merida,34
+18,84,13610,Daryl Impey,South Africa,Mitchelton-Scott,31
+18,85,13610,Simon Gerrans,Australia,BMC Racing Team,38
+18,86,13610,Kristijan Koren,Slovenia,Bahrain-Merida,31
+18,87,13610,Luke Rowe,Great Britain,Team Sky,28
+18,88,13610,Daniel Oss,Italy,Bora-Hansgrohe,31
+18,89,13610,David Gaudu,France,Groupama-FDJ,21
+18,90,13662,Oliviero Troia,Italy,UAE Team Emirates,23
+18,91,13671,Roberto Ferrari,Italy,UAE Team Emirates,35
+18,92,13673,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+18,93,13673,Toms Skujins,Latvia,Trek-Segafredo,27
+18,94,13673,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+18,95,13678,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+18,96,13680,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+18,97,13683,Damiano Caruso,Italy,BMC Racing Team,30
+18,98,13687,Chad Haga,United States,Team Sunweb,29
+18,99,13689,Michael Valgren,Denmark,Astana,26
+18,100,13689,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+18,101,13689,Dimitri Claeys,Belgium,Cofidis,31
+18,102,13693,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+18,103,13700,Florian Vachon,France,Fortuneo-Samsic,33
+18,104,13723,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+18,105,13723,Tomasz Marczynski,Poland,Lotto-Soudal,34
+18,106,13723,Romain Hardy,France,Fortuneo-Samsic,29
+18,107,13733,Michael Gogl,Austria,Trek-Segafredo,24
+18,108,13733,Gorka Izagirre,Spain,Bahrain-Merida,30
+18,109,13741,Marco Marcato,Italy,UAE Team Emirates,34
+18,110,13751,Olivier Le Gac,France,Groupama-FDJ,24
+18,111,13751,Thomas De Gendt,Belgium,Lotto-Soudal,31
+18,112,13751,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+18,113,13751,Nicolas Edet,France,Cofidis,30
+18,114,13751,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+18,115,13751,Jesper Hansen,Denmark,Astana,27
+18,116,13751,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+18,117,13751,Rafal Majka,Poland,Bora-Hansgrohe,28
+18,118,13751,Adam Yates,Great Britain,Mitchelton-Scott,25
+18,119,13751,Mikel Nieve,Spain,Mitchelton-Scott,34
+18,120,13751,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+18,121,13751,Daniel Navarro,Spain,Cofidis,34
+18,122,13756,Anthony Perez,France,Cofidis,27
+18,123,13756,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+18,124,13764,Omar Fraile,Spain,Astana,27
+18,125,13764,Jesús Herrada,Spain,Cofidis,27
+18,126,13764,Romain Sicard,France,Direct Énergie,30
+18,127,13764,Ion Izagirre,Spain,Bahrain-Merida,29
+18,128,13764,Damien Gaudin,France,Direct Énergie,31
+18,129,13764,Fabien Grellier,France,Direct Énergie,23
+18,130,13764,Franco Pellizotti,Italy,Bahrain-Merida,40
+18,131,13764,Marc Soler,Spain,Movistar Team,24
+18,132,13764,Jonathan Castroviejo,Spain,Team Sky,31
+18,133,13764,Élie Gesbert,France,Fortuneo-Samsic,23
+18,134,13796,Jelle Vanendert,Belgium,Lotto-Soudal,33
+18,135,13796,Julian Alaphilippe,France,Quick-Step Floors,26
+18,136,13796,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+18,137,13796,Darwin Atapuma,Colombia,UAE Team Emirates,30
+18,138,13822,Wout Poels,Netherlands,Team Sky,30
+18,139,13822,Niki Terpstra,Netherlands,Quick-Step Floors,34
+18,140,13828,Thomas Boudat,France,Direct Énergie,24
+18,141,13835,Mathew Hayman,Australia,Mitchelton-Scott,40
+18,142,13835,Luke Durbridge,Australia,Mitchelton-Scott,27
+18,143,13846,Rory Sutherland,Australia,UAE Team Emirates,36
+18,144,13846,Ian Boswell,United States,Team Katusha-Alpecin,27
+18,145,13846,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+18,146,13888,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+19,1,19697,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+19,2,19716,Geraint Thomas,Great Britain,Team Sky,32
+19,3,19716,Romain Bardet,France,AG2R La Mondiale,27
+19,4,19716,Daniel Martin,Ireland,UAE Team Emirates,31
+19,5,19716,Rafal Majka,Poland,Bora-Hansgrohe,28
+19,6,19716,Tom Dumoulin,Netherlands,Team Sunweb,27
+19,7,19716,Mikel Landa,Spain,Movistar Team,28
+19,8,19716,Chris Froome,Great Britain,Team Sky,33
+19,9,19728,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+19,10,19728,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+19,11,19804,Gorka Izagirre,Spain,Bahrain-Merida,30
+19,12,19804,Bob Jungels,Luxembourg,Quick-Step Floors,25
+19,13,19804,Egan Bernal,Colombia,Team Sky,21
+19,14,19916,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+19,15,19916,Ion Izagirre,Spain,Bahrain-Merida,29
+19,16,19934,Tanel Kangert,Estonia,Astana,31
+19,17,19968,Pierre Latour,France,AG2R La Mondiale,24
+19,18,20109,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+19,19,20126,Nairo Quintana,Colombia,Movistar Team,28
+19,20,20135,Jakob Fuglsang,Denmark,Astana,33
+19,21,20135,Damiano Caruso,Italy,BMC Racing Team,30
+19,22,20135,Simon Geschke,Germany,Team Sunweb,32
+19,23,20135,Warren Barguil,France,Fortuneo-Samsic,26
+19,24,20135,Mikel Nieve,Spain,Mitchelton-Scott,34
+19,25,20415,Tejay Van Garderen,United States,BMC Racing Team,29
+19,26,20453,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+19,27,20486,David Gaudu,France,Groupama-FDJ,21
+19,28,20575,Alejandro Valverde,Spain,Movistar Team,38
+19,29,20575,Daniel Navarro,Spain,Cofidis,34
+19,30,20716,Jesper Hansen,Denmark,Astana,27
+19,31,20760,Guillaume Martin,France,Wanty-Groupe Gobert,25
+19,32,20760,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+19,33,20760,Maxime Bouet,France,Fortuneo-Samsic,31
+19,34,20760,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+19,35,20805,Michal Kwiatkowski,Poland,Team Sky,28
+19,36,20805,Julian Alaphilippe,France,Quick-Step Floors,26
+19,37,20867,Jonathan Castroviejo,Spain,Team Sky,31
+19,38,20998,Julien Bernard,France,Trek-Segafredo,26
+19,39,20998,Laurens Ten Dam,Netherlands,Team Sunweb,37
+19,40,21070,Marc Soler,Spain,Movistar Team,24
+19,41,21150,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+19,42,21477,Adam Yates,Great Britain,Mitchelton-Scott,25
+19,43,21598,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+19,44,21600,Michael Schär,Switzerland,BMC Racing Team,31
+19,45,21600,Rudy Molard,France,Groupama-FDJ,28
+19,46,21600,Oliver Naesen,Belgium,AG2R La Mondiale,27
+19,47,21600,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+19,48,21600,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+19,49,21600,Sylvain Chavanel,France,Direct Énergie,39
+19,50,21612,Thomas De Gendt,Belgium,Lotto-Soudal,31
+19,51,21612,Stefan Küng,Switzerland,BMC Racing Team,24
+19,52,21612,Koen De Kort,Netherlands,Trek-Segafredo,35
+19,53,21612,Kevin Ledanois,France,Fortuneo-Samsic,24
+19,54,21612,Nikias Arndt,Germany,Team Sunweb,26
+19,55,21612,Imanol Erviti,Spain,Movistar Team,34
+19,56,21612,Omar Fraile,Spain,Astana,27
+19,57,21612,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+19,58,21612,Tomasz Marczynski,Poland,Lotto-Soudal,34
+19,59,21612,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+19,60,21612,Mathias Frank,Switzerland,AG2R La Mondiale,31
+19,61,21612,Julien Vermote,Belgium,Team Dimension Data,28
+19,62,21612,Simon Gerrans,Australia,BMC Racing Team,38
+19,63,21612,Yoann Offredo,France,Wanty-Groupe Gobert,31
+19,64,21612,Greg Van Avermaet,Belgium,BMC Racing Team,33
+19,65,21612,Darwin Atapuma,Colombia,UAE Team Emirates,30
+19,66,21612,Laurent Pichon,France,Fortuneo-Samsic,31
+19,67,21612,Søren Kragh Andersen,Denmark,Team Sunweb,23
+19,68,21622,Daryl Impey,South Africa,Mitchelton-Scott,31
+19,69,21622,Franco Pellizotti,Italy,Bahrain-Merida,40
+19,70,21622,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+19,71,21622,Florian Vachon,France,Fortuneo-Samsic,33
+19,72,21622,Paul Martens,Germany,LottoNL-Jumbo,34
+19,73,21622,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+19,74,21622,Élie Gesbert,France,Fortuneo-Samsic,23
+19,75,21622,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+19,76,21622,Lilian Calmejane,France,Direct Énergie,25
+19,77,21622,Romain Hardy,France,Fortuneo-Samsic,29
+19,78,21622,Mathew Hayman,Australia,Mitchelton-Scott,40
+19,79,21622,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+19,80,21622,Jesús Herrada,Spain,Cofidis,27
+19,81,21622,Magnus Cort Nielsen,Denmark,Astana,25
+19,82,21622,Chad Haga,United States,Team Sunweb,29
+19,83,21622,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+19,84,21622,Christophe Laporte,France,Cofidis,25
+19,85,21622,Wout Poels,Netherlands,Team Sky,30
+19,86,21622,Bauke Mollema,Netherlands,Trek-Segafredo,31
+19,87,21622,Arthur Vichot,France,Groupama-FDJ,29
+19,88,21622,Nils Politt,Germany,Team Katusha-Alpecin,24
+19,89,21622,Thomas Boudat,France,Direct Énergie,24
+19,90,21622,Anthony Turgis,France,Cofidis,24
+19,91,21622,Nicolas Edet,France,Cofidis,30
+19,92,21622,Rory Sutherland,Australia,UAE Team Emirates,36
+19,93,21622,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+19,94,21622,Toms Skujins,Latvia,Trek-Segafredo,27
+19,95,21622,Michael Valgren,Denmark,Astana,26
+19,96,21622,Andrey Amador,Costa Rica,Movistar Team,31
+19,97,21622,Amaël Moinard,France,Fortuneo-Samsic,36
+19,98,21622,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+19,99,21622,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+19,100,21622,Fabien Grellier,France,Direct Énergie,23
+19,101,21622,Jérôme Cousin,France,Direct Énergie,29
+19,102,21622,Romain Sicard,France,Direct Énergie,30
+19,103,21622,Ian Boswell,United States,Team Katusha-Alpecin,27
+19,104,21622,Daniele Bennati,Italy,Movistar Team,37
+19,105,21651,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+19,106,21667,Dimitri Claeys,Belgium,Cofidis,31
+19,107,21667,Anthony Perez,France,Cofidis,27
+19,108,21879,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+19,109,21879,Jasper Stuyven,Belgium,Trek-Segafredo,26
+19,110,21879,Luke Rowe,Great Britain,Team Sky,28
+19,111,21879,Damien Gaudin,France,Direct Énergie,31
+19,112,22000,Julien Simon,France,Cofidis,32
+19,113,22000,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+19,114,22000,Edward Theuns,Belgium,Team Sunweb,27
+19,115,22000,Michael Hepburn,Australia,Mitchelton-Scott,26
+19,116,22000,Marco Marcato,Italy,UAE Team Emirates,34
+19,117,22000,Heinrich Haussler,Australia,Bahrain-Merida,34
+19,118,22000,Luke Durbridge,Australia,Mitchelton-Scott,27
+19,119,22000,Oliviero Troia,Italy,UAE Team Emirates,23
+19,120,22000,Alexander Kristoff,Norway,UAE Team Emirates,31
+19,121,22000,Sonny Colbrelli,Italy,Bahrain-Merida,28
+19,122,22000,Jack Bauer,New Zealand,Mitchelton-Scott,33
+19,123,22000,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+19,124,22000,Jasper De Buyst,Belgium,Lotto-Soudal,24
+19,125,22000,Yves Lampaert,Belgium,Quick-Step Floors,27
+19,126,22000,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+19,127,22000,Jay Thomson,South Africa,Team Dimension Data,32
+19,128,22000,Roberto Ferrari,Italy,UAE Team Emirates,35
+19,129,22000,Kristijan Koren,Slovenia,Bahrain-Merida,31
+19,130,22000,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+19,131,22000,Niki Terpstra,Netherlands,Quick-Step Floors,34
+19,132,22000,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+19,133,22000,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+19,134,22000,John Degenkolb,Germany,Trek-Segafredo,29
+19,135,22000,Olivier Le Gac,France,Groupama-FDJ,24
+19,136,22000,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+19,137,22000,Michael Gogl,Austria,Trek-Segafredo,24
+19,138,22000,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+19,139,22000,Arnaud Démare,France,Groupama-FDJ,26
+19,140,22000,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+19,141,22000,Daniel Oss,Italy,Bora-Hansgrohe,31
+19,142,22000,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+19,143,22000,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+19,144,22000,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+19,145,22130,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+20,1,2452,Tom Dumoulin,Netherlands,Team Sunweb,27
+20,2,2453,Chris Froome,Great Britain,Team Sky,33
+20,3,2466,Geraint Thomas,Great Britain,Team Sky,32
+20,4,2502,Michal Kwiatkowski,Poland,Team Sky,28
+20,5,2503,Søren Kragh Andersen,Denmark,Team Sunweb,23
+20,6,2504,Bob Jungels,Luxembourg,Quick-Step Floors,25
+20,7,2514,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+20,8,2524,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+20,9,2534,Marc Soler,Spain,Movistar Team,24
+20,10,2535,Michael Hepburn,Australia,Mitchelton-Scott,26
+20,11,2538,Adam Yates,Great Britain,Mitchelton-Scott,25
+20,12,2538,Stefan Küng,Switzerland,BMC Racing Team,24
+20,13,2543,Damiano Caruso,Italy,BMC Racing Team,30
+20,14,2543,Jonathan Castroviejo,Spain,Team Sky,31
+20,15,2553,Ion Izagirre,Spain,Bahrain-Merida,29
+20,16,2557,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+20,17,2561,Wout Poels,Netherlands,Team Sky,30
+20,18,2562,Simon Geschke,Germany,Team Sunweb,32
+20,19,2562,Alejandro Valverde,Spain,Movistar Team,38
+20,20,2564,Nils Politt,Germany,Team Katusha-Alpecin,24
+20,21,2564,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+20,22,2568,Romain Bardet,France,AG2R La Mondiale,27
+20,23,2569,Chad Haga,United States,Team Sunweb,29
+20,24,2569,Rafal Majka,Poland,Bora-Hansgrohe,28
+20,25,2570,Egan Bernal,Colombia,Team Sky,21
+20,26,2573,Nikias Arndt,Germany,Team Sunweb,26
+20,27,2578,Pierre Latour,France,AG2R La Mondiale,24
+20,28,2591,Thomas De Gendt,Belgium,Lotto-Soudal,31
+20,29,2597,Tejay Van Garderen,United States,BMC Racing Team,29
+20,30,2602,Jesús Herrada,Spain,Cofidis,27
+20,31,2604,Sylvain Chavanel,France,Direct Énergie,39
+20,32,2608,Luke Durbridge,Australia,Mitchelton-Scott,27
+20,33,2610,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+20,34,2612,Daniel Martin,Ireland,UAE Team Emirates,31
+20,35,2613,David Gaudu,France,Groupama-FDJ,21
+20,36,2617,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+20,37,2619,Gorka Izagirre,Spain,Bahrain-Merida,30
+20,38,2623,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+20,39,2625,Arthur Vichot,France,Groupama-FDJ,29
+20,40,2626,Jakob Fuglsang,Denmark,Astana,33
+20,41,2631,Nicolas Edet,France,Cofidis,30
+20,42,2631,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+20,43,2633,Omar Fraile,Spain,Astana,27
+20,44,2637,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+20,45,2643,Mikel Landa,Spain,Movistar Team,28
+20,46,2645,Michael Schär,Switzerland,BMC Racing Team,31
+20,47,2649,Julien Bernard,France,Trek-Segafredo,26
+20,48,2649,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+20,49,2653,Warren Barguil,France,Fortuneo-Samsic,26
+20,50,2655,Tanel Kangert,Estonia,Astana,31
+20,51,2659,Daniel Navarro,Spain,Cofidis,34
+20,52,2659,Imanol Erviti,Spain,Movistar Team,34
+20,53,2660,Lilian Calmejane,France,Direct Énergie,25
+20,54,2666,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+20,55,2669,Koen De Kort,Netherlands,Trek-Segafredo,35
+20,56,2669,Toms Skujins,Latvia,Trek-Segafredo,27
+20,57,2669,Edward Theuns,Belgium,Team Sunweb,27
+20,58,2674,Julian Alaphilippe,France,Quick-Step Floors,26
+20,59,2675,Romain Sicard,France,Direct Énergie,30
+20,60,2680,Anthony Perez,France,Cofidis,27
+20,61,2684,Maxime Bouet,France,Fortuneo-Samsic,31
+20,62,2686,Mikel Nieve,Spain,Mitchelton-Scott,34
+20,63,2687,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+20,64,2687,Jesper Hansen,Denmark,Astana,27
+20,65,2690,Tomasz Marczynski,Poland,Lotto-Soudal,34
+20,66,2692,Julien Vermote,Belgium,Team Dimension Data,28
+20,67,2694,Marco Marcato,Italy,UAE Team Emirates,34
+20,68,2694,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+20,69,2698,Nairo Quintana,Colombia,Movistar Team,28
+20,70,2699,Franco Pellizotti,Italy,Bahrain-Merida,40
+20,71,2705,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+20,72,2705,Jasper Stuyven,Belgium,Trek-Segafredo,26
+20,73,2706,Rudy Molard,France,Groupama-FDJ,28
+20,74,2709,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+20,75,2716,Laurens Ten Dam,Netherlands,Team Sunweb,37
+20,76,2724,Guillaume Martin,France,Wanty-Groupe Gobert,25
+20,77,2728,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+20,78,2732,Michael Valgren,Denmark,Astana,26
+20,79,2736,Laurent Pichon,France,Fortuneo-Samsic,31
+20,80,2737,Jérôme Cousin,France,Direct Énergie,29
+20,81,2741,Julien Simon,France,Cofidis,32
+20,82,2745,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+20,83,2745,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+20,84,2748,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+20,85,2749,Mathew Hayman,Australia,Mitchelton-Scott,40
+20,86,2750,Yves Lampaert,Belgium,Quick-Step Floors,27
+20,87,2751,Greg Van Avermaet,Belgium,BMC Racing Team,33
+20,88,2754,Florian Vachon,France,Fortuneo-Samsic,33
+20,89,2760,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+20,90,2769,Jay Thomson,South Africa,Team Dimension Data,32
+20,91,2769,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+20,92,2772,Andrey Amador,Costa Rica,Movistar Team,31
+20,93,2773,Daryl Impey,South Africa,Mitchelton-Scott,31
+20,94,2776,John Degenkolb,Germany,Trek-Segafredo,29
+20,95,2779,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+20,96,2787,Paul Martens,Germany,LottoNL-Jumbo,34
+20,97,2788,Kevin Ledanois,France,Fortuneo-Samsic,24
+20,98,2789,Oliver Naesen,Belgium,AG2R La Mondiale,27
+20,99,2790,Kristijan Koren,Slovenia,Bahrain-Merida,31
+20,100,2792,Simon Gerrans,Australia,BMC Racing Team,38
+20,101,2794,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+20,102,2796,Sonny Colbrelli,Italy,Bahrain-Merida,28
+20,103,2798,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+20,104,2799,Élie Gesbert,France,Fortuneo-Samsic,23
+20,105,2802,Daniel Oss,Italy,Bora-Hansgrohe,31
+20,106,2804,Heinrich Haussler,Australia,Bahrain-Merida,34
+20,107,2804,Darwin Atapuma,Colombia,UAE Team Emirates,30
+20,108,2804,Anthony Turgis,France,Cofidis,24
+20,109,2807,Magnus Cort Nielsen,Denmark,Astana,25
+20,110,2811,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+20,111,2811,Bauke Mollema,Netherlands,Trek-Segafredo,31
+20,112,2813,Luke Rowe,Great Britain,Team Sky,28
+20,113,2815,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+20,114,2816,Fabien Grellier,France,Direct Énergie,23
+20,115,2817,Romain Hardy,France,Fortuneo-Samsic,29
+20,116,2819,Jack Bauer,New Zealand,Mitchelton-Scott,33
+20,117,2826,Amaël Moinard,France,Fortuneo-Samsic,36
+20,118,2827,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+20,119,2827,Ian Boswell,United States,Team Katusha-Alpecin,27
+20,120,2830,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+20,121,2834,Yoann Offredo,France,Wanty-Groupe Gobert,31
+20,122,2839,Christophe Laporte,France,Cofidis,25
+20,123,2839,Thomas Boudat,France,Direct Énergie,24
+20,124,2840,Olivier Le Gac,France,Groupama-FDJ,24
+20,125,2843,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+20,126,2845,Michael Gogl,Austria,Trek-Segafredo,24
+20,127,2854,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+20,128,2861,Mathias Frank,Switzerland,AG2R La Mondiale,31
+20,129,2861,Dimitri Claeys,Belgium,Cofidis,31
+20,130,2865,Oliviero Troia,Italy,UAE Team Emirates,23
+20,131,2867,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+20,132,2871,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+20,133,2873,Rory Sutherland,Australia,UAE Team Emirates,36
+20,134,2877,Daniele Bennati,Italy,Movistar Team,37
+20,135,2883,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+20,136,2885,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+20,137,2889,Alexander Kristoff,Norway,UAE Team Emirates,31
+20,138,2895,Roberto Ferrari,Italy,UAE Team Emirates,35
+20,139,2898,Damien Gaudin,France,Direct Énergie,31
+20,140,2915,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+20,141,2932,Jasper De Buyst,Belgium,Lotto-Soudal,24
+20,142,2944,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+20,143,2945,Arnaud Démare,France,Groupama-FDJ,26
+20,144,2966,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+20,145,3004,Niki Terpstra,Netherlands,Quick-Step Floors,34
+21,1,9996,Alexander Kristoff,Norway,UAE Team Emirates,31
+21,2,9996,John Degenkolb,Germany,Trek-Segafredo,29
+21,3,9996,Arnaud Démare,France,Groupama-FDJ,26
+21,4,9996,Edvald Boasson Hagen,Norway,Team Dimension Data,31
+21,5,9996,Christophe Laporte,France,Cofidis,25
+21,6,9996,Maximiliano Richeze,Argentina,Quick-Step Floors,35
+21,7,9996,Sonny Colbrelli,Italy,Bahrain-Merida,28
+21,8,9996,Peter Sagan,Slovakia,Bora-Hansgrohe,28
+21,9,9996,Andrea Pasqualon,Italy,Wanty-Groupe Gobert,30
+21,10,9996,Jasper De Buyst,Belgium,Lotto-Soudal,24
+21,11,9996,Timothy Dupont,Belgium,Wanty-Groupe Gobert,30
+21,12,9996,Thomas Boudat,France,Direct Énergie,24
+21,13,9996,Sep Vanmarcke,Belgium,EF Education First-Drapac p/b Cannondale,29
+21,14,9996,Magnus Cort Nielsen,Denmark,Astana,25
+21,15,9996,Oliver Naesen,Belgium,AG2R La Mondiale,27
+21,16,9996,Daniele Bennati,Italy,Movistar Team,37
+21,17,9996,Nikias Arndt,Germany,Team Sunweb,26
+21,18,9996,Edward Theuns,Belgium,Team Sunweb,27
+21,19,9996,Mathew Hayman,Australia,Mitchelton-Scott,40
+21,20,9996,Timo Roosen,Netherlands,LottoNL-Jumbo,25
+21,21,9996,Daryl Impey,South Africa,Mitchelton-Scott,31
+21,22,9996,Damiano Caruso,Italy,BMC Racing Team,30
+21,23,9996,Jasper Stuyven,Belgium,Trek-Segafredo,26
+21,24,9996,Dion Smith,New Zealand,Wanty-Groupe Gobert,25
+21,25,9996,Jérôme Cousin,France,Direct Énergie,29
+21,26,9996,Alejandro Valverde,Spain,Movistar Team,38
+21,27,9996,Laurent Pichon,France,Fortuneo-Samsic,31
+21,28,9996,Domenico Pozzovivo,Italy,Bahrain-Merida,35
+21,29,9996,Primoz Roglic,Slovenia,LottoNL-Jumbo,28
+21,30,9996,Yves Lampaert,Belgium,Quick-Step Floors,27
+21,31,9996,Pierre Latour,France,AG2R La Mondiale,24
+21,32,9996,Marco Minnaard,Netherlands,Wanty-Groupe Gobert,29
+21,33,9996,Guillaume Martin,France,Wanty-Groupe Gobert,25
+21,34,9996,Søren Kragh Andersen,Denmark,Team Sunweb,23
+21,35,9996,Yoann Offredo,France,Wanty-Groupe Gobert,31
+21,36,9996,Tom Dumoulin,Netherlands,Team Sunweb,27
+21,37,9996,Stefan Küng,Switzerland,BMC Racing Team,24
+21,38,9996,Lilian Calmejane,France,Direct Énergie,25
+21,39,9996,Pavel Kochetkov,Russia,Team Katusha-Alpecin,32
+21,40,9996,Steven Kruijswijk,Netherlands,LottoNL-Jumbo,31
+21,41,9996,Ilnur Zakarin,Russia,Team Katusha-Alpecin,28
+21,42,9996,Chad Haga,United States,Team Sunweb,29
+21,43,9996,Andrey Amador,Costa Rica,Movistar Team,31
+21,44,9996,Jack Bauer,New Zealand,Mitchelton-Scott,33
+21,45,9996,Mikel Landa,Spain,Movistar Team,28
+21,46,9996,Robert Gesink,Netherlands,LottoNL-Jumbo,32
+21,47,9996,Julien Simon,France,Cofidis,32
+21,48,9996,Greg Van Avermaet,Belgium,BMC Racing Team,33
+21,49,9996,Michael Hepburn,Australia,Mitchelton-Scott,26
+21,50,9996,Maciej Bodnar,Poland,Bora-Hansgrohe,33
+21,51,9996,Warren Barguil,France,Fortuneo-Samsic,26
+21,52,9996,Nairo Quintana,Colombia,Movistar Team,28
+21,53,9996,Imanol Erviti,Spain,Movistar Team,34
+21,54,9996,Romain Bardet,France,AG2R La Mondiale,27
+21,55,9996,Mikel Nieve,Spain,Mitchelton-Scott,34
+21,56,9996,Antwan Tolhoek,Netherlands,LottoNL-Jumbo,24
+21,57,9996,Simon Gerrans,Australia,BMC Racing Team,38
+21,58,9996,Rudy Molard,France,Groupama-FDJ,28
+21,59,9996,Jonathan Castroviejo,Spain,Team Sky,31
+21,60,9996,Julien Vermote,Belgium,Team Dimension Data,28
+21,61,9996,Bob Jungels,Luxembourg,Quick-Step Floors,25
+21,62,9996,Roberto Ferrari,Italy,UAE Team Emirates,35
+21,63,9996,Kristijan Ðurasek,Croatia,UAE Team Emirates,30
+21,64,9996,Jacopo Guarnieri,Italy,Groupama-FDJ,30
+21,65,9996,Egan Bernal,Colombia,Team Sky,21
+21,66,9996,Anthony Turgis,France,Cofidis,24
+21,67,9996,Geraint Thomas,Great Britain,Team Sky,32
+21,68,9996,Daniel Martin,Ireland,UAE Team Emirates,31
+21,69,9996,Chris Froome,Great Britain,Team Sky,33
+21,70,9996,Marcus Burghardt,Germany,Bora-Hansgrohe,35
+21,71,10020,Tanel Kangert,Estonia,Astana,31
+21,72,10020,Maxime Bouet,France,Fortuneo-Samsic,31
+21,73,10020,Marc Soler,Spain,Movistar Team,24
+21,74,10020,Thomas De Gendt,Belgium,Lotto-Soudal,31
+21,75,10020,Thomas Degand,Belgium,Wanty-Groupe Gobert,32
+21,76,10020,Heinrich Haussler,Australia,Bahrain-Merida,34
+21,77,10020,Tom-Jelte Slagter,Netherlands,Team Dimension Data,29
+21,78,10020,Tomasz Marczynski,Poland,Lotto-Soudal,34
+21,79,10020,Luke Rowe,Great Britain,Team Sky,28
+21,80,10020,Wout Poels,Netherlands,Team Sky,30
+21,81,10020,Paul Martens,Germany,LottoNL-Jumbo,34
+21,82,10020,Daniel Felipe Martínez,Colombia,EF Education First-Drapac p/b Cannondale,22
+21,83,10020,Daniel Navarro,Spain,Cofidis,34
+21,84,10020,Fabien Grellier,France,Direct Énergie,23
+21,85,10026,Tobias Ludvigsson,Sweden,Groupama-FDJ,27
+21,86,10026,Reinardt Janse Van Rensburg,South Africa,Team Dimension Data,29
+21,87,10026,Mathias Frank,Switzerland,AG2R La Mondiale,31
+21,88,10026,David Gaudu,France,Groupama-FDJ,21
+21,89,10026,Jakob Fuglsang,Denmark,Astana,33
+21,90,10026,Kevin Ledanois,France,Fortuneo-Samsic,24
+21,91,10026,Pierre Rolland,France,EF Education First-Drapac p/b Cannondale,31
+21,92,10026,Kristijan Koren,Slovenia,Bahrain-Merida,31
+21,93,10026,Pawel Poljanski,Poland,Bora-Hansgrohe,28
+21,94,10026,Simon Clarke,Australia,EF Education First-Drapac p/b Cannondale,31
+21,95,10026,Jesper Hansen,Denmark,Astana,27
+21,96,10026,Tejay Van Garderen,United States,BMC Racing Team,29
+21,97,10026,Koen De Kort,Netherlands,Trek-Segafredo,35
+21,98,10026,Ian Boswell,United States,Team Katusha-Alpecin,27
+21,99,10026,Adam Yates,Great Britain,Mitchelton-Scott,25
+21,100,10026,Nicolas Edet,France,Cofidis,30
+21,101,10026,Ramon Sinkeldam,Netherlands,Groupama-FDJ,29
+21,102,10026,Simon Geschke,Germany,Team Sunweb,32
+21,103,10026,Jay Thomson,South Africa,Team Dimension Data,32
+21,104,10026,Amund Grøndahl Jansen ,Norway,LottoNL-Jumbo,24
+21,105,10026,Julian Alaphilippe,France,Quick-Step Floors,26
+21,106,10026,Sylvain Chavanel,France,Direct Énergie,39
+21,107,10026,Laurens Ten Dam,Netherlands,Team Sunweb,37
+21,108,10034,Gorka Izagirre,Spain,Bahrain-Merida,30
+21,109,10035,Niki Terpstra,Netherlands,Quick-Step Floors,34
+21,110,10035,Rafal Majka,Poland,Bora-Hansgrohe,28
+21,111,10038,Élie Gesbert,France,Fortuneo-Samsic,23
+21,112,10038,Florian Vachon,France,Fortuneo-Samsic,33
+21,113,10038,Michael Valgren,Denmark,Astana,26
+21,114,10051,Olivier Le Gac,France,Groupama-FDJ,24
+21,115,10051,Darwin Atapuma,Colombia,UAE Team Emirates,30
+21,116,10055,Luke Durbridge,Australia,Mitchelton-Scott,27
+21,117,10057,Tom Scully,New Zealand,EF Education First-Drapac p/b Cannondale,28
+21,118,10057,Romain Hardy,France,Fortuneo-Samsic,29
+21,119,10059,Daniel Oss,Italy,Bora-Hansgrohe,31
+21,120,10063,Romain Sicard,France,Direct Énergie,30
+21,121,10067,Arthur Vichot,France,Groupama-FDJ,29
+21,122,10067,Franco Pellizotti,Italy,Bahrain-Merida,40
+21,123,10071,Michael Gogl,Austria,Trek-Segafredo,24
+21,124,10071,Omar Fraile,Spain,Astana,27
+21,125,10078,Jesús Herrada,Spain,Cofidis,27
+21,126,10078,Dimitri Claeys,Belgium,Cofidis,31
+21,127,10084,Marco Marcato,Italy,UAE Team Emirates,34
+21,128,10084,Rory Sutherland,Australia,UAE Team Emirates,36
+21,129,10090,Bauke Mollema,Netherlands,Trek-Segafredo,31
+21,130,10090,Toms Skujins,Latvia,Trek-Segafredo,27
+21,131,10101,Ion Izagirre,Spain,Bahrain-Merida,29
+21,132,10123,Oliviero Troia,Italy,UAE Team Emirates,23
+21,133,10132,Julien Bernard,France,Trek-Segafredo,26
+21,134,10195,Nils Politt,Germany,Team Katusha-Alpecin,24
+21,135,10197,Michal Kwiatkowski,Poland,Team Sky,28
+21,136,10199,Lawson Craddock,United States,EF Education First-Drapac p/b Cannondale,26
+21,137,10240,Guillaume Van Keirsbulck,Belgium,Wanty-Groupe Gobert,27
+21,138,10242,Amaël Moinard,France,Fortuneo-Samsic,36
+21,139,10244,Michael Schär,Switzerland,BMC Racing Team,31
+21,140,10246,Taylor Phinney,United States,EF Education First-Drapac p/b Cannondale,28
+21,141,10247,Anthony Perez,France,Cofidis,27
+21,142,10254,Gregor Mühlberger,Austria,Bora-Hansgrohe,24
+21,143,10254,Lukas Pöstlberger,Austria,Bora-Hansgrohe,26
+21,144,10280,Silvan Dillier,Switzerland,AG2R La Mondiale,27
+21,145,10280,Damien Gaudin,France,Direct Énergie,31
