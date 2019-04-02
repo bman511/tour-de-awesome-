@@ -1,0 +1,2826 @@
+<!doctype html>
+<meta charset="utf-8">
+
+<script src="http://d3plus.org/js/d3.js"></script>
+<script src="http://d3plus.org/js/d3plus.js"></script>
+
+<div id="viz"></div>
+
+<script>
+  var data = [
+    {
+"distance": 201,
+"name": "Fernando Gaviria",
+"ranking": 1,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Peter Sagan",
+"ranking": 2,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Marcel Kittel",
+"ranking": 3,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Alexander Kristoff",
+"ranking": 4,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Christophe Laporte",
+"ranking": 5,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Dylan Groenewegen",
+"ranking": 6,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Michael Matthews",
+"ranking": 7,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "John Degenkolb",
+"ranking": 8,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Jakob Fuglsang",
+"ranking": 9,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Rafal Majka",
+"ranking": 10,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Vincenzo Nibali",
+"ranking": 11,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Timothy Dupont",
+"ranking": 12,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Thomas Boudat",
+"ranking": 13,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Geraint Thomas",
+"ranking": 14,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Bob Jungels",
+"ranking": 15,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Michael Valgren",
+"ranking": 16,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Maximiliano Richeze",
+"ranking": 17,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Philippe Gilbert",
+"ranking": 18,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Edvald Boasson Hagen",
+"ranking": 19,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Sonny Colbrelli",
+"ranking": 20,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Jasper Stuyven",
+"ranking": 21,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Andrea Pasqualon",
+"ranking": 22,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Julian Alaphilippe",
+"ranking": 23,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Greg Van Avermaet",
+"ranking": 24,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Dmitriy Gruzdev",
+"ranking": 25,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "André Greipel",
+"ranking": 26,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Tom Dumoulin",
+"ranking": 27,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Warren Barguil",
+"ranking": 28,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Tiesj Benoot",
+"ranking": 29,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Kristijan Koren",
+"ranking": 30,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Luis León Sánchez",
+"ranking": 31,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Mikel Landa",
+"ranking": 32,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Yves Lampaert",
+"ranking": 33,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Romain Bardet",
+"ranking": 34,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Reinardt Janse Van Rensburg",
+"ranking": 35,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Mark Cavendish",
+"ranking": 36,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Oliver Naesen",
+"ranking": 37,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Alejandro Valverde",
+"ranking": 38,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Rick Zabel",
+"ranking": 39,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Bauke Mollema",
+"ranking": 40,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Rudy Molard",
+"ranking": 41,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Steven Kruijswijk",
+"ranking": 42,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Ilnur Zakarin",
+"ranking": 43,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Rigoberto Urán",
+"ranking": 44,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Daniel Oss",
+"ranking": 45,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Lilian Calmejane",
+"ranking": 46,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Julien Simon",
+"ranking": 47,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Anthony Turgis",
+"ranking": 48,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Dion Smith",
+"ranking": 49,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Gorka Izagirre",
+"ranking": 50,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Nils Politt",
+"ranking": 51,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Daniel Martin",
+"ranking": 52,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Laurent Pichon",
+"ranking": 53,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Primoz Roglic",
+"ranking": 54,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Tejay Van Garderen",
+"ranking": 55,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Taylor Phinney",
+"ranking": 56,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Sylvain Chavanel",
+"ranking": 57,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Romain Hardy",
+"ranking": 58,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Ramon Sinkeldam",
+"ranking": 59,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Søren Kragh Andersen",
+"ranking": 60,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Marcel Sieberg",
+"ranking": 61,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Jens Keukeleire",
+"ranking": 62,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Edward Theuns",
+"ranking": 63,
+"speed": 45.7627,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Heinrich Haussler",
+"ranking": 64,
+"speed": 45.6991,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Axel Domont",
+"ranking": 65,
+"speed": 45.6934,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Toms Skujins",
+"ranking": 66,
+"speed": 45.6934,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Oliviero Troia",
+"ranking": 67,
+"speed": 45.6703,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Niki Terpstra",
+"ranking": 68,
+"speed": 45.6674,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Timo Roosen",
+"ranking": 69,
+"speed": 45.6645,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Tom Scully",
+"ranking": 70,
+"speed": 45.6645,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Pavel Kochetkov",
+"ranking": 71,
+"speed": 45.6472,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Omar Fraile",
+"ranking": 72,
+"speed": 45.6415,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Julien Vermote",
+"ranking": 73,
+"speed": 45.6415,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Magnus Cort Nielsen",
+"ranking": 74,
+"speed": 45.6415,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Florian Vachon",
+"ranking": 75,
+"speed": 45.6415,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Marcus Burghardt",
+"ranking": 76,
+"speed": 45.6415,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Maciej Bodnar",
+"ranking": 77,
+"speed": 45.6415,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Amaël Moinard",
+"ranking": 78,
+"speed": 45.6415,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Lukas Pöstlberger",
+"ranking": 79,
+"speed": 45.6415,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Michael Gogl",
+"ranking": 80,
+"speed": 45.6415,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Simon Clarke",
+"ranking": 81,
+"speed": 45.6415,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Marco Marcato",
+"ranking": 82,
+"speed": 45.6415,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Richie Porte",
+"ranking": 83,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Adam Yates",
+"ranking": 84,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Pierre Rolland",
+"ranking": 85,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Arthur Vichot",
+"ranking": 86,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Marco Minnaard",
+"ranking": 87,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Ion Izagirre",
+"ranking": 88,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Antwan Tolhoek",
+"ranking": 89,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Koen De Kort",
+"ranking": 90,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Chris Froome",
+"ranking": 91,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Julien Bernard",
+"ranking": 92,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Laurens Ten Dam",
+"ranking": 93,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Domenico Pozzovivo",
+"ranking": 94,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Rein Taaramäe",
+"ranking": 95,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Robert Kiserlovski",
+"ranking": 96,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Tanel Kangert",
+"ranking": 97,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Darwin Atapuma",
+"ranking": 98,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Kristijan Ðurasek",
+"ranking": 99,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Maxime Bouet",
+"ranking": 100,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Nicolas Edet",
+"ranking": 101,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Daryl Impey",
+"ranking": 102,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Guillaume Martin",
+"ranking": 103,
+"speed": 45.6156,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Roberto Ferrari",
+"ranking": 104,
+"speed": 45.584,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Serge Pauwels",
+"ranking": 105,
+"speed": 45.5782,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Mark Renshaw",
+"ranking": 106,
+"speed": 45.5782,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Mathias Frank",
+"ranking": 107,
+"speed": 45.5782,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Thomas Degand",
+"ranking": 108,
+"speed": 45.5553,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Romain Sicard",
+"ranking": 109,
+"speed": 45.5553,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Mikel Nieve",
+"ranking": 110,
+"speed": 45.5495,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Andrey Amador",
+"ranking": 111,
+"speed": 45.5467,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Nairo Quintana",
+"ranking": 112,
+"speed": 45.5467,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Egan Bernal",
+"ranking": 113,
+"speed": 45.5467,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Daniele Bennati",
+"ranking": 114,
+"speed": 45.5409,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Guillaume Van Keirsbulck",
+"ranking": 115,
+"speed": 45.5381,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Nikias Arndt",
+"ranking": 116,
+"speed": 45.5381,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Paul Martens",
+"ranking": 117,
+"speed": 45.5381,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Amund Grøndahl Jansen ",
+"ranking": 118,
+"speed": 45.5381,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Jérôme Cousin",
+"ranking": 119,
+"speed": 45.5381,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Simon Geschke",
+"ranking": 120,
+"speed": 45.5266,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Dimitri Claeys",
+"ranking": 121,
+"speed": 45.5266,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Michael Schär",
+"ranking": 122,
+"speed": 45.5123,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Élie Gesbert",
+"ranking": 123,
+"speed": 45.5123,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Gregor Mühlberger",
+"ranking": 124,
+"speed": 45.5037,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Jacopo Guarnieri",
+"ranking": 125,
+"speed": 45.5037,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Chad Haga",
+"ranking": 126,
+"speed": 45.5037,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Gianni Moscon",
+"ranking": 127,
+"speed": 45.4808,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Imanol Erviti",
+"ranking": 128,
+"speed": 45.4408,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Tony Martin",
+"ranking": 129,
+"speed": 45.418,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Pierre Latour",
+"ranking": 130,
+"speed": 45.3867,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Thomas De Gendt",
+"ranking": 131,
+"speed": 45.3725,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Alexis Vuillermoz",
+"ranking": 132,
+"speed": 45.3725,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Daniel Felipe Martínez",
+"ranking": 133,
+"speed": 45.3639,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Sep Vanmarcke",
+"ranking": 134,
+"speed": 45.3639,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Tom-Jelte Slagter",
+"ranking": 135,
+"speed": 45.3497,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Fabien Grellier",
+"ranking": 136,
+"speed": 45.3497,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Tim Declercq",
+"ranking": 137,
+"speed": 45.3497,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Tsgabu Grmay",
+"ranking": 138,
+"speed": 45.3497,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "David Gaudu",
+"ranking": 139,
+"speed": 45.3497,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Marc Soler",
+"ranking": 140,
+"speed": 45.3497,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Jesús Herrada",
+"ranking": 141,
+"speed": 45.3497,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Damien Gaudin",
+"ranking": 142,
+"speed": 45.3497,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Stefan Küng",
+"ranking": 143,
+"speed": 45.3497,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Franco Pellizotti",
+"ranking": 144,
+"speed": 45.3497,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Pawel Poljanski",
+"ranking": 145,
+"speed": 45.3497,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Anthony Perez",
+"ranking": 146,
+"speed": 45.3497,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Rory Sutherland",
+"ranking": 147,
+"speed": 45.3497,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Michal Kwiatkowski",
+"ranking": 148,
+"speed": 45.3497,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Daniel Navarro",
+"ranking": 149,
+"speed": 45.3497,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Luke Rowe",
+"ranking": 150,
+"speed": 45.3497,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Patrick Bevin",
+"ranking": 151,
+"speed": 45.2986,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Wout Poels",
+"ranking": 152,
+"speed": 45.2929,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Ian Boswell",
+"ranking": 153,
+"speed": 45.2929,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "José Joaquín Rojas",
+"ranking": 154,
+"speed": 45.2929,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Silvan Dillier",
+"ranking": 155,
+"speed": 45.2816,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Luke Durbridge",
+"ranking": 156,
+"speed": 45.2476,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Yoann Offredo",
+"ranking": 157,
+"speed": 45.242,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Jack Bauer",
+"ranking": 158,
+"speed": 45.242,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Damiano Caruso",
+"ranking": 159,
+"speed": 45.242,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Tony Gallopin",
+"ranking": 160,
+"speed": 45.242,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Jelle Vanendert",
+"ranking": 161,
+"speed": 45.242,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Jasper De Buyst",
+"ranking": 162,
+"speed": 45.242,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Kevin Ledanois",
+"ranking": 163,
+"speed": 45.242,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Tomasz Marczynski",
+"ranking": 164,
+"speed": 45.2137,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Simon Gerrans",
+"ranking": 165,
+"speed": 45.0673,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Mathew Hayman",
+"ranking": 166,
+"speed": 45.0673,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Michael Hepburn",
+"ranking": 167,
+"speed": 45.0673,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Damien Howson",
+"ranking": 168,
+"speed": 45.0673,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Jay Thomson",
+"ranking": 169,
+"speed": 45.0673,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Jesper Hansen",
+"ranking": 170,
+"speed": 45.0673,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Robert Gesink",
+"ranking": 171,
+"speed": 45.0673,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Tobias Ludvigsson",
+"ranking": 172,
+"speed": 44.6805,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Arnaud Démare",
+"ranking": 173,
+"speed": 44.6805,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Olivier Le Gac",
+"ranking": 174,
+"speed": 44.6805,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Jonathan Castroviejo",
+"ranking": 175,
+"speed": 44.4472,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 201,
+"name": "Lawson Craddock",
+"ranking": 176,
+"speed": 44.4417,
+"stage": 1,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Peter Sagan",
+"ranking": 1,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Sonny Colbrelli",
+"ranking": 2,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Arnaud Démare",
+"ranking": 3,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "André Greipel",
+"ranking": 4,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Alexander Kristoff",
+"ranking": 5,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Timothy Dupont",
+"ranking": 6,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Alejandro Valverde",
+"ranking": 7,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Andrea Pasqualon",
+"ranking": 8,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "John Degenkolb",
+"ranking": 9,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Philippe Gilbert",
+"ranking": 10,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Julian Alaphilippe",
+"ranking": 11,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Jasper Stuyven",
+"ranking": 12,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Guillaume Van Keirsbulck",
+"ranking": 13,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Bob Jungels",
+"ranking": 14,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Greg Van Avermaet",
+"ranking": 15,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Tom Dumoulin",
+"ranking": 16,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Pierre Latour",
+"ranking": 17,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Richie Porte",
+"ranking": 18,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Pierre Rolland",
+"ranking": 19,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Koen De Kort",
+"ranking": 20,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Michal Kwiatkowski",
+"ranking": 21,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Adam Yates",
+"ranking": 22,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Geraint Thomas",
+"ranking": 23,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Guillaume Martin",
+"ranking": 24,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Jakob Fuglsang",
+"ranking": 25,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Romain Bardet",
+"ranking": 26,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Marco Minnaard",
+"ranking": 27,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Fernando Gaviria",
+"ranking": 28,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Damiano Caruso",
+"ranking": 29,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Stefan Küng",
+"ranking": 30,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Chris Froome",
+"ranking": 31,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Dylan Groenewegen",
+"ranking": 32,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Egan Bernal",
+"ranking": 33,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Laurent Pichon",
+"ranking": 34,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Mark Cavendish",
+"ranking": 35,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Nairo Quintana",
+"ranking": 36,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Warren Barguil",
+"ranking": 37,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Bauke Mollema",
+"ranking": 38,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Ilnur Zakarin",
+"ranking": 39,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Vincenzo Nibali",
+"ranking": 40,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Rigoberto Urán",
+"ranking": 41,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Dion Smith",
+"ranking": 42,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Marcus Burghardt",
+"ranking": 43,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Søren Kragh Andersen",
+"ranking": 44,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Lilian Calmejane",
+"ranking": 45,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Robert Kiserlovski",
+"ranking": 46,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Arthur Vichot",
+"ranking": 47,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Primoz Roglic",
+"ranking": 48,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Mathew Hayman",
+"ranking": 49,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Rudy Molard",
+"ranking": 50,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Daniel Martin",
+"ranking": 51,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Tejay Van Garderen",
+"ranking": 52,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Steven Kruijswijk",
+"ranking": 53,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Rafal Majka",
+"ranking": 54,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Kristijan Koren",
+"ranking": 55,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Mikel Landa",
+"ranking": 56,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Alexis Vuillermoz",
+"ranking": 57,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Edward Theuns",
+"ranking": 58,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Jens Keukeleire",
+"ranking": 59,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Gorka Izagirre",
+"ranking": 60,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Laurens Ten Dam",
+"ranking": 61,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Edvald Boasson Hagen",
+"ranking": 62,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Domenico Pozzovivo",
+"ranking": 63,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Tiesj Benoot",
+"ranking": 64,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Tanel Kangert",
+"ranking": 65,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "José Joaquín Rojas",
+"ranking": 66,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Romain Hardy",
+"ranking": 67,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Sylvain Chavanel",
+"ranking": 68,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Reinardt Janse Van Rensburg",
+"ranking": 69,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Anthony Turgis",
+"ranking": 70,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Daniel Oss",
+"ranking": 71,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Oliver Naesen",
+"ranking": 72,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Sep Vanmarcke",
+"ranking": 73,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Nikias Arndt",
+"ranking": 74,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Mark Renshaw",
+"ranking": 75,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Jacopo Guarnieri",
+"ranking": 76,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Axel Domont",
+"ranking": 77,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Thomas Degand",
+"ranking": 78,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Antwan Tolhoek",
+"ranking": 79,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Rick Zabel",
+"ranking": 80,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Élie Gesbert",
+"ranking": 81,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Thomas Boudat",
+"ranking": 82,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Maxime Bouet",
+"ranking": 83,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Tomasz Marczynski",
+"ranking": 84,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Simon Gerrans",
+"ranking": 85,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Julien Vermote",
+"ranking": 86,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Simon Clarke",
+"ranking": 87,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Pavel Kochetkov",
+"ranking": 88,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Serge Pauwels",
+"ranking": 89,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Rein Taaramäe",
+"ranking": 90,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Mathias Frank",
+"ranking": 91,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Mikel Nieve",
+"ranking": 92,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Jack Bauer",
+"ranking": 93,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Timo Roosen",
+"ranking": 94,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Damien Gaudin",
+"ranking": 95,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Marco Marcato",
+"ranking": 96,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Tony Gallopin",
+"ranking": 97,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Simon Geschke",
+"ranking": 98,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Kristijan Ðurasek",
+"ranking": 99,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Darwin Atapuma",
+"ranking": 100,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Romain Sicard",
+"ranking": 101,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Tom-Jelte Slagter",
+"ranking": 102,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Imanol Erviti",
+"ranking": 103,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Paul Martens",
+"ranking": 104,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Gregor Mühlberger",
+"ranking": 105,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Chad Haga",
+"ranking": 106,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Amaël Moinard",
+"ranking": 107,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Daniel Felipe Martínez",
+"ranking": 108,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Taylor Phinney",
+"ranking": 109,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Maciej Bodnar",
+"ranking": 110,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Roberto Ferrari",
+"ranking": 111,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Julien Bernard",
+"ranking": 112,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Marcel Sieberg",
+"ranking": 113,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Michael Gogl",
+"ranking": 114,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Amund Grøndahl Jansen ",
+"ranking": 115,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Magnus Cort Nielsen",
+"ranking": 116,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Michael Valgren",
+"ranking": 117,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Yves Lampaert",
+"ranking": 118,
+"speed": 44.2266,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Fabien Grellier",
+"ranking": 119,
+"speed": 44.2266,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Ramon Sinkeldam",
+"ranking": 120,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Florian Vachon",
+"ranking": 121,
+"speed": 44.2266,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Ion Izagirre",
+"ranking": 122,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Jérôme Cousin",
+"ranking": 123,
+"speed": 44.2029,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Dmitriy Gruzdev",
+"ranking": 124,
+"speed": 44.2029,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Jasper De Buyst",
+"ranking": 125,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Daniele Bennati",
+"ranking": 126,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Marc Soler",
+"ranking": 127,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Nicolas Edet",
+"ranking": 128,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Andrey Amador",
+"ranking": 129,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Yoann Offredo",
+"ranking": 130,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Tobias Ludvigsson",
+"ranking": 131,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Olivier Le Gac",
+"ranking": 132,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Jay Thomson",
+"ranking": 133,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Patrick Bevin",
+"ranking": 134,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "David Gaudu",
+"ranking": 135,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Robert Gesink",
+"ranking": 136,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Lukas Pöstlberger",
+"ranking": 137,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Michael Schär",
+"ranking": 138,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Jelle Vanendert",
+"ranking": 139,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Kevin Ledanois",
+"ranking": 140,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Jesper Hansen",
+"ranking": 141,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Franco Pellizotti",
+"ranking": 142,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Daniel Navarro",
+"ranking": 143,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Rory Sutherland",
+"ranking": 144,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Omar Fraile",
+"ranking": 145,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Pawel Poljanski",
+"ranking": 146,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Luke Rowe",
+"ranking": 147,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Michael Matthews",
+"ranking": 148,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Jesús Herrada",
+"ranking": 149,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Gianni Moscon",
+"ranking": 150,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Tom Scully",
+"ranking": 151,
+"speed": 44.0905,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Dimitri Claeys",
+"ranking": 152,
+"speed": 44.0669,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Niki Terpstra",
+"ranking": 153,
+"speed": 43.9786,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Tim Declercq",
+"ranking": 154,
+"speed": 43.9376,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Thomas De Gendt",
+"ranking": 155,
+"speed": 43.9376,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Oliviero Troia",
+"ranking": 156,
+"speed": 43.9376,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Wout Poels",
+"ranking": 157,
+"speed": 43.9376,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Silvan Dillier",
+"ranking": 158,
+"speed": 43.9288,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Maximiliano Richeze",
+"ranking": 159,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Damien Howson",
+"ranking": 160,
+"speed": 43.8586,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Nils Politt",
+"ranking": 161,
+"speed": 43.8061,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Marcel Kittel",
+"ranking": 162,
+"speed": 43.8061,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Tony Martin",
+"ranking": 163,
+"speed": 43.8061,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Ian Boswell",
+"ranking": 164,
+"speed": 43.8061,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Michael Hepburn",
+"ranking": 165,
+"speed": 43.7828,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Toms Skujins",
+"ranking": 166,
+"speed": 43.7741,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Heinrich Haussler",
+"ranking": 167,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Julien Simon",
+"ranking": 168,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Christophe Laporte",
+"ranking": 169,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Anthony Perez",
+"ranking": 170,
+"speed": 43.7218,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Daryl Impey",
+"ranking": 171,
+"speed": 44.5225,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Jonathan Castroviejo",
+"ranking": 172,
+"speed": 43.5858,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Luke Durbridge",
+"ranking": 173,
+"speed": 43.4135,
+"stage": 2,
+"stage_type": "Flat stage"
+},
+{
+"distance": 183,
+"name": "Lawson Craddock",
+"ranking": 174,
+"speed": 43.1095,
+"stage": 2,
+"stage_type": "Flat stage"
+}
+  ]
+  var visualization = d3plus.viz()
+    .container("#viz")
+    .data(data)
+    .type("box")
+    .id("name")
+    .x("stage")
+    .y("speed")
+    .time("stage")
+    .ui([{
+        "label": "Visualization Type",
+        "method": "type",
+        "value": ["scatter","box"]
+      }])
+    .draw()
+</script>

@@ -46,6 +46,11 @@ def mapper():
     return render_template("map.html")
     console.log("Map")
 
+@app.route("/box")
+def boxer():
+    return render_template("box.html")
+    console.log("Box")
+
 @app.route("/race")
 def race():
 #     """Return a list of all passenger names"""
@@ -92,15 +97,28 @@ def stage_data():
     .filter(Results.rider_speed.isnot(None)).order_by(Results.stage_id).all()
 
     df = pd.DataFrame(results, columns=["stage","ranking","rider_speed","rider_name","stage_type","stage_distance"])
+    # THIS IS BY COLUMN
+    # data_output = {}
+    #
+    # data_output["stage_id"] = df["stage"].tolist()
+    # data_output["rider_rank"] = df["ranking"].tolist()
+    # data_output["rider_speed"] = df["rider_speed"].tolist()
+    # data_output["rider_name"] = df["rider_name"].tolist()
+    # data_output["stage_type"] = df["stage_type"].tolist()
+    # data_output["stage_length"] = df["stage_distance"].tolist()
 
-    data_output = {}
+    #THIS IS BY row
 
-    data_output["stage_id"] = df["stage"].tolist()
-    data_output["rider_rank"] = df["ranking"].tolist()
-    data_output["rider_speed"] = df["rider_speed"].tolist()
-    data_output["rider_name"] = df["rider_name"].tolist()
-    data_output["stage_type"] = df["stage_type"].tolist()
-    data_output["stage_length"] = df["stage_distance"].tolist()
+    data_output = []
+    for item in results:
+        all_dict = {}
+        all_dict["stage"] = item.stage_id
+        all_dict["speed"] = item.rider_speed
+        all_dict["ranking"] = item.ranking
+        all_dict["name"] = item.rider_name
+        all_dict["stage_type"] = item.stage_type
+        all_dict["distance"] = item.stage_distance
+        data_output.append(all_dict)
 
     return jsonify(data_output)
 
