@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<div id="myDiv">
+<script>
+/*=========Build a box plot ==============*/
+var url = `/speeds`;
+console.log(url)
+d3.json(url).then(function(response)  {
+  // console.log(response)
+  for (var i = 0; i < response.length; i++) {
+    console.log(response[i].data.speed)
+  }
+// var trace1 = {
+//   y: speeds,
+//   type: 'box',
+//   name: 'Stage 1',
+//   boxpoints: 'Outliers',
+//   jitter: 0.5,
+//   whiskerwidth: 0.2,
+//   fillcolor: 'cls',
+//   marker: {
+//       size: 2
+//   },
+//   line: {
+//       width: 1
+//   }
+// };
+//
+// var data = [trace1];
+//
+// var layout = {
+//     title: 'Test Plot',
+//     yaxis: {
+//         autorange: true,
+//         showgrid: true,
+//         zeroline: true,
+//         dtick: 5,
+//         gridcolor: 'rgb(255, 255, 255)',
+//         gridwidth: 0.5,
+//         zerolinecolor: 'rgb(255, 255, 255)',
+//         zerolinewidth: 2
+//     },
+//     margin: {
+//         l: 40,
+//         r: 30,
+//         b: 80,
+//         t: 100
+//     },
+//     paper_bgcolor: 'rgb(243, 243, 243)',
+//     plot_bgcolor: 'rgb(243, 243, 243)',
+//     showlegend: false
+// };
+// Plotly.newPlot('myDiv', data, layout);
+//===================
+});
+</script>
+</div>
+</body>

@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import json
 
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
@@ -7,7 +8,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 from flask import Flask, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
-from config import cuser, cpwd
+from config import luser, lpwd
 #################################################
 # Flask Setup
 #################################################
@@ -16,7 +17,7 @@ app = Flask(__name__)
 #################################################
 # Database Setup
 #################################################
-app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql://{cuser}:{cpwd}@us-cdbr-iron-east-03.cleardb.net/heroku_0168f21124ffac7"
+app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql://{luser}:{lpwd}@localhost/letour_db"
 db = SQLAlchemy(app)
 # reflect an existing database into a new model
 Base = automap_base()
@@ -39,12 +40,15 @@ Country = Base.classes.country
 @app.route("/")
 def welcome():
     return render_template("index.html")
-    console.log("Index")
+
 
 @app.route("/map")
 def mapper():
     return render_template("map.html")
-    console.log("Map")
+
+@app.route("/box")
+def boxer():
+    return render_template("box.html")
 
 @app.route("/race")
 def race():
@@ -92,17 +96,22 @@ def stage_data():
     .filter(Results.rider_speed.isnot(None)).order_by(Results.stage_id).all()
 
     df = pd.DataFrame(results, columns=["stage","ranking","rider_speed","rider_name","stage_type","stage_distance"])
+    stages = df.drop_duplicates(subset='stage', keep="first")
+    stages = stages[["stage", "stage_type", "stage_distance"]]
 
-    data_output = {}
-
-    data_output["stage_id"] = df["stage"].tolist()
-    data_output["rider_rank"] = df["ranking"].tolist()
-    data_output["rider_speed"] = df["rider_speed"].tolist()
-    data_output["rider_name"] = df["rider_name"].tolist()
-    data_output["stage_type"] = df["stage_type"].tolist()
-    data_output["stage_length"] = df["stage_distance"].tolist()
-
-    return jsonify(data_output)
+    data = []
+    for row in stages.iterrows():
+        stageData = {}
+        stageData['stage'] = row[1][0]
+        stageData['type'] = row[1][1]
+        stageData['distance'] = row[1][2]
+        stageData['data'] = {
+            'rider': df.loc[df.stage == row[1][0]].rider_name.tolist(),
+            'speed': df.loc[df.stage == row[1][0]].rider_speed.tolist(),
+            'rank': df.loc[df.stage == row[1][0]].ranking.tolist()
+        }
+        data.append(stageData)
+    return jsonify(data)
 
 
 if __name__ == '__main__':
