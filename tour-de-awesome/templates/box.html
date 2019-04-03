@@ -6,61 +6,95 @@
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <style>
+html, body {
+  margin: 0;
+  }
 
+.full-height {
+  height: 600px;
+  width: 50%;
+  background: yellow;
+}
+</style>
 </head>
 
 <body>
-<div id="myDiv">
+<div id="myDiv" class="full-height">
 <script>
 /*=========Build a box plot ==============*/
 var url = `/speeds`;
-console.log(url)
+
+// console.log(url)
 d3.json(url).then(function(response)  {
-  // console.log(response)
-  for (var i = 0; i < response.length; i++) {
-    console.log(response[i].data.speed)
-  }
-// var trace1 = {
-//   y: speeds,
-//   type: 'box',
-//   name: 'Stage 1',
-//   boxpoints: 'Outliers',
-//   jitter: 0.5,
-//   whiskerwidth: 0.2,
-//   fillcolor: 'cls',
-//   marker: {
-//       size: 2
-//   },
-//   line: {
-//       width: 1
-//   }
-// };
-//
-// var data = [trace1];
-//
-// var layout = {
-//     title: 'Test Plot',
-//     yaxis: {
-//         autorange: true,
-//         showgrid: true,
-//         zeroline: true,
-//         dtick: 5,
-//         gridcolor: 'rgb(255, 255, 255)',
-//         gridwidth: 0.5,
-//         zerolinecolor: 'rgb(255, 255, 255)',
-//         zerolinewidth: 2
-//     },
-//     margin: {
-//         l: 40,
-//         r: 30,
-//         b: 80,
-//         t: 100
-//     },
-//     paper_bgcolor: 'rgb(243, 243, 243)',
-//     plot_bgcolor: 'rgb(243, 243, 243)',
-//     showlegend: false
-// };
-// Plotly.newPlot('myDiv', data, layout);
+  var data = [];
+  var traces = [];
+  response.forEach(data => {
+
+    if (data.type=="Flat stage") {
+      var color = "rgb(1, 142, 13)"
+    }
+    else if (data.type=="Mountain stage") {
+      var color = "rgb(249, 74, 92)"
+    }
+    else if (data.type=="Team time trial" || data.data.type=="Individual time trial") {
+      var color = "rgb(72, 134, 249)"
+    }
+    else {
+      var color = "rgb(247, 203, 71)"
+    }
+    var trace = {
+      y: data.data.speed,
+      width:0.75,
+      orientation:"v",
+      hovertext: data.data.rider,
+      type: 'box',
+      name: data.stage,
+      boxpoints: 'suspectedoutliers',
+      jitter: 1.5,
+      whiskerwidth: 0.2,
+      fillcolor: color,
+      marker: {
+          size: 5,
+          color: color,
+          outliercolor: "black"
+      },
+      line: {
+          width: 1,
+          color: 'rgb(204, 205, 206)',
+          outliercolor: "black"
+      }
+    }
+    traces.push(trace)
+  });
+
+var layout = {
+    title: '2018 Tour de France Speeds by Stage',
+    xaxis: {
+    showgrid: false,
+    dtick:1,
+    zeroline: false,
+    tickangle: 90,
+    showticklabels: true
+  },
+    yaxis: {
+        autorange: true,
+        showgrid: true,
+        dtick: 5,
+        gridcolor: 'white',
+        gridwidth: 1,
+        zeroline: false
+    },
+    margin: {
+        l: 40,
+        r: 30,
+        b: 80,
+        t: 100
+    },
+    paper_bgcolor: 'white',
+    plot_bgcolor: 'white',
+    showlegend: false};
+Plotly.newPlot('myDiv', traces, layout);
 //===================
 });
 </script>
