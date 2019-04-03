@@ -30,8 +30,8 @@ Type = Base.classes.race_result_type
 Results = Base.classes.race_results
 Stages = Base.classes.race_stages
 Starters = Base.classes.race_starters
-# Country = Base.classes.country
-# Location = Base.classes.country_coordinates
+Country = Base.classes.country
+Location = Base.classes.country_coordinates
 
 #################################################
 # Flask Routes
