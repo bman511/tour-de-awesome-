@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
   <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 <a class="navbar-brand" href="">TdA Home</a>
@@ -60,13 +61,13 @@
 <div class="container-full-bg">
   <div class="row">
     <div class="col-md-6 col-sm-12">
-      <div class="card">
-        <div class="card-body">
+      <div id="bump">
+        <!-- <div class="card-body" id="bump">
           <h4 class='card-title justify-content-center'>Tour de France Bump Chart</h4>
           <img class="card-img-top img-fluid" src='' alt=''/>
 
           <p class="card-text">Text Placeholder</p>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="col-md-6 col-sm-12">
@@ -89,7 +90,7 @@
     </li>
   <ul>
   </nav>
-
+  <script type="text/javascript" src="../static/js/bump.js"></script>
 </body>
 <!-- <script type="text/javascript" src="../static/js/config.js"></script>
 <script type="text/javascript" src="../static/js/heatmap.js"></script> -->
