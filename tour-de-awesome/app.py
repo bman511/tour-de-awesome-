@@ -117,13 +117,13 @@ def country():
     data["longitude"] = df3["longitude"].astype(float).tolist()
     return jsonify(data)
 
-@app.route("/speeds")
-def stage_data():
+@app.route("/speeds/<type>")
+def stage_data(type):
     sel = [Results.stage_id, Results.ranking, Results.rider_speed, Starters.rider_name,\
        Results.rider_time,Stages.stage_type, Stages.stage_distance]
 
     results = db.session.query(*sel).filter(Results.stage_id==Stages.stage_id)\
-    .filter(Results.rider_id==Starters.rider_id).filter(Results.race_result_type_id==1)\
+    .filter(Results.rider_id==Starters.rider_id).filter(Results.race_result_type_id==type)\
     .filter(Results.rider_speed.isnot(None)).order_by(Results.stage_id).all()
 
     df = pd.DataFrame(results, columns=["stage","ranking","rider_speed","rider_name","rider_time","stage_type","stage_distance"])
