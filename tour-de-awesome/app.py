@@ -8,17 +8,16 @@ from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 from flask import Flask, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
-from config import luser, lpwd
+from config import cuser, cpwd, luser,lpwd
 #################################################
 # Flask Setup
 #################################################
 app = Flask(__name__)
-
 #################################################
 # Database Setup
 #################################################
-#app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql://{luser}:{lpwd}@localhost/letour_db"
-app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql://{luser}:{lpwd}@us-cdbr-iron-east-03.cleardb.net/heroku_0168f21124ffac7"
+app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql://{luser}:{lpwd}@localhost/letour_db"
+# app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql://{cuser}:{cpwd}@us-cdbr-iron-east-03.cleardb.net/heroku_0168f21124ffac7"
 db = SQLAlchemy(app)
 # reflect an existing database into a new model
 Base = automap_base()
@@ -48,15 +47,36 @@ def mapper():
 @app.route("/box")
 def boxer():
     return render_template("box.html")
+@app.route("/bump")
+def bumper():
+    return render_template("bump.html")
+@app.route("/results")
+def resulter():
+    return render_template("results.html")
 
 @app.route("/summary")
-def summary():
-    sel = [Results.race_result_type_id, Results.stage_id, Results.ranking, Starters.rider_name, Starters.rider_country, Starters.rider_team]
+def stages():
+    results = db.session.query(Stages.stage_id, Stages.stage_date,\
+     Stages.stage_start, Stages.stage_finish, Stages.stage_distance).all()
+    data= []
+    for i in results:
+        stages = {}
+        stages["stage"] = i[0]
+        stages["date"] = i[1]
+        stages["start"] = i[2]
+        stages["finish"] = i[3]
+        stages["distance"] = i[4]
+        data.append(stages)
+    return jsonify(data)
+
+@app.route("/summary/<stage>")
+def summary(stage):
+    sel = [Results.race_result_type_id, Results.stage_id, Results.ranking, Results.rider_speed, Starters.rider_name, Starters.rider_country, Starters.rider_team]
     results = db.session.query(*sel).filter(Results.stage_id==Stages.stage_id)\
     .filter(Results.rider_id==Starters.rider_id)\
-    .filter(Results.ranking < 11)\
+    .filter(Stages.stage_id==stage)\
     .order_by(Results.race_result_type_id, Results.stage_id, Results.ranking).all()
-    df = pd.DataFrame(results, columns=["type","stage","ranking","name","country","team"])
+    df = pd.DataFrame(results, columns=["type","stage","ranking","speed","name","country","team"])
     overall_results = df.loc[df["type"]==2]
     stage_results = df.loc[df["type"]==1]
     stage = df["stage"].unique()
@@ -71,17 +91,18 @@ def summary():
         'name': df.loc[df.stage==i].loc[df.type==1].name.tolist(),
         'country': df.loc[df.stage==i].loc[df.type==1].country.tolist(),
         'team': df.loc[df.stage==i].loc[df.type==1].team.tolist(),
+        'speed': df.loc[df.stage==i].loc[df.type==1].speed.tolist()
         }
         raceResults['overall_results'] = {
         'rank': df.loc[df.stage==i].loc[df.type==2].ranking.tolist(),
         'name': df.loc[df.stage==i].loc[df.type==2].name.tolist(),
         'country': df.loc[df.stage==i].loc[df.type==2].country.tolist(),
         'team': df.loc[df.stage==i].loc[df.type==2].team.tolist(),
+        'speed': df.loc[df.stage==i].loc[df.type==1].speed.tolist()
         }
 
         data.append(raceResults)
     return jsonify(data)
-
 @app.route("/race")
 def race():
 #     """Return a list of all passenger names"""
@@ -157,7 +178,7 @@ def bump_data():
     df=pd.DataFrame(results, columns=["rider_id", "rider_name", "rider_country", "stage_id", "ranking", "race_result_type_id", "rider_team"])
     riders=df.drop_duplicates(subset="rider_id", keep="first")
     riders= riders[["rider_id", "rider_name", "rider_country", "stage_id", "ranking"]]
-    
+
     data=[]
     for row in riders.iterrows():
         riderData = {}
@@ -172,31 +193,31 @@ def bump_data():
         data.append(riderData)
     return jsonify(data)
 
-@app.route("/bump_data")
-def bump_data():
-    sel=[Results.rider_id, Starters.rider_name, Starters.rider_country, Results.stage_id,  Results.ranking, Results.race_result_type_id, Starters.rider_team]
-
-    my_list =[1, 8, 11, 21, 51, 61, 71, 75, 78, 81, 91, 141, 161, 166]
-    results=db.session.query(*sel).join(Starters, isouter=True)\
-    .filter(Results.race_result_type_id==2)\
-    .filter(Results.rider_id.in_(my_list)).all()
-    df=pd.DataFrame(results, columns=["rider_id", "rider_name", "rider_country", "stage_id", "ranking", "race_result_type_id", "rider_team"])
-    riders=df.drop_duplicates(subset="rider_id", keep="first")
-    riders= riders[["rider_id", "rider_name", "rider_country", "stage_id", "ranking"]]
-
-    data=[]
-    for row in riders.iterrows():
-        riderData = {}
-
-        riderData['rider_id'] = row[1][0]
-        riderData['name'] = row[1][1]
-        riderData['country'] = row[1][2]
-        riderData['performance'] = {
-            'stages': df.loc[df.rider_id == row[1][0]].stage_id.tolist(),
-            'rank': df.loc[df.rider_id == row[1][0]].ranking.tolist()
-        }
-        data.append(riderData)
-    return jsonify(riderData )
+# @app.route("/bump_data")
+# def bump_data():
+#     sel=[Results.rider_id, Starters.rider_name, Starters.rider_country, Results.stage_id,  Results.ranking, Results.race_result_type_id, Starters.rider_team]
+#
+#     my_list =[1, 8, 11, 21, 51, 61, 71, 75, 78, 81, 91, 141, 161, 166]
+#     results=db.session.query(*sel).join(Starters, isouter=True)\
+#     .filter(Results.race_result_type_id==2)\
+#     .filter(Results.rider_id.in_(my_list)).all()
+#     df=pd.DataFrame(results, columns=["rider_id", "rider_name", "rider_country", "stage_id", "ranking", "race_result_type_id", "rider_team"])
+#     riders=df.drop_duplicates(subset="rider_id", keep="first")
+#     riders= riders[["rider_id", "rider_name", "rider_country", "stage_id", "ranking"]]
+#
+#     data=[]
+#     for row in riders.iterrows():
+#         riderData = {}
+#
+#         riderData['rider_id'] = row[1][0]
+#         riderData['name'] = row[1][1]
+#         riderData['country'] = row[1][2]
+#         riderData['performance'] = {
+#             'stages': df.loc[df.rider_id == row[1][0]].stage_id.tolist(),
+#             'rank': df.loc[df.rider_id == row[1][0]].ranking.tolist()
+#         }
+#         data.append(riderData)
+#     return jsonify(riderData )
 
 if __name__ == '__main__':
     app.run(debug=True)
