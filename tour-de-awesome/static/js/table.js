@@ -59,13 +59,13 @@ function init() {
 
   });
 }
-function optionChanged(newType) {
-
+function optionChanged(event, newType) {
+  d3.event.preventDefault();
   var currentStage = d3.select("#selStage").property("value");
   buildTable(currentStage, newType)
 }
-function stageChanged(newStage) {
-
+function stageChanged(event, newStage) {
+  d3.event.preventDefault();
   var currentType = d3.selectAll('input:checked').property("value");
   buildTable(newStage,currentType);
 }
