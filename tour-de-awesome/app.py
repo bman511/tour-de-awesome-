@@ -17,7 +17,8 @@ app = Flask(__name__)
 #################################################
 # Database Setup
 #################################################
-app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql://{luser}:{lpwd}@localhost/letour_db"
+#app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql://{luser}:{lpwd}@localhost/letour_db"
+app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql://{luser}:{lpwd}@us-cdbr-iron-east-03.cleardb.net/heroku_0168f21124ffac7"
 db = SQLAlchemy(app)
 # reflect an existing database into a new model
 Base = automap_base()
@@ -31,7 +32,7 @@ Results = Base.classes.race_results
 Stages = Base.classes.race_stages
 Starters = Base.classes.race_starters
 Country = Base.classes.country
-Location = Base.classes.country_coordinates
+#Location = Base.classes.country_coordinates
 
 #################################################
 # Flask Routes
