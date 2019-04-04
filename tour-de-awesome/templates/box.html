@@ -27,43 +27,49 @@ var url = `/speeds`;
 
 // console.log(url)
 d3.json(url).then(function(response)  {
+
   var data = [];
   var traces = [];
-  response.forEach(data => {
 
+  response.forEach(data => {
     if (data.type=="Flat stage") {
-      var color = "rgb(1, 142, 13)"
+      var color = "rgb(43, 255, 230)"
     }
     else if (data.type=="Mountain stage") {
-      var color = "rgb(249, 74, 92)"
+      var color = "rgb(249, 2, 229)"
     }
-    else if (data.type=="Team time trial" || data.data.type=="Individual time trial") {
-      var color = "rgb(72, 134, 249)"
+    else if (data.type=="Team time trial" || data.type=="Individual time trial") {
+      var color = "rgb(246, 255, 5)"
     }
     else {
-      var color = "rgb(247, 203, 71)"
+      var color = "rgb(88, 249, 1)"
     }
+
     var trace = {
       y: data.data.speed,
-      width:0.75,
       orientation:"v",
+      width:0.5,
       hovertext: data.data.rider,
+      hoverlabel:{bgcolor:color},
       type: 'box',
       name: data.stage,
-      boxpoints: 'suspectedoutliers',
-      jitter: 1.5,
+      boxpoints: 'all',
+      jitter: 1,
+      pointpos: 0,
       whiskerwidth: 0.2,
       fillcolor: color,
+      box: {visible:false},
       marker: {
-          size: 5,
+          size: 3,
           color: color,
-          outliercolor: "black"
-      },
+          outliercolor: "rgb(255, 2, 10)",
       line: {
           width: 1,
-          color: 'rgb(204, 205, 206)',
-          outliercolor: "black"
+          color: "black",
+          outliercolor: "rgb(255, 2, 10)",
+          outlierwidth:2.5
       }
+    }
     }
     traces.push(trace)
   });
@@ -71,7 +77,7 @@ d3.json(url).then(function(response)  {
 var layout = {
     title: '2018 Tour de France Speeds by Stage',
     xaxis: {
-    showgrid: false,
+    showgrid: true,
     dtick:1,
     zeroline: false,
     tickangle: 90,
@@ -81,12 +87,12 @@ var layout = {
         autorange: true,
         showgrid: true,
         dtick: 5,
-        gridcolor: 'white',
+        gridcolor: 'rgb(66,66,66)',
         gridwidth: 1,
         zeroline: false
     },
     margin: {
-        l: 40,
+        l: 80,
         r: 30,
         b: 80,
         t: 100

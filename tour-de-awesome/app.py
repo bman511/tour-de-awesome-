@@ -31,7 +31,6 @@ Results = Base.classes.race_results
 Stages = Base.classes.race_stages
 Starters = Base.classes.race_starters
 Country = Base.classes.country
-# Location = Base.classes.country_coordinates
 
 #################################################
 # Flask Routes
@@ -41,7 +40,6 @@ Country = Base.classes.country
 def welcome():
     return render_template("index.html")
 
-
 @app.route("/map")
 def mapper():
     return render_template("map.html")
@@ -49,6 +47,39 @@ def mapper():
 @app.route("/box")
 def boxer():
     return render_template("box.html")
+
+@app.route("/summary")
+def summary():
+    sel = [Results.race_result_type_id, Results.stage_id, Results.ranking, Starters.rider_name, Starters.rider_country, Starters.rider_team]
+    results = db.session.query(*sel).filter(Results.stage_id==Stages.stage_id)\
+    .filter(Results.rider_id==Starters.rider_id)\
+    .filter(Results.ranking < 11)\
+    .order_by(Results.race_result_type_id, Results.stage_id, Results.ranking).all()
+    df = pd.DataFrame(results, columns=["type","stage","ranking","name","country","team"])
+    overall_results = df.loc[df["type"]==2]
+    stage_results = df.loc[df["type"]==1]
+    stage = df["stage"].unique()
+    stages = stage.tolist()
+
+    data = []
+    for i in stages:
+        raceResults = {}
+        raceResults['stage'] = i
+        raceResults['stage_results'] = {
+        'rank': df.loc[df.stage==i].loc[df.type==1].ranking.tolist(),
+        'name': df.loc[df.stage==i].loc[df.type==1].name.tolist(),
+        'country': df.loc[df.stage==i].loc[df.type==1].country.tolist(),
+        'team': df.loc[df.stage==i].loc[df.type==1].team.tolist(),
+        }
+        raceResults['overall_results'] = {
+        'rank': df.loc[df.stage==i].loc[df.type==2].ranking.tolist(),
+        'name': df.loc[df.stage==i].loc[df.type==2].name.tolist(),
+        'country': df.loc[df.stage==i].loc[df.type==2].country.tolist(),
+        'team': df.loc[df.stage==i].loc[df.type==2].team.tolist(),
+        }
+
+        data.append(raceResults)
+    return jsonify(data)
 
 @app.route("/race")
 def race():
@@ -89,13 +120,14 @@ def country():
 @app.route("/speeds")
 def stage_data():
     sel = [Results.stage_id, Results.ranking, Results.rider_speed, Starters.rider_name,\
-       Stages.stage_type, Stages.stage_distance]
+       Results.rider_time,Stages.stage_type, Stages.stage_distance]
 
     results = db.session.query(*sel).filter(Results.stage_id==Stages.stage_id)\
     .filter(Results.rider_id==Starters.rider_id).filter(Results.race_result_type_id==1)\
     .filter(Results.rider_speed.isnot(None)).order_by(Results.stage_id).all()
 
-    df = pd.DataFrame(results, columns=["stage","ranking","rider_speed","rider_name","stage_type","stage_distance"])
+    df = pd.DataFrame(results, columns=["stage","ranking","rider_speed","rider_name","rider_time","stage_type","stage_distance"])
+    df["rider_time"] = df["rider_time"].astype(int)/3600
     stages = df.drop_duplicates(subset='stage', keep="first")
     stages = stages[["stage", "stage_type", "stage_distance"]]
 
@@ -108,11 +140,37 @@ def stage_data():
         stageData['data'] = {
             'rider': df.loc[df.stage == row[1][0]].rider_name.tolist(),
             'speed': df.loc[df.stage == row[1][0]].rider_speed.tolist(),
-            'rank': df.loc[df.stage == row[1][0]].ranking.tolist()
+            'rank': df.loc[df.stage == row[1][0]].ranking.tolist(),
+            'time': df.loc[df.stage == row[1][0]].rider_time.tolist()
         }
         data.append(stageData)
     return jsonify(data)
 
+@app.route("/bump_data")
+def bump_data():
+    sel=[Results.rider_id, Starters.rider_name, Starters.rider_country, Results.stage_id,  Results.ranking, Results.race_result_type_id, Starters.rider_team]
+
+    my_list =[1, 8, 11, 21, 51, 61, 71, 75, 78, 81, 91, 141, 161, 166]
+    results=db.session.query(*sel).join(Starters, isouter=True)\
+    .filter(Results.race_result_type_id==2)\
+    .filter(Results.rider_id.in_(my_list)).all()
+    df=pd.DataFrame(results, columns=["rider_id", "rider_name", "rider_country", "stage_id", "ranking", "race_result_type_id", "rider_team"])
+    riders=df.drop_duplicates(subset="rider_id", keep="first")
+    riders= riders[["rider_id", "rider_name", "rider_country", "stage_id", "ranking"]]
+
+    data=[]
+    for row in riders.iterrows():
+        riderData = {}
+
+        riderData['rider_id'] = row[1][0]
+        riderData['name'] = row[1][1]
+        riderData['country'] = row[1][2]
+        riderData['performance'] = {
+            'stages': df.loc[df.rider_id == row[1][0]].stage_id.tolist(),
+            'rank': df.loc[df.rider_id == row[1][0]].ranking.tolist()
+        }
+        data.append(riderData)
+    return jsonify(riderData )
 
 if __name__ == '__main__':
     app.run(debug=True)
