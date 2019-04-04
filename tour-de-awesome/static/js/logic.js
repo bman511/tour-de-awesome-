@@ -1,10 +1,9 @@
 function buildCharts(type) {
-  // Fetch the sample data for the plots
+  // Fetch the result type selected for the plots
 
   /*=========Build a box plot ==============*/
   var url = `/speeds/${type}`;
 
-  // console.log(url)
   d3.json(url).then(function(response)  {
 
     var data = [];
@@ -91,16 +90,13 @@ function buildCharts(type) {
 function init() {
   // Grab a reference to the select element
   var selector = d3.select("#selType");
-    // Use the first sample from the list to build the initial plots
     var firstSelection = 1;
     buildCharts(firstSelection);
   };
 
 function optionChanged(newType) {
-  console.log("New type detected ${newType}")
-  // Fetch new data each time a new sample is selected
+  //Fetch the selection and build plot with value
   buildCharts(newType);
 }
 
-// Initialize the dashboard
 init();

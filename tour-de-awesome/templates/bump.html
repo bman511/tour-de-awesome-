@@ -3,8 +3,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tour de Awesome!</title>
-  <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script> -->
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
@@ -16,12 +17,12 @@ html, body {
   margin: 0;
   }
 .full-height {
-  height: 800px;
+  height: 600px;
   width: 100%;
   background: white;
 }
 </style>
-<script src="../static/js/logic.js"></script>
+<script src="../static/js/bump.js"></script>
 </head>
 <body>
 
@@ -56,7 +57,8 @@ html, body {
     </div>
     <div class="col-md-10">
       <br />
-      <div class="form-check form-check-inline" id="selType">
+      <h4>Plotting the Contenders - Bump Chart</h4>
+      <!-- <div class="form-check form-check-inline" id="selType">
         <input class="form-check-input" type="radio" name="optionType" id="type1" value="1" checked onchange="optionChanged(this.value)">
         <label class="form-check-label" for="type1">
           Stage
@@ -67,9 +69,9 @@ html, body {
         <label class="form-check-label" for="type2">
           Overall
         </label>
-      </div>
+      </div> -->
       <hr />
-      <div id="box" class="full-height">
+      <div id="bump" class="full-height">
         <!-- Box Chart -->
       </div>
     </div>
@@ -77,12 +79,13 @@ html, body {
     </div>
     </div>
   </div>
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <ul class="navbar-nav mr-auto">
-      <li class="navbar-nav nav-item active"><a href="https://github.com/bman511/tour-de-awesome-">Project GitHub Page</a>
-      </li>
-      <li class="navbar-nav nav-item active"><a href="#top" class="nav-link">Back to top</a>
-      </li>
-    <ul>
-  </nav>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <ul class="navbar-nav mr-auto">
+    <li class="navbar-nav nav-item active"><a href="https://github.com/bman511/tour-de-awesome-">Project GitHub Page</a>
+    </li>
+    <li class="navbar-nav nav-item active"><a href="#top" class="nav-link">Back to top</a>
+    </li>
+  <ul>
+</nav>
 </body>
+  <script type="text/javascript" src="../static/js/bump.js"></script>
