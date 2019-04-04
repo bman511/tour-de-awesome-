@@ -1,102 +1,88 @@
 <!DOCTYPE html>
 <head>
-  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tour de Awesome!</title>
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+  <link rel="stylesheet" href="../static/css/style.css">
   <style>
 html, body {
   margin: 0;
   }
-
 .full-height {
-  height: 600px;
-  width: 50%;
-  background: yellow;
+  height: 800px;
+  width: 100%;
+  background: white;
 }
 </style>
+<script src="../static/js/logic.js"></script>
 </head>
-
 <body>
-<div id="myDiv" class="full-height">
-<script>
-/*=========Build a box plot ==============*/
-var url = `/speeds`;
 
-// console.log(url)
-d3.json(url).then(function(response)  {
-  var data = [];
-  var traces = [];
-  response.forEach(data => {
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<a class="navbar-brand" href="">TdA Home</a>
+</nav>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    if (data.type=="Flat stage") {
-      var color = "rgb(1, 142, 13)"
-    }
-    else if (data.type=="Mountain stage") {
-      var color = "rgb(249, 74, 92)"
-    }
-    else if (data.type=="Team time trial" || data.data.type=="Individual time trial") {
-      var color = "rgb(72, 134, 249)"
-    }
-    else {
-      var color = "rgb(247, 203, 71)"
-    }
-    var trace = {
-      y: data.data.speed,
-      width:0.75,
-      orientation:"v",
-      hovertext: data.data.rider,
-      type: 'box',
-      name: data.stage,
-      boxpoints: 'suspectedoutliers',
-      jitter: 1.5,
-      whiskerwidth: 0.2,
-      fillcolor: color,
-      marker: {
-          size: 5,
-          color: color,
-          outliercolor: "black"
-      },
-      line: {
-          width: 1,
-          color: 'rgb(204, 205, 206)',
-          outliercolor: "black"
-      }
-    }
-    traces.push(trace)
-  });
-
-var layout = {
-    title: '2018 Tour de France Speeds by Stage',
-    xaxis: {
-    showgrid: false,
-    dtick:1,
-    zeroline: false,
-    tickangle: 90,
-    showticklabels: true
-  },
-    yaxis: {
-        autorange: true,
-        showgrid: true,
-        dtick: 5,
-        gridcolor: 'white',
-        gridwidth: 1,
-        zeroline: false
-    },
-    margin: {
-        l: 40,
-        r: 30,
-        b: 80,
-        t: 100
-    },
-    paper_bgcolor: 'white',
-    plot_bgcolor: 'white',
-    showlegend: false};
-Plotly.newPlot('myDiv', traces, layout);
-//===================
-});
-</script>
-</div>
+  <div class="collapse navbar-collapse" id="navbar1">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Bump Chart</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./box">Box Plot</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./map">Choropleth</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container-full-bg">
+  <div class="row">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-10">
+      <br />
+      <div class="form-check form-check-inline" id="selType">
+        <input class="form-check-input" type="radio" name="optionType" id="type1" value="1" checked onchange="optionChanged(this.value)">
+        <label class="form-check-label" for="type1">
+          Stage
+        </label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="optionType" id="type2" value="2" onchange="optionChanged(this.value)">
+        <label class="form-check-label" for="type2">
+          Overall
+        </label>
+      </div>
+      <hr />
+      <div id="box" class="full-height">
+        <!-- Box Chart -->
+      </div>
+    </div>
+    <div class="col-md-1">
+    </div>
+    </div>
+  </div>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <ul class="navbar-nav mr-auto">
+    <li class="navbar-nav nav-item active">Project GitHub Page
+    </li>
+    <li class="navbar-nav nav-item active"><a href="#top" class="nav-link">Back to top</a>
+    </li>
+  <ul>
+</nav>
 </body>
