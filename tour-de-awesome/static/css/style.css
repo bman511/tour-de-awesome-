@@ -21,10 +21,21 @@ body {
   margin: 0;
 }
 /* Make the small font less small */
-smaller {
+.smaller {
   font-size: 90%;
 }
-
+.filter-green {
+  filter: invert(72%) sepia(49%) saturate(737%) hue-rotate(56deg) brightness(98%) contrast(84%);
+}
+.filter-pink {
+  filter: invert(46%) sepia(44%) saturate(5513%) hue-rotate(271deg) brightness(86%) contrast(109%);
+}
+.filter-blue {
+  filter: invert(50%) sepia(81%) saturate(6830%) hue-rotate(224deg) brightness(89%) contrast(91%);
+}
+.filter-yellow {
+  filter: invert(86%) sepia(32%) saturate(907%) hue-rotate(12deg) brightness(109%) contrast(95%);
+}
 /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
 .wrapper {
   position: relative;
@@ -56,20 +67,6 @@ smaller {
 .navbar {
   padding: 5px;
   margin: 0;
-}
-
-/* This CSS styles the ufo icon in the navbar */
-.nav-ufo {
-  position: absolute;
-  bottom: 5px;
-  left: 150px;
-  width: 35px;
-  color: white;
-}
-
-/* Adding styles to the aside and filter form */
-.ufo-form {
-  margin-top: 50px;
 }
 
 .filters .panel-body {
@@ -145,11 +142,19 @@ select {
   /* Firefox 18- */
   color: #8e979f;
 }
-
+.full-height body, html {
+  margin: 20;
+  height: 600px;
+  background: white;
+}
 /* media queries which will only be activated at specific screen sizes */
 @media (max-width: 800px) {
   #table-area td {
     font-size: 1em;
+  }
+  .full-height body, html {
+    height: 300px;
+    background: white;
   }
 }
 
@@ -258,7 +263,9 @@ select {
   color: #777;
 }
 
+
 #map{
 
   height:600px;
 }
+
