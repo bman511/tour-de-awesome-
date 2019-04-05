@@ -19,6 +19,8 @@ Operations were performed in Python Jupyter Notebooks to perfect the SQLAlchemy 
 * /countries extracts country coordinate and race participant data.
 * /speeds/<type> endpoing displays stage results (type 1) and overall standings (type 2) for each stage with speeds rather than times, and is used to create the box plot.
   * /bump_data endpoint extracts overall rankings results for each stage for a select group of pre-race favorites.
+    * The bump chart, so named for lines crisscrossing with conspicuous markers, provides a visual representation of the change in rider  rank from stage to stage.  We see an obvious climb in the ranks for many of the favored riders during the first few stages.  The      ranks appear to steady midway into the race and the favored riders finish out the race in a tight pack.  In this particular visual, we used Plot.ly to generate chart.  The y-axis is reversed (#1 at the top) to provide a more intuitive look at the improvement in rank over the course of the race.  Each refresh of the page will show new line and marker colors.  This is achieved with the Colors.js library simply providing a random Hex color when executed.
+
   * /summary is a list of stages used to populated the results drop down list
-  * /summary/<stage> endpoing is used to create the dynamic results table.
+  * /summary/<stage> endpoint is used to create the dynamic results table.
 
