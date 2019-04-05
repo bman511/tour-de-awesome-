@@ -14,20 +14,22 @@ var url = "/countries";
 
 d3.json(url, function(response) {
 
-  var heatArray = [];
-  console.log(response.latitude.length);
-  for (var i = 0; i < response.latitude.length; i++) {
-    var latitude = response.latitude[i];
-    var longitude = response.longitude[i]
-    if (latitude) {
-      heatArray.push([longitude, latitude])
-      L.marker([latitude, longitude]).addTo(myMap);
-    }
-  }
+  // var heatArray = [];
+  // console.log(response.latitude.length);
+  // for (var i = 0; i < response.latitude.length; i++) {
+  //   var latitude = response.latitude[i];
+  //   var longitude = response.longitude[i]
+  //   if (latitude) {
+  //     heatArray.push([longitude, latitude])
+  //     L.marker([latitude, longitude]).addTo(myMap);
+  //   }
+  // }
 
-  var heat = L.heatLayer(heatArray, {
-    radius: 5,
-    blur: 5
-  }).addTo(myMap);
+  // var heat = L.heatLayer(heatArray, {
+  //   radius: 5,
+  //   blur: 5
+  // }).addTo(myMap);
+
+  console.log(response);
 
 });
