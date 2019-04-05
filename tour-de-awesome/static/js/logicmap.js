@@ -1,3 +1,4 @@
+
 // Creating map object
 var myMap = L.map("map", {
   center: [37.7749, -7.4194],
@@ -18,7 +19,8 @@ var url = "/countries" ;
 d3.json(url, function (data) { 
 console.log(data);
 
-// created variables using data from app and geojson format data in shapes.js
+
+// define variables to use for choropleth from app and geojson format in shapes.js
 country_count = data.country_count;
 console.log(country_count);
 country_name = geoShapes.features[4].properties.name;
@@ -34,6 +36,7 @@ return d >= 25 ? '#fe1300' :
        d > 0  ? '#ffff76' :
                  '#FFEDA0';
 }
+
 
 
 function style(feature) {
@@ -59,17 +62,13 @@ for (var i = 0; i < data.country.length; i++) {
 var lat = data.latitude[i];
 var lng = data.longitude[i];
 
-locate[lat,lng]
+locate.push(lat,lng);
 
-console.log(lng);
-console.log(lat);
-console.log(locate) 
 
 // Check for location property
 if (locate) {
 
   markers.addLayer(L.circleMarker(
-
 
     [lat, lng],{radius:3})
     .bindPopup("<h6>" +data.rider_name[i] + "</h6> <hr><img width=70 src = https://i.pinimg.com/originals/05/8d/07/058d0703a96cc9f6cf669bc6017aa4bf.gif alt=testing /><b>Rank: " + data.final_ranking[i] + "<br>" + data.country[i] + "<br>" + "</b>"));
@@ -135,7 +134,5 @@ function fillColor(colors) {
   };
 };
 
+
 });
-
-
-  

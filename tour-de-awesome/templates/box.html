@@ -3,11 +3,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tour de Awesome!</title>
-  <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
   <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
   <link rel="stylesheet" href="../static/css/style.css">
@@ -16,7 +13,7 @@ html, body {
   margin: 0;
   }
 .full-height {
-  height: 800px;
+  height: 700px;
   width: 100%;
   background: white;
 }
@@ -57,7 +54,7 @@ html, body {
   <div class="row">
     <div class="col-md-1">
     </div>
-    <div class="col-md-10">
+    <div class="col-md-5">
       <br />
       <div class="form-check form-check-inline" id="selType">
         <input class="form-check-input" type="radio" name="optionType" id="type1" value="1" checked onchange="optionChanged(this.value)">
@@ -71,15 +68,44 @@ html, body {
           Overall
         </label>
       </div>
-      <hr />
-      <div id="box" class="full-height">
-        <!-- Box Chart -->
+    </div>
+      <div class="col-md-5 d-inline-flex justify-content-end">
+        <img src="../static/images/001-hills.svg" width=50em height=50em class="filter-yellow"/><br />
+        <img src="../static/images/002-mountains.svg"  width=50em height=50em class="filter-pink"/><br />
+        <img src="../static/images/003-bicycle.svg"  width=50em height=50em class="filter-blue"/><br />
+        <img src="../static/images/004-work-tools.svg"  width=50em height=50em class="filter-green"/><br />
+      </div>
+      <div class="col-md-1">
       </div>
     </div>
-    <div class="col-md-1">
+      <div class="row">
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-10">
+        <hr />
+        <div id="box" class="full-height">
+          <!-- Box Chart -->
+        </div>
+        <hr />
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <th class="table-head">Stage</th>
+              <th class="table-head">Date</th>
+              <th class="table-head">Start</th>
+              <th class="table-head">Finish</th>
+              <th class="table-head">Distance</th>
+              <th class="table-head">Stage Type</th>
+            </tr>
+          </thead>
+          <tbody class="smaller"></tbody>
+        </table>
+      </div>
+      <div class="col-md-1">
+      </div>
+      </div>
     </div>
-    </div>
-  </div>
+
   <nav class="navbar navbar-expand-lg navbar-light">
     <ul class="navbar-nav mr-auto">
       <li class="navbar-nav nav-item active"><a href="https://github.com/bman511/tour-de-awesome-">Project GitHub Page</a>
@@ -89,3 +115,4 @@ html, body {
     <ul>
   </nav>
 </body>
+<script type="text/javascript"  src="../static/js/stages.js"></script>
