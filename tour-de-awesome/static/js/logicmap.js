@@ -1,4 +1,5 @@
 
+// Creating map object
 var myMap = L.map("map", {
   center: [37.7749, -7.4194],
   zoom: 1.3
@@ -14,10 +15,10 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 
 var url = "/countries" ;
 
-
 // Fetch the JSON data and console log it
 d3.json(url, function (data) { 
 console.log(data);
+
 
 // define variables to use for choropleth from app and geojson format in shapes.js
 country_count = data.country_count;
@@ -33,7 +34,7 @@ return d >= 25 ? '#fe1300' :
        d >= 4  ? '#ff8514' :
        d >= 2  ? '#ffdd27' : 
        d > 0  ? '#ffff76' :
-                '#FFEDA0';
+                 '#FFEDA0';
 }
 
 
@@ -69,10 +70,8 @@ if (locate) {
 
   markers.addLayer(L.circleMarker(
 
-
-  locate,{radius:3})
-  .bindPopup("<h6>" +data.rider_name[i] + "</h6> <hr><img width=70 src = https://i.pinimg.com/originals/05/8d/07/058d0703a96cc9f6cf669bc6017aa4bf.gif alt=testing /><b>Rank: " + data.final_ranking[i] + "</b>"));
-  
+    [lat, lng],{radius:3})
+    .bindPopup("<h6>" +data.rider_name[i] + "</h6> <hr><img width=70 src = https://i.pinimg.com/originals/05/8d/07/058d0703a96cc9f6cf669bc6017aa4bf.gif alt=testing /><b>Rank: " + data.final_ranking[i] + "<br>" + data.country[i] + "<br>" + "</b>"));
   
 }
 
@@ -132,7 +131,8 @@ function fillColor(colors) {
 
     default:
       return '#FFEDA0';
-  }
-}
+  };
+};
+
 
 });
