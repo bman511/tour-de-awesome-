@@ -12,13 +12,21 @@
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
   <link rel="stylesheet" href="../static/css/style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
-  <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script> -->
-  <!-- <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script> -->
-  <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> --> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <style>
+html, body {
+  margin: 20;
+  }
+.full-height {
+  height: 600px;
+  background: white;
+}
+</style>
 </head>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-<a class="navbar-brand" href="">TdA Home</a>
+<a class="navbar-brand" href="./">TdA Home</a>
 </nav>
 <!-- THIS IS THE CONTENT PART -->
 <body>
@@ -40,16 +48,19 @@
     <div class="collapse navbar-collapse" id="navbar1">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="./">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/bump">Bump Chart</a>
+          <a class="nav-link" href="./bump">Bump Chart</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/box">Box Plot</a>
+          <a class="nav-link" href="./box">Box Plot</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/map">Choropleth</a>
+          <a class="nav-link" href="./map">Choropleth</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./results">Race Results</a>
         </li>
       </ul>
     </div>
@@ -58,11 +69,28 @@
   <div class="row">
     <div class="col-md-6 col-sm-12">
       <h4 class='card-title justify-content-center'>Top Rider Rankings</h4>
-        <div id="bump"></div>
+      <br />
+      <br />
+      <hr />
+        <div id="bump" class="full-height"></div>
       </div>
     <div class="col-md-6 col-sm-12">
           <h4 class='card-title justify-content-center'>Race Speeds</h4>
-            <div id="box"></div>
+          <br />
+          <div class="form-check form-check-inline" id="selType">
+            <input class="form-check-input" type="radio" name="optionType" id="type1" value="1" checked onchange="optionChanged(this.value)">
+            <label class="form-check-label" for="type1">
+              Stage
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="optionType" id="type2" value="2" onchange="optionChanged(this.value)">
+            <label class="form-check-label" for="type2">
+              Overall
+            </label>
+          </div>
+          <hr />
+            <div id="box" class="full-height"></div>
     </div>
     </div>
   </div>
@@ -75,7 +103,8 @@
       </li>
     <ul>
   </nav>
-  <!-- <script type="text/javascript"  src="../static/js/logic.js"></script> -->
+  <script type="text/javascript"  src="../static/js/logic.js"></script>
+  <script type="text/javascript"  src="../static/js/bump.js"></script>
 
 
 </body>

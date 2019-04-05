@@ -59,16 +59,31 @@ function init() {
 
   });
 }
-function optionChanged(event, newType) {
-  d3.event.preventDefault();
-  var currentStage = d3.select("#selStage").property("value");
-  buildTable(currentStage, newType)
-}
-function stageChanged(event, newStage) {
-  d3.event.preventDefault();
-  var currentType = d3.selectAll('input:checked').property("value");
-  buildTable(newStage,currentType);
-}
+
+$('.radio-select').on('change', function(event) {
+  event.preventDefault()
+  var button1 = $('#type1')[0].checked ? '1' : '2'
+  var currentStage = $('.stage-ddl').val();
+  buildTable(currentStage, button1)
+});
+$('.stage-ddl').on('change', function(event) {
+  event.preventDefault()
+  var button1 = $('#type1')[0].checked ? '1' : '2'
+  var newStage = $(event.target).val();
+  buildTable(newStage, button1)
+});
+// function optionChanged(event) {
+//   event.preventDefault();
+//
+//   var currentStage = d3.select("#selStage").property("value");
+//   buildTable(currentStage, newType)
+// }
+// function stageChanged(event) {
+//   // event.preventDefault();
+
+//   var currentType = d3.selectAll('input:checked').property("value");
+//   buildTable(newStage,currentType);
+// }
 
 // Initialize the dashboard
 init();

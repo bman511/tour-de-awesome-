@@ -4,8 +4,8 @@
   <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tour de Awesome!</title>
   <script src="https://d3js.org/d3.v4.min.js"></script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script> -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script> -->
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
@@ -27,7 +27,7 @@ html, body {
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-<a class="navbar-brand" href="/">TdA Home</a>
+<a class="navbar-brand" href="./">TdA Home</a>
 </nav>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,16 +37,19 @@ html, body {
   <div class="collapse navbar-collapse" id="navbar1">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="./">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/bump">Bump Chart</a>
+        <a class="nav-link" href="./bump">Bump Chart</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/box">Box Plot</a>
+        <a class="nav-link" href="./box">Box Plot</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/map">Choropleth</a>
+        <a class="nav-link" href="./map">Choropleth</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./results">Race Results</a>
       </li>
     </ul>
   </div>
@@ -58,18 +61,6 @@ html, body {
     <div class="col-md-10">
       <br />
       <h4>Plotting the Contenders - Bump Chart</h4>
-      <!-- <div class="form-check form-check-inline" id="selType">
-        <input class="form-check-input" type="radio" name="optionType" id="type1" value="1" checked onchange="optionChanged(this.value)">
-        <label class="form-check-label" for="type1">
-          Stage
-        </label>
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="optionType" id="type2" value="2" onchange="optionChanged(this.value)">
-        <label class="form-check-label" for="type2">
-          Overall
-        </label>
-      </div> -->
       <hr />
       <div id="bump" class="full-height">
         <!-- Box Chart -->

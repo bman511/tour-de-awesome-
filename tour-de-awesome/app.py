@@ -98,7 +98,7 @@ def summary(stage):
         'name': df.loc[df.stage==i].loc[df.type==2].name.tolist(),
         'country': df.loc[df.stage==i].loc[df.type==2].country.tolist(),
         'team': df.loc[df.stage==i].loc[df.type==2].team.tolist(),
-        'speed': df.loc[df.stage==i].loc[df.type==1].speed.tolist()
+        'speed': df.loc[df.stage==i].loc[df.type==2].speed.tolist()
         }
 
         data.append(raceResults)

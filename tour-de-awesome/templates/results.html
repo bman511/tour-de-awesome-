@@ -4,7 +4,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tour de Awesome!</title>
-  <link rel="stylesheet" href="https://bootswatch.com/4/simplex/bootstrap.min.css">
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
   <link rel="stylesheet" href="../static/css/style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
@@ -12,7 +16,7 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="">TdA Home</a>
+  <a class="navbar-brand" href="/">TdA Home</a>
   </nav>
   <div class="container-full-bg">
     <div class="jumbotron jumbotron-fluid jumbotron-img">
@@ -43,6 +47,9 @@
         <li class="nav-item">
           <a class="nav-link" href="/map">Choropleth</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/map">Race Results</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -52,21 +59,21 @@
       <form class="form-inline my-2 my-lg-0">
               <h5 class="justify-content-center">
             Stages</h5>
-            <select id="selStage" onchange="stageChanged(this.value)"></select>
+            <select id="selStage" class="stage-ddl"></select><!--onchange="stageChanged(this.value)-->
           </form>
       </div>
     <div class="col-md-8">
           <h4 class='justify-content-center' id="stageInfo"></h4>
-          <div id="table-area" class="">
+          <div id="table-area">
           <br />
           <div class="form-check form-check-inline" id="selType">
-            <input class="form-check-input" type="radio" name="optionType" id="type1" value="1" checked onchange="optionChanged(this.value)">
+            <input class="form-check-input radio-select" type="radio" name="optionType" id="type1" value="1" checked>
             <label class="form-check-label" for="type1">
               Stage
             </label>
           </div>
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="optionType" id="type2" value="2" onchange="optionChanged(this.value)">
+            <input class="form-check-input radio-select" type="radio" name="optionType" id="type2" value="2">
             <label class="form-check-label" for="type2">
               Overall
             </label>

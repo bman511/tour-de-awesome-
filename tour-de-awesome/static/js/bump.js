@@ -154,8 +154,8 @@
 //   name: "player two",
 //   //type: "line"
 // };
-
-d3.json("/bump_data",function(data){
+var url = "/bump_data"
+d3.json(url).then(function(data){
 
   function makeTrace(rider){
 
