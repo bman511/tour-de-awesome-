@@ -5,13 +5,8 @@ function buildTable(stage) {
   var tbody = d3.select("tbody");
   tbody.html("");
   d3.json(url).then(function(data)  {
-    console.log(data)
     var date = new Date();
     var options = { year: 'numeric', month: 'short', day: '2-digit'};
-
-// //the _resultDate is: "12 Oct 2017"
-// //replace all spaces with - and then log it.
-// console.log(_resultDate.replace(/ /g,'-'));
       for (var i = 0; i < data.length; i++) {
           var row = tbody.append("tr");
           cell1 = row.append("td");
@@ -42,8 +37,6 @@ function buildTable(stage) {
 };
 
 function init() {
-  // Grab a reference to the dropdown select element
     buildTable();
 }
-
 init();
