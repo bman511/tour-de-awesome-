@@ -1,7 +1,7 @@
 # tour-de-awesome-
 Visualizing data from the 2018 Tour de France
 
-The Tour de France is the world's third most-watched sporting event, behind only the Summer Olympic Games and the FIFA World Cup. It's a captivating and colourful view into the complexities of the sport and the countryside of France, and makes for compelling viewing. But when the race is over, does the excitement have to end?
+The Tour de France is the world's third most-watched sporting event, behind only the Summer Olympic Games and the FIFA World Cup. It's a captivating and colourful view into the complexities of the sport and the countryside of France and makes for compelling viewing. But when the race is over, does the excitement have to end?
 
 We set out to visualize the progress of the Tour de France, the players, and the key points through several dynamic visualization methods, utilizing MySQL, Python, Flask, Javascript, and a number of Javascript libraries including D3, Plotly.js, JQuery, Leaflet and Colors.js. Bootstrap and the Bootswatch Lux style were used for styling. Banner photo credit Getty Images.
 
@@ -17,8 +17,8 @@ Operations were performed in Python Jupyter Notebooks to perfect the SQLAlchemy 
 
 * The endpoint /race is simply the Tour de France edition we used.
 * /countries extracts country coordinate and race participant data.
-* /speeds/<type> endpoing displays stage results (type 1) and overall standings (type 2) for each stage with speeds rather than times, and is used to create the box plot.
-  * /bump_data endpoint extracts overall rankings results for each stage for a select group of pre-race favorites.
-  * /summary is a list of stages used to populated the results drop down list
-  * /summary/<stage> endpoing is used to create the dynamic results table.
+* /speeds/<type> endpoint displays stage results (type 1) and overall standings (type 2) for each stage with speeds rather than times, and is used to create the box plot.
+* /bump_data endpoint extracts overall rankings results for each stage for a select group of pre-race favorites.
+* /summary is a list of stages used to populate the results drop-down list
+* /summary/<stage> endpoint is used to create the dynamic results table.
 
