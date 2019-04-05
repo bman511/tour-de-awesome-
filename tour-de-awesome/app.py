@@ -137,6 +137,12 @@ def country():
     data["country"] = df3["rider_country"].tolist()
     data["latitude"] = df3["latitude"].astype(float).tolist()
     data["longitude"] = df3["longitude"].astype(float).tolist()
+
+    country_count = df3.groupby(["rider_country"])[["rider_id"]].count()
+    count_dict = {}
+    for index, row in country_count.iterrows():
+        count_dict[index] = row['rider_id'].astype(str)
+    data['country_count'] = count_dict
     return jsonify(data)
 
 @app.route("/speeds/<type>")
