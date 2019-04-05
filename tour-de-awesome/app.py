@@ -8,7 +8,8 @@ from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 from flask import Flask, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
-from config import cuser, cpwd, luser,lpwd
+#from config import cuser, cpwd, luser,lpwd
+from config import cuser,cpwd
 #################################################
 # Flask Setup
 #################################################
@@ -16,8 +17,8 @@ app = Flask(__name__)
 #################################################
 # Database Setup
 #################################################
-app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql://{luser}:{lpwd}@localhost/letour_db"
-# app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql://{cuser}:{cpwd}@us-cdbr-iron-east-03.cleardb.net/heroku_0168f21124ffac7"
+#app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql://{luser}:{lpwd}@localhost/letour_db"
+app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql://{cuser}:{cpwd}@us-cdbr-iron-east-03.cleardb.net/heroku_0168f21124ffac7"
 db = SQLAlchemy(app)
 # reflect an existing database into a new model
 Base = automap_base()
