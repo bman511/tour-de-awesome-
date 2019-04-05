@@ -72,18 +72,5 @@ $('.stage-ddl').on('change', function(event) {
   var newStage = $(event.target).val();
   buildTable(newStage, button1)
 });
-// function optionChanged(event) {
-//   event.preventDefault();
-//
-//   var currentStage = d3.select("#selStage").property("value");
-//   buildTable(currentStage, newType)
-// }
-// function stageChanged(event) {
-//   // event.preventDefault();
 
-//   var currentType = d3.selectAll('input:checked').property("value");
-//   buildTable(newStage,currentType);
-// }
-
-// Initialize the dashboard
 init();
