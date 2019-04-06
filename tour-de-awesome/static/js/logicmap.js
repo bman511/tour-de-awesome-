@@ -1,8 +1,8 @@
-
+console.log("Mapping")
 // Creating map object
 var myMap = L.map("map", {
   center: [37.7749, -7.4194],
-  zoom: 1.3
+  zoom: 1.8
 });
 
 // Adding tile layer
@@ -16,8 +16,8 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 var url = "/countries" ;
 
 // Fetch the JSON data and console log it
-d3.json(url, function (data) { 
-console.log(data);
+d3.json(url).then(function (data) {
+// console.log(data);
 
 
 // define variables to use for choropleth from app and geojson format in shapes.js
@@ -32,7 +32,7 @@ return d >= 25 ? '#fe1300' :
        d >= 15  ? '#ff2727' :
        d >= 10  ? '#ff6827' :
        d >= 4  ? '#ff8514' :
-       d >= 2  ? '#ffdd27' : 
+       d >= 2  ? '#ffdd27' :
        d > 0  ? '#ffff76' :
                  '#FFEDA0';
 }
@@ -72,7 +72,7 @@ if (locate) {
 
     [lat, lng],{radius:3})
     .bindPopup("<h6>" +data.rider_name[i] + "</h6> <hr><img width=70 src = https://i.pinimg.com/originals/05/8d/07/058d0703a96cc9f6cf669bc6017aa4bf.gif alt=testing /><b>Rank: " + data.final_ranking[i] + "<br>" + data.country[i] + "<br>" + "</b>"));
-  
+
 }
 
 }
@@ -108,7 +108,7 @@ function fillColor(colors) {
     case colors >= 25:
       return '#fe1300';
       break;
-    
+
     case colors >= 15:
       return '#ff2727';
       break;
@@ -116,7 +116,7 @@ function fillColor(colors) {
     case colors >= 10:
       return '#ff6827';
       break;
-    
+
     case colors >= 4:
       return '#ff8514';
       break;
@@ -124,7 +124,7 @@ function fillColor(colors) {
     case colors >= 2:
       return '#ffdd27';
       break;
-    
+
     case colors > 0:
       return '#ffff76 ';
       break;
