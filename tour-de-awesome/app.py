@@ -8,8 +8,8 @@ from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 from flask import Flask, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
-# from config import cuser, cpwd, luser,lpwd
-from config import cuser,cpwd
+from config import cuser, cpwd, luser,lpwd
+# from config import cuser,cpwd
 #################################################
 # Flask Setup
 #################################################
@@ -17,8 +17,8 @@ app = Flask(__name__)
 #################################################
 # Database Setup
 #################################################
-# app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql://{luser}:{lpwd}@localhost/letour_db"
-app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql://{cuser}:{cpwd}@us-cdbr-iron-east-03.cleardb.net/heroku_0168f21124ffac7"
+app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql://{luser}:{lpwd}@localhost/letour_db"
+# app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql://{cuser}:{cpwd}@us-cdbr-iron-east-03.cleardb.net/heroku_0168f21124ffac7"
 db = SQLAlchemy(app)
 # reflect an existing database into a new model
 Base = automap_base()
@@ -58,7 +58,7 @@ def resulter():
 @app.route("/summary")
 def stages():
     results = db.session.query(Stages.stage_id, Stages.stage_date,\
-     Stages.stage_start, Stages.stage_finish, Stages.stage_distance).all()
+     Stages.stage_start, Stages.stage_finish, Stages.stage_distance, Stages.stage_type).all()
     data= []
     for i in results:
         stages = {}
@@ -67,9 +67,9 @@ def stages():
         stages["start"] = i[2]
         stages["finish"] = i[3]
         stages["distance"] = i[4]
+        stages["type"] = i[5]
         data.append(stages)
     return jsonify(data)
-
 @app.route("/summary/<stage>")
 def summary(stage):
     sel = [Results.race_result_type_id, Results.stage_id, Results.ranking, Results.rider_speed, Starters.rider_name, Starters.rider_country, Starters.rider_team]
