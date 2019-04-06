@@ -22,7 +22,7 @@ d3.json(url).then(function (data) {
 
 // define variables to use for choropleth from app and geojson format in shapes.js
 country_count = data.country_count;
-console.log(country_count);
+
 country_name = geoShapes.features[4].properties.name;
 
 
@@ -56,13 +56,14 @@ L.geoJson(geoShapes, {style:style}).addTo(myMap);
 
 // Create a new marker cluster group
 var markers = L.markerClusterGroup();
-locate = [];
+var locate = [];
 
 for (var i = 0; i < data.country.length; i++) {
-var lat = data.latitude[i];
-var lng = data.longitude[i];
-
-locate.push(lat,lng);
+  
+  
+  var lat = data.latitude[i];
+  var lng = data.longitude[i];
+  locate = [lat,lng];
 
 
 // Check for location property
@@ -70,7 +71,8 @@ if (locate) {
 
   markers.addLayer(L.circleMarker(
 
-    [lat,lng],{radius:3})
+    locate,{radius:5})
+
     .bindPopup("<h6>" +data.rider_name[i] + "</h6> <hr><img width=70 src = https://i.pinimg.com/originals/05/8d/07/058d0703a96cc9f6cf669bc6017aa4bf.gif alt=testing /><b>Rank: " + data.final_ranking[i] + "<br>" + data.country[i] + "<br>" + "</b>"));
 
 }
@@ -79,7 +81,7 @@ if (locate) {
 myMap.addLayer(markers);
 
 // Set up the legend and the colour variance for magnitude from leaflet documentation
-var legend = L.control({ position: 'bottomright'});
+var legend = L.control({ position: 'bottomleft'});
 
 
   legend.onAdd = function() {
