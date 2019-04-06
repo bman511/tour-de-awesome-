@@ -1,4 +1,4 @@
-console.log("Mapping")
+
 // Creating map object
 var myMap = L.map("map", {
   center: [37.7749, -7.4194],
@@ -70,11 +70,10 @@ if (locate) {
 
   markers.addLayer(L.circleMarker(
 
-    [lat, lng],{radius:3})
+    locate,{radius:3})
     .bindPopup("<h6>" +data.rider_name[i] + "</h6> <hr><img width=70 src = https://i.pinimg.com/originals/05/8d/07/058d0703a96cc9f6cf669bc6017aa4bf.gif alt=testing /><b>Rank: " + data.final_ranking[i] + "<br>" + data.country[i] + "<br>" + "</b>"));
 
 }
-
 }
 // Add our marker cluster layer to the map
 myMap.addLayer(markers);
