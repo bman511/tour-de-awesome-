@@ -8,59 +8,16 @@
   <title>Tour de Awesome!</title>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../static/css/style.css">
   <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.css">
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.Default.css">
-  <link rel="stylesheet" href="../static/css/style.css">
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Colors.js/1.2.3/colors.min.js"></script>
-
-  <style>
-  #map {
-  width: 100px;
-  height:100px;
-  min-height: 100%;
-  min-width: 100%;
-  display: block;
-  }
-
-  #map-holder{
-  height: 100%;
-  }
-
-  .fill
-  {
-  min-height: 100%;
-  height: 100%;
-  width: 100%;
-  max-width: 100%;
-  }
-
-  .container{
-  max-width:80em;
-  padding: 0.2em;
-  }
-html, body {
-  margin: 20;
-  padding: 20;
-  }
-.full-height {
-  height: 600px;
-  background: white;
-}
-@media (max-width: 800px) {
-  .full-height body, html {
-    height: 100%;
-    width: 100%;
-    background: white;
-  }
-}
-</style>
 </head>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 <a class="navbar-brand" href="./">TdA Home</a>
@@ -101,6 +58,49 @@ html, body {
       </ul>
     </div>
   </nav>
+  <div class="container-full-bg">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8 col-sm-12">
+        <br />
+        <h4>Visualizing the Tour de France</h4>
+        <p>
+          The Tour de France is the world's third most-watched sporting event, behind only the Summer Olympic Games and the FIFA World Cup.
+When the race is over, does the excitement have to end?
+        </p>
+        <p>
+          The goals of this project were to:
+          <ul>
+            <li>Examine the distribution of nationalities among participants</li>
+            <li>Compare the performance of top contenders</li>
+            <li>Visualize the distribution of rider speeds per day</li>
+          </ul>
+        </p>
+        <h6>What is the Tour de France?</h6>
+        <p>Tour de France is 21 days of professional bicycle racing across France and sometimes other countries. Riders are given two days of rest over three weeks.
+        <p>
+          176 riders start the race as a group and complete the day's course - called a stage. The riders are timed from start to finish and each day the times are added. The rider who completes the 21 stages the fastest is the winner.
+        </p>
+        <p>
+          There are also daily winners - the rider who crosses the line first - and two stages where riders race on shorter courses individually or as a team against the clock, rather than as a group. These are called individual or team time trials. In the team time trial, the time is taken from the fourth rider from each team across the line and applied to each riders' cumulative time for that stage.
+        </p>
+        <p>
+          There are different types of courses over the three weeks: flat stages for the sprinters, hilly stages where riders might escape into a "breakaway" and win ahead of the bunch. Mountain stages where riders climb high into the Alps or Pyrenees form the major tests that separate the overall contenders.
+        </p>
+        <p>
+          We looked at how the bunch fared on each of these types of stages in the box plot. In the bump chart we selected 14 pre-race favorites and charted their progress. Finally, in the choropleth map we showed how many participants came from each country across the world and how they fared in the final classification.
+        </p>
+
+176 riders started
+
+Two results types (stage/overall) each day
+
+Four types of stages
+
+        </p>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
   <div id="map-holder">
   <div class="container fill">
     <div id="map"></div>
@@ -137,7 +137,7 @@ html, body {
             </label>
           </div>
           <hr />
-            <div id="box" class="full-height"></div>
+      <div id="box" class="full-height"></div>
     </div>
     <div class="col-md-1"></div>
     </div>
@@ -156,16 +156,9 @@ html, body {
   <!-- MAP DEPENDENCIES -->
   <script type="text/javascript" src="../static/js/choropleth.js"></script>
   <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js" integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q==" crossorigin=""></script>
-  <!--D3 cdn-->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script> -->
   <!-- Marker Cluster JS & CSS -->
   <script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>
-  
   <script type="text/javascript" src="../static/js/shapes.js"></script>
   <script type="text/javascript" src="../static/js/logicmap.js"></script>
-
-
 </body>
-
-
 </html>
