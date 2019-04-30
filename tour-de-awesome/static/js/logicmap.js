@@ -1,8 +1,10 @@
+
 // Creating map object
 var myMap = L.map("map", {
   center: [37.7749, -7.4194],
   zoom: 1.8
 });
+
 // Adding tile layer
 L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
   attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
@@ -12,12 +14,17 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 }).addTo(myMap);
 
 var url = "/countries" ;
+
 // Fetch the JSON data and console log it
 d3.json(url).then(function (data) {
+// console.log(data);
+
+
 // define variables to use for choropleth from app and geojson format in shapes.js
 country_count = data.country_count;
 
 country_name = geoShapes.features[4].properties.name;
+
 
 function getColor(d, e = 0){
 
@@ -29,6 +36,9 @@ return d >= 25 ? '#fe1300' :
        d > 0  ? '#ffff76' :
                  '#FFEDA0';
 }
+
+
+
 function style(feature) {
 return {
     fillColor: getColor(country_count[feature.properties.name]),
@@ -40,29 +50,42 @@ return {
 };
 }
 L.geoJson(geoShapes, {style:style}).addTo(myMap);
+
+
 // Create a new marker cluster group
 var markers = L.markerClusterGroup();
 var locate = [];
 
 for (var i = 0; i < data.country.length; i++) {
+  
+  
   var lat = data.latitude[i];
   var lng = data.longitude[i];
   locate = [lat,lng];
+
+
 // Check for location property
 if (locate) {
+
   markers.addLayer(L.circleMarker(
+
     locate,{radius:5})
     .bindPopup("<h6>" +data.rider_name[i] + "</h6> <hr><img width=70 src = https://i.pinimg.com/originals/05/8d/07/058d0703a96cc9f6cf669bc6017aa4bf.gif alt=testing /><b>Rank: " + data.final_ranking[i] + "<br>" + data.country[i] + "<br>" + "</b>"));
-}
+
+ }
 }
 // Add our marker cluster layer to the map
 myMap.addLayer(markers);
+
 // Set up the legend and the colour variance for magnitude from leaflet documentation
 var legend = L.control({ position: 'bottomleft'});
+
+
   legend.onAdd = function() {
     var div = L.DomUtil.create('div', 'info legend'),
         colors = [1,2,4,10,15,25],
         labels = [];
+
     // loop through our density intervals and generate a label with a colored square for each interval
   div.innerHTML += '<h4> Riders per Country</h4>'
     for (var i = 0; i < colors.length; i++) {
@@ -108,4 +131,6 @@ function fillColor(colors) {
       return '#FFEDA0';
   };
 };
+
+
 });

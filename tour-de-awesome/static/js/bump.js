@@ -5,14 +5,14 @@ d3.json(url).then(function(data){
   function makeTrace(rider){
 
     let trace = {
-
+      
       x:rider.performance.stages,
       y:rider.performance.rank,
       mode:'lines+markers',
       marker:{
         size: 12
       },
-
+      
       line:{
         color: $c.rand(),
         width: 4,
@@ -20,11 +20,11 @@ d3.json(url).then(function(data){
       },
       text: rider.country,
       name: rider.name,
-
+      
     };
-
+    
     return trace;
-
+    
     }
 
 
@@ -35,7 +35,7 @@ let layout = {
   title: "Rank By Stage",
   hovermode:"closest",
   yaxis: {
-
+  
   zeroline: false,
   showgrid:false,
   autotick: false,
@@ -78,6 +78,9 @@ xaxis: {
       color: "black"
        }
      },
+          
+
+  
   }
 };
 

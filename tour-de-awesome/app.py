@@ -1,31 +1,33 @@
-import numpy as np
+import os
 import pandas as pd
-import json
+import numpy as np
 
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
-from sqlalchemy import create_engine, func
-from flask import Flask, jsonify, render_template
+from sqlalchemy import create_engine
+from flask import Flask, jsonify, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
-from config import cuser, cpwd, luser,lpwd
-# from config import cuser,cpwd
-#################################################
-# Flask Setup
-#################################################
+
 app = Flask(__name__)
+
+
 #################################################
 # Database Setup
 #################################################
-app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql://{luser}:{lpwd}@localhost/letour_db"
-# app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql://{cuser}:{cpwd}@us-cdbr-iron-east-03.cleardb.net/heroku_0168f21124ffac7"
+
+# myurl = os.environ.get('DATABASE_URL')
+# print(myurl)
+# app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
+app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://ba15a344002483:1890f28c@us-cdbr-iron-east-03.cleardb.net/heroku_0168f21124ffac7"
 db = SQLAlchemy(app)
+
 # reflect an existing database into a new model
 Base = automap_base()
 # reflect the tables
 Base.prepare(db.engine, reflect=True)
 
-# # Save reference to the table
+# Save reference to the table
 Race = Base.classes.race
 Type = Base.classes.race_result_type
 Results = Base.classes.race_results
@@ -70,6 +72,7 @@ def stages():
         stages["type"] = i[5]
         data.append(stages)
     return jsonify(data)
+
 @app.route("/summary/<stage>")
 def summary(stage):
     sel = [Results.race_result_type_id, Results.stage_id, Results.ranking, Results.rider_speed, Starters.rider_name, Starters.rider_country, Starters.rider_team]
