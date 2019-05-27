@@ -1,6 +1,6 @@
 # Visualizing data from the 2018 Tour de France
 
-This app was deployed to ![Heroku](http://tour-de-awesome.herokuapp.com/)
+This app was deployed to [Heroku](http://tour-de-awesome.herokuapp.com/).
 
 The Tour de France is the world's third most-watched sporting event, behind only the Summer Olympic Games and the FIFA World Cup. It's a captivating and colourful view into the complexities of the sport and the countryside of France and makes for compelling viewing. But when the race is over, does the excitement have to end?
 
